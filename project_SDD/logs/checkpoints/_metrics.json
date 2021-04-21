@@ -1,0 +1,678 @@
+{
+  "best": {
+    "loss_dice": 0.13678752386618237,
+    "loss_iou": 0.2344135673422562,
+    "loss_focal": 0.0969031397027043,
+    "clswise_iou_restricted_area": 0.8351558502386457,
+    "clswise_iou_road": 0.7057280470485146,
+    "clswise_iou_building": 0.5989307086718711,
+    "clswise_iou_human": 0.2662856333892838,
+    "clswise_iou_car": 0.07111220817966057,
+    "dice": 0.8632124761338177,
+    "loss": 0.46810422855832806
+  },
+  "last": {
+    "loss_dice": 0.1404877457058864,
+    "loss_iou": 0.23897356012089535,
+    "loss_focal": 0.09856800131710915,
+    "clswise_iou_restricted_area": 0.8338512481465513,
+    "clswise_iou_road": 0.7013814707516659,
+    "clswise_iou_building": 0.5748767552346836,
+    "clswise_iou_human": 0.25547086854695306,
+    "clswise_iou_car": 0.07473416026054339,
+    "dice": 0.8595122542941135,
+    "loss": 0.47802930901407714
+  },
+  "train.36": {
+    "loss_dice": 0.13678752386618237,
+    "loss_iou": 0.2344135673422562,
+    "loss_focal": 0.0969031397027043,
+    "clswise_iou_restricted_area": 0.8351558502386457,
+    "clswise_iou_road": 0.7057280470485146,
+    "clswise_iou_building": 0.5989307086718711,
+    "clswise_iou_human": 0.2662856333892838,
+    "clswise_iou_car": 0.07111220817966057,
+    "dice": 0.8632124761338177,
+    "loss": 0.46810422855832806
+  },
+  "epoch_0": [
+    "logs\\checkpoints/train.1.pth",
+    0.7778564129281142,
+    {
+      "loss_dice": 0.222143587071886,
+      "loss_iou": 0.35551593757351396,
+      "loss_focal": 0.1096708639883078,
+      "clswise_iou_restricted_area": 0.732903244041721,
+      "clswise_iou_road": 0.6032504504508817,
+      "clswise_iou_building": 0.16355006092111107,
+      "clswise_iou_human": 0.017066493999921845,
+      "clswise_iou_car": 0.00018933739490535582,
+      "dice": 0.7778564129281142,
+      "loss": 0.6873303888297756
+    }
+  ],
+  "epoch_1": [
+    "logs\\checkpoints/train.2.pth",
+    0.8045347214710374,
+    {
+      "loss_dice": 0.1954652785289626,
+      "loss_iou": 0.31894497519079973,
+      "loss_focal": 0.10151080141665968,
+      "clswise_iou_restricted_area": 0.7620674463418814,
+      "clswise_iou_road": 0.6390865490986749,
+      "clswise_iou_building": 0.21729325643374847,
+      "clswise_iou_human": 0.2137787595451602,
+      "clswise_iou_car": 0.00013360819557346103,
+      "dice": 0.8045347214710374,
+      "loss": 0.6159210530852499
+    }
+  ],
+  "epoch_2": [
+    "logs\\checkpoints/train.3.pth",
+    0.803233372296399,
+    {
+      "loss_dice": 0.19676662770360107,
+      "loss_iou": 0.3202314219976726,
+      "loss_focal": 0.10064898954651615,
+      "clswise_iou_restricted_area": 0.7652234333729457,
+      "clswise_iou_road": 0.619840136906396,
+      "clswise_iou_building": 0.35358693640724365,
+      "clswise_iou_human": 0.2553236415752998,
+      "clswise_iou_car": 0.002053594306490275,
+      "dice": 0.803233372296399,
+      "loss": 0.6176470373323575
+    }
+  ],
+  "epoch_3": [
+    "logs\\checkpoints/train.4.pth",
+    0.8144784622829454,
+    {
+      "loss_dice": 0.18552153771705476,
+      "loss_iou": 0.305858564038991,
+      "loss_focal": 0.1034362967981983,
+      "clswise_iou_restricted_area": 0.7718004717035333,
+      "clswise_iou_road": 0.6559903385185522,
+      "clswise_iou_building": 0.21827973648604113,
+      "clswise_iou_human": 0.2270215454130521,
+      "clswise_iou_car": 0.013329770701875169,
+      "dice": 0.8144784622829454,
+      "loss": 0.5948163965935649
+    }
+  ],
+  "epoch_4": [
+    "logs\\checkpoints/train.5.pth",
+    0.829903051920748,
+    {
+      "loss_dice": 0.17009694807925205,
+      "loss_iou": 0.28677257545563856,
+      "loss_focal": 0.09628445151363789,
+      "clswise_iou_restricted_area": 0.7824546600642959,
+      "clswise_iou_road": 0.6837822338830121,
+      "clswise_iou_building": 0.21187320858360784,
+      "clswise_iou_human": 0.21114562077802204,
+      "clswise_iou_car": 0.018016409994949502,
+      "dice": 0.829903051920748,
+      "loss": 0.5531539760137859
+    }
+  ],
+  "epoch_5": [
+    "logs\\checkpoints/train.6.pth",
+    0.788849589795719,
+    {
+      "loss_dice": 0.21115041020428119,
+      "loss_iou": 0.3356860567201003,
+      "loss_focal": 0.11845765469467591,
+      "clswise_iou_restricted_area": 0.7387582722463106,
+      "clswise_iou_road": 0.6250845582379019,
+      "clswise_iou_building": 0.356085503089283,
+      "clswise_iou_human": 0.20564483329352096,
+      "clswise_iou_car": 0.07441304758264634,
+      "dice": 0.788849589795719,
+      "loss": 0.6652941192209962
+    }
+  ],
+  "epoch_6": [
+    "logs\\checkpoints/train.7.pth",
+    0.8357848640878188,
+    {
+      "loss_dice": 0.16421513591218087,
+      "loss_iou": 0.27440351778679045,
+      "loss_focal": 0.0927272059083709,
+      "clswise_iou_restricted_area": 0.8032432087519876,
+      "clswise_iou_road": 0.660420091046013,
+      "clswise_iou_building": 0.5257686370538794,
+      "clswise_iou_human": 0.2635315955891782,
+      "clswise_iou_car": 0.07294106492697289,
+      "dice": 0.8357848640878188,
+      "loss": 0.5313458597129171
+    }
+  ],
+  "epoch_7": [
+    "logs\\checkpoints/train.8.pth",
+    0.823059271463016,
+    {
+      "loss_dice": 0.1769407285369842,
+      "loss_iou": 0.29200245735616326,
+      "loss_focal": 0.08419632260133382,
+      "clswise_iou_restricted_area": 0.7720721364021301,
+      "clswise_iou_road": 0.6593054356845285,
+      "clswise_iou_building": 0.590174767773161,
+      "clswise_iou_human": 0.246410679117388,
+      "clswise_iou_car": 0.0776707284745896,
+      "dice": 0.823059271463016,
+      "loss": 0.5531395099423675
+    }
+  ],
+  "epoch_8": [
+    "logs\\checkpoints/train.9.pth",
+    0.8280214759019704,
+    {
+      "loss_dice": 0.1719785240980295,
+      "loss_iou": 0.287615972009265,
+      "loss_focal": 0.09766957549913693,
+      "clswise_iou_restricted_area": 0.7898580110990086,
+      "clswise_iou_road": 0.6599425750705395,
+      "clswise_iou_building": 0.44337464760430906,
+      "clswise_iou_human": 0.258270074421095,
+      "clswise_iou_car": 0.05368604653395679,
+      "dice": 0.8280214759019704,
+      "loss": 0.5572640724510317
+    }
+  ],
+  "epoch_9": [
+    "logs\\checkpoints/train.10.pth",
+    0.829300640806978,
+    {
+      "loss_dice": 0.17069935919302198,
+      "loss_iou": 0.2843591773558242,
+      "loss_focal": 0.10872765241364239,
+      "clswise_iou_restricted_area": 0.7944594083527323,
+      "clswise_iou_road": 0.6664748218378075,
+      "clswise_iou_building": 0.4286760500809442,
+      "clswise_iou_human": 0.2519352367894369,
+      "clswise_iou_car": 0.0709711287064838,
+      "dice": 0.829300640806978,
+      "loss": 0.5637861886005168
+    }
+  ],
+  "epoch_10": [
+    "logs\\checkpoints/train.11.pth",
+    0.8274269410473134,
+    {
+      "loss_dice": 0.17257305895268682,
+      "loss_iou": 0.28502102322906614,
+      "loss_focal": 0.11626751974285372,
+      "clswise_iou_restricted_area": 0.780732009092323,
+      "clswise_iou_road": 0.6572460201587756,
+      "clswise_iou_building": 0.5374515892764334,
+      "clswise_iou_human": 0.2411050984733984,
+      "clswise_iou_car": 0.0636514032615192,
+      "dice": 0.8274269410473134,
+      "loss": 0.5738616062079366
+    }
+  ],
+  "epoch_11": [
+    "logs\\checkpoints/train.12.pth",
+    0.822921363930953,
+    {
+      "loss_dice": 0.1770786360690468,
+      "loss_iou": 0.29076943634010033,
+      "loss_focal": 0.10974664738786366,
+      "clswise_iou_restricted_area": 0.7873758793118512,
+      "clswise_iou_road": 0.6543535778397008,
+      "clswise_iou_building": 0.40468769312387554,
+      "clswise_iou_human": 0.274854720000796,
+      "clswise_iou_car": 0.07281980545696921,
+      "dice": 0.822921363930953,
+      "loss": 0.5775947218481827
+    }
+  ],
+  "epoch_12": [
+    "logs\\checkpoints/train.13.pth",
+    0.8280468105304578,
+    {
+      "loss_dice": 0.1719531894695421,
+      "loss_iou": 0.28452297212623867,
+      "loss_focal": 0.11656148375769862,
+      "clswise_iou_restricted_area": 0.7881773115410978,
+      "clswise_iou_road": 0.649645268434455,
+      "clswise_iou_building": 0.550280856941393,
+      "clswise_iou_human": 0.2452546268822209,
+      "clswise_iou_car": 0.061250071432714846,
+      "dice": 0.8280468105304578,
+      "loss": 0.5730376441469076
+    }
+  ],
+  "epoch_13": [
+    "logs\\checkpoints/train.14.pth",
+    0.8239718202637273,
+    {
+      "loss_dice": 0.17602817973627255,
+      "loss_iou": 0.2895465500441639,
+      "loss_focal": 0.10741152442418614,
+      "clswise_iou_restricted_area": 0.773564187379984,
+      "clswise_iou_road": 0.6590331387423309,
+      "clswise_iou_building": 0.5803668967142762,
+      "clswise_iou_human": 0.26879894274931687,
+      "clswise_iou_car": 0.08169995395015159,
+      "dice": 0.8239718202637273,
+      "loss": 0.5729862528773939
+    }
+  ],
+  "epoch_14": [
+    "logs\\checkpoints/train.15.pth",
+    0.8361128225982914,
+    {
+      "loss_dice": 0.16388717740170872,
+      "loss_iou": 0.27427253042638067,
+      "loss_focal": 0.10934249361456645,
+      "clswise_iou_restricted_area": 0.7826038915136082,
+      "clswise_iou_road": 0.6619138768327381,
+      "clswise_iou_building": 0.6577486681793382,
+      "clswise_iou_human": 0.26394106996686845,
+      "clswise_iou_car": 0.06271458807498452,
+      "dice": 0.8361128225982914,
+      "loss": 0.5475022035089099
+    }
+  ],
+  "epoch_15": [
+    "logs\\checkpoints/train.16.pth",
+    0.8325543058545968,
+    {
+      "loss_dice": 0.16744569414540342,
+      "loss_iou": 0.2758785129076073,
+      "loss_focal": 0.09365349229772083,
+      "clswise_iou_restricted_area": 0.797002789945255,
+      "clswise_iou_road": 0.669064240175703,
+      "clswise_iou_building": 0.5236851645384724,
+      "clswise_iou_human": 0.2813865414515197,
+      "clswise_iou_car": 0.06525014303602246,
+      "dice": 0.8325543058545968,
+      "loss": 0.536977699893689
+    }
+  ],
+  "epoch_16": [
+    "logs\\checkpoints/train.17.pth",
+    0.8341644968581103,
+    {
+      "loss_dice": 0.16583550314188966,
+      "loss_iou": 0.2742055261183364,
+      "loss_focal": 0.10003797504824664,
+      "clswise_iou_restricted_area": 0.7947162237727208,
+      "clswise_iou_road": 0.6705142165485181,
+      "clswise_iou_building": 0.5653146355740938,
+      "clswise_iou_human": 0.2507834845950247,
+      "clswise_iou_car": 0.06597651317492949,
+      "dice": 0.8341644968581103,
+      "loss": 0.5400790077472021
+    }
+  ],
+  "epoch_17": [
+    "logs\\checkpoints/train.18.pth",
+    0.8345477704094488,
+    {
+      "loss_dice": 0.16545222959055106,
+      "loss_iou": 0.27521134170926054,
+      "loss_focal": 0.1032606495114473,
+      "clswise_iou_restricted_area": 0.7859827620297791,
+      "clswise_iou_road": 0.6656534888966366,
+      "clswise_iou_building": 0.6000583222520497,
+      "clswise_iou_human": 0.2567469046907387,
+      "clswise_iou_car": 0.08390407968368589,
+      "dice": 0.8345477704094488,
+      "loss": 0.5439242201778088
+    }
+  ],
+  "epoch_18": [
+    "logs\\checkpoints/train.19.pth",
+    0.8328905276924012,
+    {
+      "loss_dice": 0.16710947230759904,
+      "loss_iou": 0.2760431768923153,
+      "loss_focal": 0.10763038586267094,
+      "clswise_iou_restricted_area": 0.7886679809585756,
+      "clswise_iou_road": 0.6615237810833737,
+      "clswise_iou_building": 0.6159447309700583,
+      "clswise_iou_human": 0.26575362609948233,
+      "clswise_iou_car": 0.06243351965469613,
+      "dice": 0.8328905276924012,
+      "loss": 0.5507830388632864
+    }
+  ],
+  "epoch_19": [
+    "logs\\checkpoints/train.20.pth",
+    0.8096424029906268,
+    {
+      "loss_dice": 0.19035759700937308,
+      "loss_iou": 0.3063093358688509,
+      "loss_focal": 0.11690935821306368,
+      "clswise_iou_restricted_area": 0.7507600240137896,
+      "clswise_iou_road": 0.6536699830279179,
+      "clswise_iou_building": 0.593770714182603,
+      "clswise_iou_human": 0.20264595891782627,
+      "clswise_iou_car": 0.06981179408888384,
+      "dice": 0.8096424029906268,
+      "loss": 0.6135762828564355
+    }
+  ],
+  "epoch_20": [
+    "logs\\checkpoints/train.21.pth",
+    0.8408647857696903,
+    {
+      "loss_dice": 0.15913521423030963,
+      "loss_iou": 0.2673905716251265,
+      "loss_focal": 0.10739675725278587,
+      "clswise_iou_restricted_area": 0.8053791112745339,
+      "clswise_iou_road": 0.6883334864971609,
+      "clswise_iou_building": 0.4762359864496992,
+      "clswise_iou_human": 0.25432137390862597,
+      "clswise_iou_car": 0.07183101108304307,
+      "dice": 0.8408647857696903,
+      "loss": 0.5339225431685506
+    }
+  ],
+  "epoch_21": [
+    "logs\\checkpoints/train.22.pth",
+    0.837702170798653,
+    {
+      "loss_dice": 0.16229782920134694,
+      "loss_iou": 0.2694431808796007,
+      "loss_focal": 0.10884195801458862,
+      "clswise_iou_restricted_area": 0.806198759720876,
+      "clswise_iou_road": 0.6824718723412949,
+      "clswise_iou_building": 0.47714316878120905,
+      "clswise_iou_human": 0.24318594675556376,
+      "clswise_iou_car": 0.06959930885626052,
+      "dice": 0.837702170798653,
+      "loss": 0.5405829749126667
+    }
+  ],
+  "epoch_22": [
+    "logs\\checkpoints/train.23.pth",
+    0.8296819097600001,
+    {
+      "loss_dice": 0.1703180902399997,
+      "loss_iou": 0.28112467363295757,
+      "loss_focal": 0.11031669770416457,
+      "clswise_iou_restricted_area": 0.7831307907818781,
+      "clswise_iou_road": 0.653899186053257,
+      "clswise_iou_building": 0.6214895837220102,
+      "clswise_iou_human": 0.25495241298849286,
+      "clswise_iou_car": 0.08140253326487971,
+      "dice": 0.8296819097600001,
+      "loss": 0.5617594615167933
+    }
+  ],
+  "epoch_23": [
+    "logs\\checkpoints/train.24.pth",
+    0.8473951244643827,
+    {
+      "loss_dice": 0.15260487553561747,
+      "loss_iou": 0.2569970698491764,
+      "loss_focal": 0.09480826255039647,
+      "clswise_iou_restricted_area": 0.813934085098838,
+      "clswise_iou_road": 0.6814542284861266,
+      "clswise_iou_building": 0.5623781637020924,
+      "clswise_iou_human": 0.2721204565845521,
+      "clswise_iou_car": 0.09264713560237155,
+      "dice": 0.8473951244643827,
+      "loss": 0.5044102063063185
+    }
+  ],
+  "epoch_24": [
+    "logs\\checkpoints/train.25.pth",
+    0.8515502769454771,
+    {
+      "loss_dice": 0.14844972305452298,
+      "loss_iou": 0.25137011580139035,
+      "loss_focal": 0.08486984851147963,
+      "clswise_iou_restricted_area": 0.8149843435538443,
+      "clswise_iou_road": 0.6996173252943558,
+      "clswise_iou_building": 0.5715850950011359,
+      "clswise_iou_human": 0.2738567952685029,
+      "clswise_iou_car": 0.07106983082179028,
+      "dice": 0.8515502769454771,
+      "loss": 0.48468968380800614
+    }
+  ],
+  "epoch_25": [
+    "logs\\checkpoints/train.26.pth",
+    0.8439178961491296,
+    {
+      "loss_dice": 0.15608210385087046,
+      "loss_iou": 0.26060884491152125,
+      "loss_focal": 0.11058122465605677,
+      "clswise_iou_restricted_area": 0.8095167390248071,
+      "clswise_iou_road": 0.6851327523046178,
+      "clswise_iou_building": 0.5321294237003638,
+      "clswise_iou_human": 0.24632477506934883,
+      "clswise_iou_car": 0.07462552428996826,
+      "dice": 0.8439178961491296,
+      "loss": 0.5272721747155131
+    }
+  ],
+  "epoch_26": [
+    "logs\\checkpoints/train.27.pth",
+    0.8429275019931405,
+    {
+      "loss_dice": 0.15707249800685927,
+      "loss_iou": 0.2648210629277867,
+      "loss_focal": 0.12447776533814092,
+      "clswise_iou_restricted_area": 0.8107404399979935,
+      "clswise_iou_road": 0.6792333512171075,
+      "clswise_iou_building": 0.47559113203272624,
+      "clswise_iou_human": 0.2624070494160479,
+      "clswise_iou_car": 0.07689115529865373,
+      "dice": 0.8429275019931405,
+      "loss": 0.5463713272380442
+    }
+  ],
+  "epoch_27": [
+    "logs\\checkpoints/train.28.pth",
+    0.840307896919096,
+    {
+      "loss_dice": 0.15969210308090395,
+      "loss_iou": 0.26645433926871914,
+      "loss_focal": 0.10436586718930888,
+      "clswise_iou_restricted_area": 0.8023650199778165,
+      "clswise_iou_road": 0.6801185011863711,
+      "clswise_iou_building": 0.5488836412970354,
+      "clswise_iou_human": 0.2692560308616653,
+      "clswise_iou_car": 0.07077216650340479,
+      "dice": 0.840307896919096,
+      "loss": 0.5305123099913964
+    }
+  ],
+  "epoch_28": [
+    "logs\\checkpoints/train.29.pth",
+    0.8490927045644536,
+    {
+      "loss_dice": 0.15090729543554632,
+      "loss_iou": 0.25394134289822595,
+      "loss_focal": 0.1052583094067902,
+      "clswise_iou_restricted_area": 0.8245547491046583,
+      "clswise_iou_road": 0.6957581537937828,
+      "clswise_iou_building": 0.47153984161041057,
+      "clswise_iou_human": 0.26567651506377626,
+      "clswise_iou_car": 0.07881278046193539,
+      "dice": 0.8490927045644536,
+      "loss": 0.510106949429763
+    }
+  ],
+  "epoch_29": [
+    "logs\\checkpoints/train.30.pth",
+    0.8616560552766929,
+    {
+      "loss_dice": 0.13834394472330686,
+      "loss_iou": 0.23710278846956936,
+      "loss_focal": 0.09941744394147928,
+      "clswise_iou_restricted_area": 0.8381844505607358,
+      "clswise_iou_road": 0.702754251628752,
+      "clswise_iou_building": 0.521781499207261,
+      "clswise_iou_human": 0.277433323836037,
+      "clswise_iou_car": 0.08477857056663461,
+      "dice": 0.8616560552766929,
+      "loss": 0.47486417616909815
+    }
+  ],
+  "epoch_30": [
+    "logs\\checkpoints/train.31.pth",
+    0.8572789116909629,
+    {
+      "loss_dice": 0.14272108830903704,
+      "loss_iou": 0.24216036154673654,
+      "loss_focal": 0.08697244089081702,
+      "clswise_iou_restricted_area": 0.8278867894338692,
+      "clswise_iou_road": 0.7042191964894654,
+      "clswise_iou_building": 0.5762672424316406,
+      "clswise_iou_human": 0.2568550275163611,
+      "clswise_iou_car": 0.0757759401226192,
+      "dice": 0.8572789116909629,
+      "loss": 0.4718538879865577
+    }
+  ],
+  "epoch_31": [
+    "logs\\checkpoints/train.32.pth",
+    0.8481338152036008,
+    {
+      "loss_dice": 0.15186618479639896,
+      "loss_iou": 0.25406609735025576,
+      "loss_focal": 0.08868925829949648,
+      "clswise_iou_restricted_area": 0.8181418074287383,
+      "clswise_iou_road": 0.6938863681395525,
+      "clswise_iou_building": 0.5725470716171419,
+      "clswise_iou_human": 0.2638937693375807,
+      "clswise_iou_car": 0.05936603743832994,
+      "dice": 0.8481338152036008,
+      "loss": 0.4946215377162825
+    }
+  ],
+  "epoch_32": [
+    "logs\\checkpoints/train.33.pth",
+    0.8569092089347996,
+    {
+      "loss_dice": 0.1430907910652006,
+      "loss_iou": 0.24285397307592846,
+      "loss_focal": 0.10472569551303797,
+      "clswise_iou_restricted_area": 0.831986686478742,
+      "clswise_iou_road": 0.6985910872698795,
+      "clswise_iou_building": 0.5363385444469299,
+      "clswise_iou_human": 0.272214078830804,
+      "clswise_iou_car": 0.06886040564293706,
+      "dice": 0.8569092089347996,
+      "loss": 0.4906704606797531
+    }
+  ],
+  "epoch_33": [
+    "logs\\checkpoints/train.34.pth",
+    0.8516205817099042,
+    {
+      "loss_dice": 0.14837941829009577,
+      "loss_iou": 0.25010138870733467,
+      "loss_focal": 0.09631421613065817,
+      "clswise_iou_restricted_area": 0.8178185386213697,
+      "clswise_iou_road": 0.6931549158656162,
+      "clswise_iou_building": 0.5696461119873805,
+      "clswise_iou_human": 0.26834933091754365,
+      "clswise_iou_car": 0.07626064438660352,
+      "dice": 0.8516205817099042,
+      "loss": 0.4947950265668182
+    }
+  ],
+  "epoch_34": [
+    "logs\\checkpoints/train.35.pth",
+    0.8625658070027586,
+    {
+      "loss_dice": 0.13743419299724133,
+      "loss_iou": 0.23508745552557198,
+      "loss_focal": 0.09719683223890391,
+      "clswise_iou_restricted_area": 0.8366419330299628,
+      "clswise_iou_road": 0.7085681260838683,
+      "clswise_iou_building": 0.5821105403456128,
+      "clswise_iou_human": 0.25369106866570124,
+      "clswise_iou_car": 0.07440811822929431,
+      "dice": 0.8625658070027586,
+      "loss": 0.46971848305420355
+    }
+  ],
+  "epoch_35": [
+    "logs\\checkpoints/train.36.pth",
+    0.8632124761338177,
+    {
+      "loss_dice": 0.13678752386618237,
+      "loss_iou": 0.2344135673422562,
+      "loss_focal": 0.0969031397027043,
+      "clswise_iou_restricted_area": 0.8351558502386457,
+      "clswise_iou_road": 0.7057280470485146,
+      "clswise_iou_building": 0.5989307086718711,
+      "clswise_iou_human": 0.2662856333892838,
+      "clswise_iou_car": 0.07111220817966057,
+      "dice": 0.8632124761338177,
+      "loss": 0.46810422855832806
+    }
+  ],
+  "epoch_36": [
+    "logs\\checkpoints/train.37.pth",
+    0.8519140954924979,
+    {
+      "loss_dice": 0.14808590450750186,
+      "loss_iou": 0.24912249342150056,
+      "loss_focal": 0.10236316997753947,
+      "clswise_iou_restricted_area": 0.8242088997894937,
+      "clswise_iou_road": 0.6917450999924046,
+      "clswise_iou_building": 0.5695668169964662,
+      "clswise_iou_human": 0.26076429732415357,
+      "clswise_iou_car": 0.07901194977547185,
+      "dice": 0.8519140954924979,
+      "loss": 0.4995715707419855
+    }
+  ],
+  "epoch_37": [
+    "logs\\checkpoints/train.38.pth",
+    0.860024354718475,
+    {
+      "loss_dice": 0.13997564528152526,
+      "loss_iou": 0.23872640499701867,
+      "loss_focal": 0.09701375910627698,
+      "clswise_iou_restricted_area": 0.8351442492925205,
+      "clswise_iou_road": 0.7044893413902777,
+      "clswise_iou_building": 0.5526909576012539,
+      "clswise_iou_human": 0.2695798172883177,
+      "clswise_iou_car": 0.08028469119550427,
+      "dice": 0.860024354718475,
+      "loss": 0.47571581191862167
+    }
+  ],
+  "epoch_38": [
+    "logs\\checkpoints/train.39.pth",
+    0.8621000481037958,
+    {
+      "loss_dice": 0.1378999518962041,
+      "loss_iou": 0.23582397902060132,
+      "loss_focal": 0.09995043868960637,
+      "clswise_iou_restricted_area": 0.8400179200809494,
+      "clswise_iou_road": 0.7037081672595096,
+      "clswise_iou_building": 0.5521667143593915,
+      "clswise_iou_human": 0.2611316463604631,
+      "clswise_iou_car": 0.07759679960209957,
+      "dice": 0.8621000481037958,
+      "loss": 0.473674364900782
+    }
+  ],
+  "epoch_39": [
+    "logs\\checkpoints/train.40.pth",
+    0.8595122542941135,
+    {
+      "loss_dice": 0.1404877457058864,
+      "loss_iou": 0.23897356012089535,
+      "loss_focal": 0.09856800131710915,
+      "clswise_iou_restricted_area": 0.8338512481465513,
+      "clswise_iou_road": 0.7013814707516659,
+      "clswise_iou_building": 0.5748767552346836,
+      "clswise_iou_human": 0.25547086854695306,
+      "clswise_iou_car": 0.07473416026054339,
+      "dice": 0.8595122542941135,
+      "loss": 0.47802930901407714
+    }
+  ]
+}

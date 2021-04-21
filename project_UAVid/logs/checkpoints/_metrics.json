@@ -1,0 +1,2744 @@
+{
+  "best": {
+    "loss_dice": 0.15993398547172546,
+    "loss_iou": 0.26976395845413215,
+    "loss_focal": 0.04617833049967885,
+    "clswise_iou_Clutter": 0.5043235564231873,
+    "clswise_iou_Building": 0.8390998673439024,
+    "clswise_iou_Road": 0.6940255664568393,
+    "clswise_iou_Car": 0.5219236448407173,
+    "clswise_iou_Tree": 0.7064540272951125,
+    "clswise_iou_Vegetation": 0.5453245599567892,
+    "clswise_iou_Human": 0.0001949048613823834,
+    "dice": 0.8400660145282746,
+    "loss": 0.47587627142667766
+  },
+  "last": {
+    "loss_dice": 0.16039021730422975,
+    "loss_iou": 0.27012515187263486,
+    "loss_focal": 0.04533589938655496,
+    "clswise_iou_Clutter": 0.5059357261657715,
+    "clswise_iou_Building": 0.8379398810863495,
+    "clswise_iou_Road": 0.6924292594008148,
+    "clswise_iou_Car": 0.5206050002574922,
+    "clswise_iou_Tree": 0.7061272168159487,
+    "clswise_iou_Vegetation": 0.5481547881662847,
+    "clswise_iou_Human": 0.00015872445492277621,
+    "dice": 0.8396097826957702,
+    "loss": 0.4758512729406356
+  },
+  "train.139": {
+    "loss_dice": 0.15993398547172546,
+    "loss_iou": 0.26976395845413215,
+    "loss_focal": 0.04617833049967885,
+    "clswise_iou_Clutter": 0.5043235564231873,
+    "clswise_iou_Building": 0.8390998673439024,
+    "clswise_iou_Road": 0.6940255664568393,
+    "clswise_iou_Car": 0.5219236448407173,
+    "clswise_iou_Tree": 0.7064540272951125,
+    "clswise_iou_Vegetation": 0.5453245599567892,
+    "clswise_iou_Human": 0.0001949048613823834,
+    "dice": 0.8400660145282746,
+    "loss": 0.47587627142667766
+  },
+  "epoch_0": [
+    "logs\\checkpoints/train.1.pth",
+    0.21323425024747847,
+    {
+      "loss_dice": 0.7867657506465912,
+      "loss_iou": 0.8799724566936491,
+      "loss_focal": 0.07586397476494311,
+      "clswise_iou_Clutter": 0.019165629181079568,
+      "clswise_iou_Building": 0.2763409622013568,
+      "clswise_iou_Road": 0.05550995069555937,
+      "clswise_iou_Car": 0.002175421600295522,
+      "clswise_iou_Tree": 0.17784452393651007,
+      "clswise_iou_Vegetation": 0.06673589195124804,
+      "clswise_iou_Human": 0.00011744630905468508,
+      "dice": 0.21323425024747847,
+      "loss": 1.7426021790504451
+    }
+  ],
+  "epoch_1": [
+    "logs\\checkpoints/train.2.pth",
+    0.4530512362718581,
+    {
+      "loss_dice": 0.5469487631320953,
+      "loss_iou": 0.7013872194290163,
+      "loss_focal": 0.044370232149958624,
+      "clswise_iou_Clutter": 0.08913634322583677,
+      "clswise_iou_Building": 0.5329423195123673,
+      "clswise_iou_Road": 0.2119656313676387,
+      "clswise_iou_Car": 0.02483409039559774,
+      "clswise_iou_Tree": 0.34906877234578126,
+      "clswise_iou_Vegetation": 0.11345641738269478,
+      "clswise_iou_Human": 0.00010463946286336066,
+      "dice": 0.4530512362718581,
+      "loss": 1.292706212997436
+    }
+  ],
+  "epoch_2": [
+    "logs\\checkpoints/train.3.pth",
+    0.641329662799835,
+    {
+      "loss_dice": 0.3586703372001649,
+      "loss_iou": 0.5198629355430603,
+      "loss_focal": 0.054954435564577575,
+      "clswise_iou_Clutter": 0.16227152749896046,
+      "clswise_iou_Building": 0.6172492697834969,
+      "clswise_iou_Road": 0.4190021538536531,
+      "clswise_iou_Car": 0.028025900132488464,
+      "clswise_iou_Tree": 0.5066341832280158,
+      "clswise_iou_Vegetation": 0.24837077729869633,
+      "clswise_iou_Human": 6.905538839419023e-05,
+      "dice": 0.641329662799835,
+      "loss": 0.9334877038002011
+    }
+  ],
+  "epoch_3": [
+    "logs\\checkpoints/train.4.pth",
+    0.681278930902481,
+    {
+      "loss_dice": 0.31872106909751885,
+      "loss_iou": 0.4757865655422212,
+      "loss_focal": 0.057791133783757685,
+      "clswise_iou_Clutter": 0.2488705980777741,
+      "clswise_iou_Building": 0.6636727106571196,
+      "clswise_iou_Road": 0.4412996767833829,
+      "clswise_iou_Car": 0.042231888154055916,
+      "clswise_iou_Tree": 0.5318278142809866,
+      "clswise_iou_Vegetation": 0.3189742907974869,
+      "clswise_iou_Human": 7.166141502693788e-05,
+      "dice": 0.681278930902481,
+      "loss": 0.8522987681627272
+    }
+  ],
+  "epoch_4": [
+    "logs\\checkpoints/train.5.pth",
+    0.7202468657493591,
+    {
+      "loss_dice": 0.2797531342506408,
+      "loss_iou": 0.4298941266536713,
+      "loss_focal": 0.0516558526828885,
+      "clswise_iou_Clutter": 0.20642287489026792,
+      "clswise_iou_Building": 0.7027450489997865,
+      "clswise_iou_Road": 0.48014501194789777,
+      "clswise_iou_Car": 0.11497678523650394,
+      "clswise_iou_Tree": 0.5725100782513619,
+      "clswise_iou_Vegetation": 0.3808104296401143,
+      "clswise_iou_Human": 0.00013843345919667627,
+      "dice": 0.7202468657493591,
+      "loss": 0.7613031107187271
+    }
+  ],
+  "epoch_5": [
+    "logs\\checkpoints/train.6.pth",
+    0.7122468578815461,
+    {
+      "loss_dice": 0.28775314211845393,
+      "loss_iou": 0.438595768213272,
+      "loss_focal": 0.06249548211693763,
+      "clswise_iou_Clutter": 0.2396253176778555,
+      "clswise_iou_Building": 0.7014372408390046,
+      "clswise_iou_Road": 0.4780012686821283,
+      "clswise_iou_Car": 0.13228503775782882,
+      "clswise_iou_Tree": 0.5340856295824051,
+      "clswise_iou_Vegetation": 0.3884278252348303,
+      "clswise_iou_Human": 0.00019227732702347566,
+      "dice": 0.7122468578815461,
+      "loss": 0.7888443928956983
+    }
+  ],
+  "epoch_6": [
+    "logs\\checkpoints/train.7.pth",
+    0.7346808373928071,
+    {
+      "loss_dice": 0.2653191626071929,
+      "loss_iou": 0.4121730363368988,
+      "loss_focal": 0.05232656251639127,
+      "clswise_iou_Clutter": 0.24831477463245394,
+      "clswise_iou_Building": 0.7105009907484054,
+      "clswise_iou_Road": 0.4979772664318443,
+      "clswise_iou_Car": 0.16247221166267992,
+      "clswise_iou_Tree": 0.5870301187038424,
+      "clswise_iou_Vegetation": 0.39167323762550954,
+      "clswise_iou_Human": 0.00022540133621077986,
+      "dice": 0.7346808373928071,
+      "loss": 0.729818767309189
+    }
+  ],
+  "epoch_7": [
+    "logs\\checkpoints/train.8.pth",
+    0.7279271888732909,
+    {
+      "loss_dice": 0.272072811126709,
+      "loss_iou": 0.42032978892326356,
+      "loss_focal": 0.04639504030346871,
+      "clswise_iou_Clutter": 0.26375428393483163,
+      "clswise_iou_Building": 0.6491439193487167,
+      "clswise_iou_Road": 0.4870919241523371,
+      "clswise_iou_Car": 0.2074579496122897,
+      "clswise_iou_Tree": 0.6062280029058457,
+      "clswise_iou_Vegetation": 0.4121022194623947,
+      "clswise_iou_Human": 0.00017729280817093245,
+      "dice": 0.7279271888732909,
+      "loss": 0.7387976372241973
+    }
+  ],
+  "epoch_8": [
+    "logs\\checkpoints/train.9.pth",
+    0.7577267158031465,
+    {
+      "loss_dice": 0.24227328419685365,
+      "loss_iou": 0.3833129501342773,
+      "loss_focal": 0.05350956704467535,
+      "clswise_iou_Clutter": 0.32437506616115563,
+      "clswise_iou_Building": 0.7119058698415758,
+      "clswise_iou_Road": 0.523034103140126,
+      "clswise_iou_Car": 0.2329630977381021,
+      "clswise_iou_Tree": 0.619655419588089,
+      "clswise_iou_Vegetation": 0.42659079521894455,
+      "clswise_iou_Human": 0.00020272596870427148,
+      "dice": 0.7577267158031465,
+      "loss": 0.6790958032011988
+    }
+  ],
+  "epoch_9": [
+    "logs\\checkpoints/train.10.pth",
+    0.7460117459297179,
+    {
+      "loss_dice": 0.253988254070282,
+      "loss_iou": 0.3961608994007111,
+      "loss_focal": 0.055384188331663614,
+      "clswise_iou_Clutter": 0.25864163793623446,
+      "clswise_iou_Building": 0.7263143974542619,
+      "clswise_iou_Road": 0.5358456967785605,
+      "clswise_iou_Car": 0.28256600324995823,
+      "clswise_iou_Tree": 0.6078789433836935,
+      "clswise_iou_Vegetation": 0.3761638293415308,
+      "clswise_iou_Human": 0.00026790528810124683,
+      "dice": 0.7460117459297179,
+      "loss": 0.7055333429574967
+    }
+  ],
+  "epoch_10": [
+    "logs\\checkpoints/train.11.pth",
+    0.7673017346858978,
+    {
+      "loss_dice": 0.2326982653141022,
+      "loss_iou": 0.37044120788574236,
+      "loss_focal": 0.046714126355946066,
+      "clswise_iou_Clutter": 0.3574064972996711,
+      "clswise_iou_Building": 0.7413113415241241,
+      "clswise_iou_Road": 0.5590414767421317,
+      "clswise_iou_Car": 0.28142023250460624,
+      "clswise_iou_Tree": 0.6299553135037423,
+      "clswise_iou_Vegetation": 0.40281302496790894,
+      "clswise_iou_Human": 0.00028122037347202413,
+      "dice": 0.7673017346858978,
+      "loss": 0.649853602051735
+    }
+  ],
+  "epoch_11": [
+    "logs\\checkpoints/train.12.pth",
+    0.7765878236293794,
+    {
+      "loss_dice": 0.22341217637062077,
+      "loss_iou": 0.35838508009910586,
+      "loss_focal": 0.04749457273632288,
+      "clswise_iou_Clutter": 0.35870864823460585,
+      "clswise_iou_Building": 0.759949951171875,
+      "clswise_iou_Road": 0.5641906735066006,
+      "clswise_iou_Car": 0.2959479230921715,
+      "clswise_iou_Tree": 0.6343969514966011,
+      "clswise_iou_Vegetation": 0.4457248876616358,
+      "clswise_iou_Human": 0.00016875906475888772,
+      "dice": 0.7765878236293794,
+      "loss": 0.6292918321490286
+    }
+  ],
+  "epoch_12": [
+    "logs\\checkpoints/train.13.pth",
+    0.7674672269821166,
+    {
+      "loss_dice": 0.23253277301788328,
+      "loss_iou": 0.36886591076850883,
+      "loss_focal": 0.05057338932529091,
+      "clswise_iou_Clutter": 0.3144694905728102,
+      "clswise_iou_Building": 0.749669337272644,
+      "clswise_iou_Road": 0.5626043688551727,
+      "clswise_iou_Car": 0.2925114834308624,
+      "clswise_iou_Tree": 0.6297434055805208,
+      "clswise_iou_Vegetation": 0.4272815518081189,
+      "clswise_iou_Human": 0.00033952618581679407,
+      "dice": 0.7674672269821166,
+      "loss": 0.6519720724225045
+    }
+  ],
+  "epoch_13": [
+    "logs\\checkpoints/train.14.pth",
+    0.7287202680110931,
+    {
+      "loss_dice": 0.27127973198890676,
+      "loss_iou": 0.4205789399147034,
+      "loss_focal": 0.06116245685145258,
+      "clswise_iou_Clutter": 0.3510815338790416,
+      "clswise_iou_Building": 0.5739196416735647,
+      "clswise_iou_Road": 0.5215215364028699,
+      "clswise_iou_Car": 0.29611281573772436,
+      "clswise_iou_Tree": 0.6375522705912591,
+      "clswise_iou_Vegetation": 0.4458607554808258,
+      "clswise_iou_Human": 0.00010794732589147315,
+      "dice": 0.7287202680110931,
+      "loss": 0.7530211293697359
+    }
+  ],
+  "epoch_14": [
+    "logs\\checkpoints/train.15.pth",
+    0.7524574267864227,
+    {
+      "loss_dice": 0.24754257321357725,
+      "loss_iou": 0.3885169541835785,
+      "loss_focal": 0.06391958547756077,
+      "clswise_iou_Clutter": 0.3256610673666,
+      "clswise_iou_Building": 0.7029413300752638,
+      "clswise_iou_Road": 0.5543186045240146,
+      "clswise_iou_Car": 0.3321127405762671,
+      "clswise_iou_Tree": 0.6317820131778717,
+      "clswise_iou_Vegetation": 0.4133852693066001,
+      "clswise_iou_Human": 0.00011664754536468537,
+      "dice": 0.7524574267864227,
+      "loss": 0.6999791178107261
+    }
+  ],
+  "epoch_15": [
+    "logs\\checkpoints/train.16.pth",
+    0.7731579339504242,
+    {
+      "loss_dice": 0.22684206604957582,
+      "loss_iou": 0.36074784755706774,
+      "loss_focal": 0.05306985268369317,
+      "clswise_iou_Clutter": 0.38118102759122846,
+      "clswise_iou_Building": 0.7530347770452499,
+      "clswise_iou_Road": 0.5833473517704988,
+      "clswise_iou_Car": 0.32921300895512096,
+      "clswise_iou_Tree": 0.6400603437423705,
+      "clswise_iou_Vegetation": 0.4143733366578818,
+      "clswise_iou_Human": 0.0002427145446563373,
+      "dice": 0.7731579339504242,
+      "loss": 0.6406597650051116
+    }
+  ],
+  "epoch_16": [
+    "logs\\checkpoints/train.17.pth",
+    0.7855814266204834,
+    {
+      "loss_dice": 0.21441857337951659,
+      "loss_iou": 0.3455562806129456,
+      "loss_focal": 0.043852220475673664,
+      "clswise_iou_Clutter": 0.39692069411277775,
+      "clswise_iou_Building": 0.7629204285144805,
+      "clswise_iou_Road": 0.5979036397620802,
+      "clswise_iou_Car": 0.3669889272749424,
+      "clswise_iou_Tree": 0.6203747639060022,
+      "clswise_iou_Vegetation": 0.46428650490939616,
+      "clswise_iou_Human": 0.00021050845280569776,
+      "dice": 0.7855814266204834,
+      "loss": 0.6038270729780199
+    }
+  ],
+  "epoch_17": [
+    "logs\\checkpoints/train.18.pth",
+    0.7854611229896546,
+    {
+      "loss_dice": 0.21453887701034546,
+      "loss_iou": 0.3447511875629425,
+      "loss_focal": 0.044481071904301644,
+      "clswise_iou_Clutter": 0.3743416829407216,
+      "clswise_iou_Building": 0.7643380796909331,
+      "clswise_iou_Road": 0.6075089102511994,
+      "clswise_iou_Car": 0.27293274294584996,
+      "clswise_iou_Tree": 0.629867953956127,
+      "clswise_iou_Vegetation": 0.4395233692973853,
+      "clswise_iou_Human": 0.00029151986132092134,
+      "dice": 0.7854611229896546,
+      "loss": 0.6037711387872695
+    }
+  ],
+  "epoch_18": [
+    "logs\\checkpoints/train.19.pth",
+    0.784536226987839,
+    {
+      "loss_dice": 0.21546377301216127,
+      "loss_iou": 0.34747391700744623,
+      "loss_focal": 0.0542599331215024,
+      "clswise_iou_Clutter": 0.28802104517817495,
+      "clswise_iou_Building": 0.7632692897319793,
+      "clswise_iou_Road": 0.5993019096693025,
+      "clswise_iou_Car": 0.3654444824531674,
+      "clswise_iou_Tree": 0.6498279210925104,
+      "clswise_iou_Vegetation": 0.4676103896647691,
+      "clswise_iou_Human": 0.0004946443268090663,
+      "dice": 0.784536226987839,
+      "loss": 0.6171976247429849
+    }
+  ],
+  "epoch_19": [
+    "logs\\checkpoints/train.20.pth",
+    0.7877249729633331,
+    {
+      "loss_dice": 0.2122750270366669,
+      "loss_iou": 0.34330218911170957,
+      "loss_focal": 0.04830517403781413,
+      "clswise_iou_Clutter": 0.3894156371057033,
+      "clswise_iou_Building": 0.7583887743949893,
+      "clswise_iou_Road": 0.603339153358829,
+      "clswise_iou_Car": 0.36236178383231166,
+      "clswise_iou_Tree": 0.6571743032336235,
+      "clswise_iou_Vegetation": 0.44978911317884923,
+      "clswise_iou_Human": 0.00026199485699180514,
+      "dice": 0.7877249729633331,
+      "loss": 0.6038823911547663
+    }
+  ],
+  "epoch_20": [
+    "logs\\checkpoints/train.21.pth",
+    0.7810013127326966,
+    {
+      "loss_dice": 0.2189986872673035,
+      "loss_iou": 0.35102474212646495,
+      "loss_focal": 0.05319239577278495,
+      "clswise_iou_Clutter": 0.3253987114131451,
+      "clswise_iou_Building": 0.7857116508483886,
+      "clswise_iou_Road": 0.5586020245775581,
+      "clswise_iou_Car": 0.3780645402520894,
+      "clswise_iou_Tree": 0.6414751657843589,
+      "clswise_iou_Vegetation": 0.4624496319517494,
+      "clswise_iou_Human": 0.00018462916643329663,
+      "dice": 0.7810013127326966,
+      "loss": 0.623215828537941
+    }
+  ],
+  "epoch_21": [
+    "logs\\checkpoints/train.22.pth",
+    0.7996085596084597,
+    {
+      "loss_dice": 0.20039144039154053,
+      "loss_iou": 0.3269557869434355,
+      "loss_focal": 0.042927175778895606,
+      "clswise_iou_Clutter": 0.41634564876556407,
+      "clswise_iou_Building": 0.7854673093557358,
+      "clswise_iou_Road": 0.6290878835122569,
+      "clswise_iou_Car": 0.34461464777588846,
+      "clswise_iou_Tree": 0.6511233186721803,
+      "clswise_iou_Vegetation": 0.45551647044718274,
+      "clswise_iou_Human": 0.00020041670359205444,
+      "dice": 0.7996085596084597,
+      "loss": 0.5702744057774543
+    }
+  ],
+  "epoch_22": [
+    "logs\\checkpoints/train.23.pth",
+    0.773643479347229,
+    {
+      "loss_dice": 0.22635652065277095,
+      "loss_iou": 0.3594051790237427,
+      "loss_focal": 0.049997792225331086,
+      "clswise_iou_Clutter": 0.394935854971409,
+      "clswise_iou_Building": 0.7684832715988159,
+      "clswise_iou_Road": 0.5947712404420598,
+      "clswise_iou_Car": 0.3212018386088311,
+      "clswise_iou_Tree": 0.6202888873219492,
+      "clswise_iou_Vegetation": 0.4509715234488248,
+      "clswise_iou_Human": 0.00021252606735288284,
+      "dice": 0.773643479347229,
+      "loss": 0.6357594895362855
+    }
+  ],
+  "epoch_23": [
+    "logs\\checkpoints/train.24.pth",
+    0.7905418562889097,
+    {
+      "loss_dice": 0.20945814371109006,
+      "loss_iou": 0.33948521733283993,
+      "loss_focal": 0.04338093549013138,
+      "clswise_iou_Clutter": 0.41686726555228226,
+      "clswise_iou_Building": 0.7798368674516678,
+      "clswise_iou_Road": 0.6206668853870358,
+      "clswise_iou_Car": 0.3548316873237492,
+      "clswise_iou_Tree": 0.6246394988894464,
+      "clswise_iou_Vegetation": 0.4718072334676981,
+      "clswise_iou_Human": 0.0002020908016129397,
+      "dice": 0.7905418562889097,
+      "loss": 0.5923242944478989
+    }
+  ],
+  "epoch_24": [
+    "logs\\checkpoints/train.25.pth",
+    0.7685414338111877,
+    {
+      "loss_dice": 0.2314585661888122,
+      "loss_iou": 0.36590315103530885,
+      "loss_focal": 0.06403062177821996,
+      "clswise_iou_Clutter": 0.38007022410631164,
+      "clswise_iou_Building": 0.743762689232826,
+      "clswise_iou_Road": 0.6025248312205077,
+      "clswise_iou_Car": 0.3875902482867241,
+      "clswise_iou_Tree": 0.6295200350880622,
+      "clswise_iou_Vegetation": 0.39488468170166013,
+      "clswise_iou_Human": 0.0002293695116168237,
+      "dice": 0.7685414338111877,
+      "loss": 0.6613923418521881
+    }
+  ],
+  "epoch_25": [
+    "logs\\checkpoints/train.26.pth",
+    0.7735308301448822,
+    {
+      "loss_dice": 0.2264691698551178,
+      "loss_iou": 0.35987365841865554,
+      "loss_focal": 0.05964336529374122,
+      "clswise_iou_Clutter": 0.3042873570322991,
+      "clswise_iou_Building": 0.7549371439218522,
+      "clswise_iou_Road": 0.601727797985077,
+      "clswise_iou_Car": 0.3563167861104011,
+      "clswise_iou_Tree": 0.6461842420697212,
+      "clswise_iou_Vegetation": 0.39274038694798946,
+      "clswise_iou_Human": 0.00022362839183188044,
+      "dice": 0.7735308301448822,
+      "loss": 0.6459861940145492
+    }
+  ],
+  "epoch_26": [
+    "logs\\checkpoints/train.27.pth",
+    0.8033509063720705,
+    {
+      "loss_dice": 0.1966490936279297,
+      "loss_iou": 0.32194242477417,
+      "loss_focal": 0.04227966906502842,
+      "clswise_iou_Clutter": 0.4357436007261276,
+      "clswise_iou_Building": 0.778451970219612,
+      "clswise_iou_Road": 0.6348405146133156,
+      "clswise_iou_Car": 0.39339075803756723,
+      "clswise_iou_Tree": 0.6624271821975707,
+      "clswise_iou_Vegetation": 0.4719652238488197,
+      "clswise_iou_Human": 0.00016340094251063417,
+      "dice": 0.8033509063720705,
+      "loss": 0.5608711865544321
+    }
+  ],
+  "epoch_27": [
+    "logs\\checkpoints/train.28.pth",
+    0.7877037537097931,
+    {
+      "loss_dice": 0.21229624629020688,
+      "loss_iou": 0.34256936907768254,
+      "loss_focal": 0.05160707518458367,
+      "clswise_iou_Clutter": 0.3553106048703193,
+      "clswise_iou_Building": 0.7363898843526844,
+      "clswise_iou_Road": 0.605196130000986,
+      "clswise_iou_Car": 0.36356779724359506,
+      "clswise_iou_Tree": 0.649910697042942,
+      "clswise_iou_Vegetation": 0.502233548015356,
+      "clswise_iou_Human": 0.0001531651306959247,
+      "dice": 0.7877037537097931,
+      "loss": 0.6064726927876475
+    }
+  ],
+  "epoch_28": [
+    "logs\\checkpoints/train.29.pth",
+    0.798769315481186,
+    {
+      "loss_dice": 0.2012306845188141,
+      "loss_iou": 0.3279581010341644,
+      "loss_focal": 0.04680897116661072,
+      "clswise_iou_Clutter": 0.441216193139553,
+      "clswise_iou_Building": 0.7821837335824967,
+      "clswise_iou_Road": 0.6276118087023498,
+      "clswise_iou_Car": 0.3402106084302066,
+      "clswise_iou_Tree": 0.6483364364504813,
+      "clswise_iou_Vegetation": 0.49149342142045505,
+      "clswise_iou_Human": 0.00012464898250982512,
+      "dice": 0.798769315481186,
+      "loss": 0.5759977501630782
+    }
+  ],
+  "epoch_29": [
+    "logs\\checkpoints/train.30.pth",
+    0.7699702906608582,
+    {
+      "loss_dice": 0.23002970933914188,
+      "loss_iou": 0.36260159850120544,
+      "loss_focal": 0.05450289376080035,
+      "clswise_iou_Clutter": 0.37796192765235903,
+      "clswise_iou_Building": 0.7684864413738253,
+      "clswise_iou_Road": 0.5953918202593923,
+      "clswise_iou_Car": 0.3722682394832373,
+      "clswise_iou_Tree": 0.6247753605246541,
+      "clswise_iou_Vegetation": 0.38677108421921724,
+      "clswise_iou_Human": 0.00024513553056749527,
+      "dice": 0.7699702906608582,
+      "loss": 0.6471341973543168
+    }
+  ],
+  "epoch_30": [
+    "logs\\checkpoints/train.31.pth",
+    0.798501523733139,
+    {
+      "loss_dice": 0.20149847626686096,
+      "loss_iou": 0.32874442815780636,
+      "loss_focal": 0.04515609193593264,
+      "clswise_iou_Clutter": 0.40526441514492023,
+      "clswise_iou_Building": 0.7802117168903353,
+      "clswise_iou_Road": 0.6090747687948169,
+      "clswise_iou_Car": 0.36396438121795666,
+      "clswise_iou_Tree": 0.6568703502416612,
+      "clswise_iou_Vegetation": 0.49504941955208775,
+      "clswise_iou_Human": 0.0002263454247804476,
+      "dice": 0.798501523733139,
+      "loss": 0.575398999452591
+    }
+  ],
+  "epoch_31": [
+    "logs\\checkpoints/train.32.pth",
+    0.8093964612483979,
+    {
+      "loss_dice": 0.19060353875160221,
+      "loss_iou": 0.31378940939903266,
+      "loss_focal": 0.044057835098356014,
+      "clswise_iou_Clutter": 0.3913246271014213,
+      "clswise_iou_Building": 0.7969168341159819,
+      "clswise_iou_Road": 0.6354303098318634,
+      "clswise_iou_Car": 0.4135359466075897,
+      "clswise_iou_Tree": 0.6742330849170686,
+      "clswise_iou_Vegetation": 0.48075595736503607,
+      "clswise_iou_Human": 0.0002527010544145014,
+      "dice": 0.8093964612483979,
+      "loss": 0.5484507805109023
+    }
+  ],
+  "epoch_32": [
+    "logs\\checkpoints/train.33.pth",
+    0.7913620162010194,
+    {
+      "loss_dice": 0.20863798379898074,
+      "loss_iou": 0.338494724035263,
+      "loss_focal": 0.05060023188591003,
+      "clswise_iou_Clutter": 0.4286141368746758,
+      "clswise_iou_Building": 0.7864162051677706,
+      "clswise_iou_Road": 0.5962599094933829,
+      "clswise_iou_Car": 0.3515370542742312,
+      "clswise_iou_Tree": 0.6322849258780479,
+      "clswise_iou_Vegetation": 0.47838646590709677,
+      "clswise_iou_Human": 0.00015779913625010522,
+      "dice": 0.7913620162010194,
+      "loss": 0.5977329379320143
+    }
+  ],
+  "epoch_33": [
+    "logs\\checkpoints/train.34.pth",
+    0.8019985401630402,
+    {
+      "loss_dice": 0.19800145983695983,
+      "loss_iou": 0.32270449399948126,
+      "loss_focal": 0.04695065170526505,
+      "clswise_iou_Clutter": 0.43485040813684467,
+      "clswise_iou_Building": 0.7919176220893859,
+      "clswise_iou_Road": 0.6443834449909628,
+      "clswise_iou_Car": 0.4146378375962377,
+      "clswise_iou_Tree": 0.6618192827701569,
+      "clswise_iou_Vegetation": 0.4380723374336958,
+      "clswise_iou_Human": 0.0001569331653809058,
+      "dice": 0.8019985401630402,
+      "loss": 0.5676566058397293
+    }
+  ],
+  "epoch_34": [
+    "logs\\checkpoints/train.35.pth",
+    0.8029581391811369,
+    {
+      "loss_dice": 0.19704186081886288,
+      "loss_iou": 0.3227594327926635,
+      "loss_focal": 0.05236298320814967,
+      "clswise_iou_Clutter": 0.3391203635931013,
+      "clswise_iou_Building": 0.7781414115428923,
+      "clswise_iou_Road": 0.6182376635354014,
+      "clswise_iou_Car": 0.3403298274055123,
+      "clswise_iou_Tree": 0.6774022391438485,
+      "clswise_iou_Vegetation": 0.49310954980552196,
+      "clswise_iou_Human": 0.0001879818981160497,
+      "dice": 0.8029581391811369,
+      "loss": 0.5721642762422563
+    }
+  ],
+  "epoch_35": [
+    "logs\\checkpoints/train.36.pth",
+    0.796638765335083,
+    {
+      "loss_dice": 0.20336123466491698,
+      "loss_iou": 0.33113766312599174,
+      "loss_focal": 0.05014265790581702,
+      "clswise_iou_Clutter": 0.4179652626812458,
+      "clswise_iou_Building": 0.7999480247497559,
+      "clswise_iou_Road": 0.6304149966686966,
+      "clswise_iou_Car": 0.34796995142474774,
+      "clswise_iou_Tree": 0.6226537120342255,
+      "clswise_iou_Vegetation": 0.5002391888201237,
+      "clswise_iou_Human": 0.00016091716552182333,
+      "dice": 0.796638765335083,
+      "loss": 0.5846415552496911
+    }
+  ],
+  "epoch_36": [
+    "logs\\checkpoints/train.37.pth",
+    0.804905490875244,
+    {
+      "loss_dice": 0.19509450912475587,
+      "loss_iou": 0.31931126236915575,
+      "loss_focal": 0.04489238020032646,
+      "clswise_iou_Clutter": 0.4283753132820129,
+      "clswise_iou_Building": 0.7699987715482713,
+      "clswise_iou_Road": 0.6321564192231747,
+      "clswise_iou_Car": 0.3788997530844062,
+      "clswise_iou_Tree": 0.6799558833241461,
+      "clswise_iou_Vegetation": 0.4992230328172446,
+      "clswise_iou_Human": 0.0001967960401088931,
+      "dice": 0.804905490875244,
+      "loss": 0.5592981532216074
+    }
+  ],
+  "epoch_37": [
+    "logs\\checkpoints/train.38.pth",
+    0.7968201529979706,
+    {
+      "loss_dice": 0.20317984700202943,
+      "loss_iou": 0.32964119672775266,
+      "loss_focal": 0.046238929573446504,
+      "clswise_iou_Clutter": 0.3881162954866886,
+      "clswise_iou_Building": 0.7662125730514525,
+      "clswise_iou_Road": 0.6429493753332642,
+      "clswise_iou_Car": 0.3426236950187014,
+      "clswise_iou_Tree": 0.6497278943657876,
+      "clswise_iou_Vegetation": 0.4775721495598554,
+      "clswise_iou_Human": 0.00015663085693176982,
+      "dice": 0.7968201529979706,
+      "loss": 0.5790599679946903
+    }
+  ],
+  "epoch_38": [
+    "logs\\checkpoints/train.39.pth",
+    0.7888330376148225,
+    {
+      "loss_dice": 0.21116696238517757,
+      "loss_iou": 0.34089697599411006,
+      "loss_focal": 0.05056079247966408,
+      "clswise_iou_Clutter": 0.4401428493857383,
+      "clswise_iou_Building": 0.7576455205678938,
+      "clswise_iou_Road": 0.6301505729556084,
+      "clswise_iou_Car": 0.3457697761151939,
+      "clswise_iou_Tree": 0.6586408501863479,
+      "clswise_iou_Vegetation": 0.4902561531960965,
+      "clswise_iou_Human": 8.409753027990518e-05,
+      "dice": 0.7888330376148225,
+      "loss": 0.6026247295737266
+    }
+  ],
+  "epoch_39": [
+    "logs\\checkpoints/train.40.pth",
+    0.8078023946285248,
+    {
+      "loss_dice": 0.19219760537147518,
+      "loss_iou": 0.31499333977699273,
+      "loss_focal": 0.047484648749232285,
+      "clswise_iou_Clutter": 0.40014856338500976,
+      "clswise_iou_Building": 0.8035803544521333,
+      "clswise_iou_Road": 0.63529811007902,
+      "clswise_iou_Car": 0.430132134668529,
+      "clswise_iou_Tree": 0.6743898385763171,
+      "clswise_iou_Vegetation": 0.4770595920085907,
+      "clswise_iou_Human": 0.00014702853928611146,
+      "dice": 0.8078023946285248,
+      "loss": 0.554675594866276
+    }
+  ],
+  "epoch_40": [
+    "logs\\checkpoints/train.41.pth",
+    0.8037152028083799,
+    {
+      "loss_dice": 0.19628479719161987,
+      "loss_iou": 0.32061414003372174,
+      "loss_focal": 0.045151346195489175,
+      "clswise_iou_Clutter": 0.42183606386184697,
+      "clswise_iou_Building": 0.8039180791378022,
+      "clswise_iou_Road": 0.6215329054929316,
+      "clswise_iou_Car": 0.45021862655878064,
+      "clswise_iou_Tree": 0.667610165476799,
+      "clswise_iou_Vegetation": 0.48475497409701346,
+      "clswise_iou_Human": 0.00017587875066965353,
+      "dice": 0.8037152028083799,
+      "loss": 0.5620502823591232
+    }
+  ],
+  "epoch_41": [
+    "logs\\checkpoints/train.42.pth",
+    0.8114372849464415,
+    {
+      "loss_dice": 0.18856271505355837,
+      "loss_iou": 0.31016364455223094,
+      "loss_focal": 0.045064324084669344,
+      "clswise_iou_Clutter": 0.44332234680652627,
+      "clswise_iou_Building": 0.8068485522270203,
+      "clswise_iou_Road": 0.6495110454875977,
+      "clswise_iou_Car": 0.437569799348712,
+      "clswise_iou_Tree": 0.6635989531874658,
+      "clswise_iou_Vegetation": 0.5123972202837468,
+      "clswise_iou_Human": 0.00017558886238475675,
+      "dice": 0.8114372849464415,
+      "loss": 0.5437906843423844
+    }
+  ],
+  "epoch_42": [
+    "logs\\checkpoints/train.43.pth",
+    0.7882057625055312,
+    {
+      "loss_dice": 0.21179423809051512,
+      "loss_iou": 0.3390330445766448,
+      "loss_focal": 0.05053159365430474,
+      "clswise_iou_Clutter": 0.392174257338047,
+      "clswise_iou_Building": 0.7990980851650238,
+      "clswise_iou_Road": 0.5947587553411723,
+      "clswise_iou_Car": 0.41773106321692466,
+      "clswise_iou_Tree": 0.620259762108326,
+      "clswise_iou_Vegetation": 0.500628124177456,
+      "clswise_iou_Human": 0.00017001153486489786,
+      "dice": 0.7882057625055312,
+      "loss": 0.6013588726520539
+    }
+  ],
+  "epoch_43": [
+    "logs\\checkpoints/train.44.pth",
+    0.7794373559951786,
+    {
+      "loss_dice": 0.22056264400482173,
+      "loss_iou": 0.35194209575653074,
+      "loss_focal": 0.059885513167828315,
+      "clswise_iou_Clutter": 0.34637662574648864,
+      "clswise_iou_Building": 0.791016023159027,
+      "clswise_iou_Road": 0.55787659522146,
+      "clswise_iou_Car": 0.41436329156160356,
+      "clswise_iou_Tree": 0.6653173914551735,
+      "clswise_iou_Vegetation": 0.4183370117843151,
+      "clswise_iou_Human": 0.00011258464877755614,
+      "dice": 0.7794373559951786,
+      "loss": 0.6323902481794357
+    }
+  ],
+  "epoch_44": [
+    "logs\\checkpoints/train.45.pth",
+    0.7765697467327117,
+    {
+      "loss_dice": 0.22343025326728821,
+      "loss_iou": 0.3523562860488891,
+      "loss_focal": 0.05814877038821579,
+      "clswise_iou_Clutter": 0.4256590101122856,
+      "clswise_iou_Building": 0.784339000582695,
+      "clswise_iou_Road": 0.6302284898422658,
+      "clswise_iou_Car": 0.3923116451874375,
+      "clswise_iou_Tree": 0.6091831073164939,
+      "clswise_iou_Vegetation": 0.43603549532592295,
+      "clswise_iou_Human": 0.00015725877620752728,
+      "dice": 0.7765697467327117,
+      "loss": 0.6339353048801426
+    }
+  ],
+  "epoch_45": [
+    "logs\\checkpoints/train.46.pth",
+    0.7972287607192993,
+    {
+      "loss_dice": 0.20277123928070065,
+      "loss_iou": 0.32821739196777333,
+      "loss_focal": 0.05436960309743882,
+      "clswise_iou_Clutter": 0.38577841684222225,
+      "clswise_iou_Building": 0.8026134455204011,
+      "clswise_iou_Road": 0.6342777682840823,
+      "clswise_iou_Car": 0.4159232833981514,
+      "clswise_iou_Tree": 0.6581798842549327,
+      "clswise_iou_Vegetation": 0.43806681707501405,
+      "clswise_iou_Human": 0.00023668041370910944,
+      "dice": 0.7972287607192993,
+      "loss": 0.5853582313656805
+    }
+  ],
+  "epoch_46": [
+    "logs\\checkpoints/train.47.pth",
+    0.8162015473842622,
+    {
+      "loss_dice": 0.18379845261573793,
+      "loss_iou": 0.30354253292083744,
+      "loss_focal": 0.04489568805322052,
+      "clswise_iou_Clutter": 0.45166936933994295,
+      "clswise_iou_Building": 0.8094156777858731,
+      "clswise_iou_Road": 0.6611288034729659,
+      "clswise_iou_Car": 0.40695879112929095,
+      "clswise_iou_Tree": 0.6808238902688026,
+      "clswise_iou_Vegetation": 0.49151371985673914,
+      "clswise_iou_Human": 0.00018796102467604216,
+      "dice": 0.8162015473842622,
+      "loss": 0.5322366738319397
+    }
+  ],
+  "epoch_47": [
+    "logs\\checkpoints/train.48.pth",
+    0.8110484468936919,
+    {
+      "loss_dice": 0.188951553106308,
+      "loss_iou": 0.3116467225551607,
+      "loss_focal": 0.04380946433171629,
+      "clswise_iou_Clutter": 0.4220784097909926,
+      "clswise_iou_Building": 0.8041157078742983,
+      "clswise_iou_Road": 0.6515083364024759,
+      "clswise_iou_Car": 0.4222614146769047,
+      "clswise_iou_Tree": 0.6627477785944937,
+      "clswise_iou_Vegetation": 0.5150743029266595,
+      "clswise_iou_Human": 0.0001530270365765318,
+      "dice": 0.8110484468936919,
+      "loss": 0.5444077387452125
+    }
+  ],
+  "epoch_48": [
+    "logs\\checkpoints/train.49.pth",
+    0.8095377254486085,
+    {
+      "loss_dice": 0.19046227455139164,
+      "loss_iou": 0.3125515842437744,
+      "loss_focal": 0.04562729351222515,
+      "clswise_iou_Clutter": 0.4244418147206307,
+      "clswise_iou_Building": 0.8137525475025176,
+      "clswise_iou_Road": 0.6223641200736166,
+      "clswise_iou_Car": 0.4354362055286765,
+      "clswise_iou_Tree": 0.6667027893662453,
+      "clswise_iou_Vegetation": 0.5195580719411373,
+      "clswise_iou_Human": 0.00013810919528623342,
+      "dice": 0.8095377254486085,
+      "loss": 0.548641151189804
+    }
+  ],
+  "epoch_49": [
+    "logs\\checkpoints/train.50.pth",
+    0.8007959234714507,
+    {
+      "loss_dice": 0.19920407652854918,
+      "loss_iou": 0.32357392668724055,
+      "loss_focal": 0.05687300506979227,
+      "clswise_iou_Clutter": 0.435380448102951,
+      "clswise_iou_Building": 0.7788054633140564,
+      "clswise_iou_Road": 0.5953933787066489,
+      "clswise_iou_Car": 0.3658937601931393,
+      "clswise_iou_Tree": 0.66799061357975,
+      "clswise_iou_Vegetation": 0.4827135975658893,
+      "clswise_iou_Human": 0.00017396784043739898,
+      "dice": 0.8007959234714507,
+      "loss": 0.579651007950306
+    }
+  ],
+  "epoch_50": [
+    "logs\\checkpoints/train.51.pth",
+    0.8033427250385285,
+    {
+      "loss_dice": 0.1966572749614716,
+      "loss_iou": 0.32061202645301806,
+      "loss_focal": 0.04852150471881032,
+      "clswise_iou_Clutter": 0.4107972526550293,
+      "clswise_iou_Building": 0.780484738945961,
+      "clswise_iou_Road": 0.6570667135715486,
+      "clswise_iou_Car": 0.429403217881918,
+      "clswise_iou_Tree": 0.6600380101799965,
+      "clswise_iou_Vegetation": 0.46803695328533645,
+      "clswise_iou_Human": 0.0001528333989699604,
+      "dice": 0.8033427250385285,
+      "loss": 0.5657908064126969
+    }
+  ],
+  "epoch_51": [
+    "logs\\checkpoints/train.52.pth",
+    0.8233576095104218,
+    {
+      "loss_dice": 0.17664239048957822,
+      "loss_iou": 0.29428512811660773,
+      "loss_focal": 0.04049926618114114,
+      "clswise_iou_Clutter": 0.4303417918086052,
+      "clswise_iou_Building": 0.8193897831439974,
+      "clswise_iou_Road": 0.6625323435105385,
+      "clswise_iou_Car": 0.4286155434697866,
+      "clswise_iou_Tree": 0.6921823453903198,
+      "clswise_iou_Vegetation": 0.4998707054555417,
+      "clswise_iou_Human": 0.0001443214736355003,
+      "dice": 0.8233576095104218,
+      "loss": 0.5114267829060555
+    }
+  ],
+  "epoch_52": [
+    "logs\\checkpoints/train.53.pth",
+    0.766951597929001,
+    {
+      "loss_dice": 0.2330484020709991,
+      "loss_iou": 0.37122237443923944,
+      "loss_focal": 0.055968302898108946,
+      "clswise_iou_Clutter": 0.3748968306183816,
+      "clswise_iou_Building": 0.7372787111997604,
+      "clswise_iou_Road": 0.5494067420437933,
+      "clswise_iou_Car": 0.3597495467215778,
+      "clswise_iou_Tree": 0.6093450975418092,
+      "clswise_iou_Vegetation": 0.500549770668149,
+      "clswise_iou_Human": 5.655717119680048e-05,
+      "dice": 0.766951597929001,
+      "loss": 0.6602390798926354
+    }
+  ],
+  "epoch_53": [
+    "logs\\checkpoints/train.54.pth",
+    0.8131477355957032,
+    {
+      "loss_dice": 0.18685226440429686,
+      "loss_iou": 0.30831888794898965,
+      "loss_focal": 0.041840714830905186,
+      "clswise_iou_Clutter": 0.4532376477122307,
+      "clswise_iou_Building": 0.8132621276378631,
+      "clswise_iou_Road": 0.6487229383364319,
+      "clswise_iou_Car": 0.3648953419923783,
+      "clswise_iou_Tree": 0.6665347942709922,
+      "clswise_iou_Vegetation": 0.5170043464004995,
+      "clswise_iou_Human": 0.00014383671115865586,
+      "dice": 0.8131477355957032,
+      "loss": 0.5370118662714957
+    }
+  ],
+  "epoch_54": [
+    "logs\\checkpoints/train.55.pth",
+    0.8142261600494386,
+    {
+      "loss_dice": 0.18577383995056151,
+      "loss_iou": 0.3071513688564302,
+      "loss_focal": 0.04561975136399269,
+      "clswise_iou_Clutter": 0.4144408771395683,
+      "clswise_iou_Building": 0.8075099658966064,
+      "clswise_iou_Road": 0.6553882049024106,
+      "clswise_iou_Car": 0.4531782257556915,
+      "clswise_iou_Tree": 0.6769336864352228,
+      "clswise_iou_Vegetation": 0.5074119910597802,
+      "clswise_iou_Human": 0.00011706705302003684,
+      "dice": 0.8142261600494386,
+      "loss": 0.5385449600219725
+    }
+  ],
+  "epoch_55": [
+    "logs\\checkpoints/train.56.pth",
+    0.8243803429603577,
+    {
+      "loss_dice": 0.17561965703964227,
+      "loss_iou": 0.29383617877960205,
+      "loss_focal": 0.043815197534859185,
+      "clswise_iou_Clutter": 0.4922645509243011,
+      "clswise_iou_Building": 0.794741942882538,
+      "clswise_iou_Road": 0.669028110599611,
+      "clswise_iou_Car": 0.43561616927385344,
+      "clswise_iou_Tree": 0.6853094613552094,
+      "clswise_iou_Vegetation": 0.5279561747610569,
+      "clswise_iou_Human": 0.0001455195587823255,
+      "dice": 0.8243803429603577,
+      "loss": 0.5132710370421409
+    }
+  ],
+  "epoch_56": [
+    "logs\\checkpoints/train.57.pth",
+    0.8237330007553102,
+    {
+      "loss_dice": 0.17626699924468991,
+      "loss_iou": 0.2930198776721955,
+      "loss_focal": 0.041439897473901505,
+      "clswise_iou_Clutter": 0.4709871342778206,
+      "clswise_iou_Building": 0.8218530797958372,
+      "clswise_iou_Road": 0.6613165387324988,
+      "clswise_iou_Car": 0.4593601110577584,
+      "clswise_iou_Tree": 0.6857460141181947,
+      "clswise_iou_Vegetation": 0.5156158584356307,
+      "clswise_iou_Human": 0.00011331425021126046,
+      "dice": 0.8237330007553102,
+      "loss": 0.5107267734408379
+    }
+  ],
+  "epoch_57": [
+    "logs\\checkpoints/train.58.pth",
+    0.8179685878753661,
+    {
+      "loss_dice": 0.18203141212463378,
+      "loss_iou": 0.30248530268669127,
+      "loss_focal": 0.044402634538710135,
+      "clswise_iou_Clutter": 0.4850949892401696,
+      "clswise_iou_Building": 0.7725276207923888,
+      "clswise_iou_Road": 0.6698471543937923,
+      "clswise_iou_Car": 0.43524211719632144,
+      "clswise_iou_Tree": 0.6858889254927637,
+      "clswise_iou_Vegetation": 0.5282778158783911,
+      "clswise_iou_Human": 0.00010502510297556,
+      "dice": 0.8179685878753661,
+      "loss": 0.5289193475246431
+    }
+  ],
+  "epoch_58": [
+    "logs\\checkpoints/train.59.pth",
+    0.8118531060218811,
+    {
+      "loss_dice": 0.18814689397811893,
+      "loss_iou": 0.30956481456756585,
+      "loss_focal": 0.04511025726795197,
+      "clswise_iou_Clutter": 0.48049273878335946,
+      "clswise_iou_Building": 0.7904937195777892,
+      "clswise_iou_Road": 0.6718943422846496,
+      "clswise_iou_Car": 0.45911841854453084,
+      "clswise_iou_Tree": 0.6753393852710723,
+      "clswise_iou_Vegetation": 0.49530714586377145,
+      "clswise_iou_Human": 8.807160681953974e-05,
+      "dice": 0.8118531060218811,
+      "loss": 0.5428219640254974
+    }
+  ],
+  "epoch_59": [
+    "logs\\checkpoints/train.60.pth",
+    0.8162826836109164,
+    {
+      "loss_dice": 0.18371731638908387,
+      "loss_iou": 0.30446108698844904,
+      "loss_focal": 0.0426475140079856,
+      "clswise_iou_Clutter": 0.4497146388888358,
+      "clswise_iou_Building": 0.8130213272571565,
+      "clswise_iou_Road": 0.638476104801521,
+      "clswise_iou_Car": 0.46511514469981197,
+      "clswise_iou_Tree": 0.6729229828715324,
+      "clswise_iou_Vegetation": 0.519788330346346,
+      "clswise_iou_Human": 0.0001453991928065079,
+      "dice": 0.8162826836109164,
+      "loss": 0.530825918316841
+    }
+  ],
+  "epoch_60": [
+    "logs\\checkpoints/train.61.pth",
+    0.8200376737117767,
+    {
+      "loss_dice": 0.17996232628822323,
+      "loss_iou": 0.2980850946903229,
+      "loss_focal": 0.04264427604153751,
+      "clswise_iou_Clutter": 0.4777651020884514,
+      "clswise_iou_Building": 0.8066823720932007,
+      "clswise_iou_Road": 0.6726351620908828,
+      "clswise_iou_Car": 0.4451298899948597,
+      "clswise_iou_Tree": 0.6858010125160215,
+      "clswise_iou_Vegetation": 0.48977769412100314,
+      "clswise_iou_Human": 0.000100007759865548,
+      "dice": 0.8200376737117767,
+      "loss": 0.5206916999816894
+    }
+  ],
+  "epoch_61": [
+    "logs\\checkpoints/train.62.pth",
+    0.8285876071453095,
+    {
+      "loss_dice": 0.17141239285469057,
+      "loss_iou": 0.28665132284164435,
+      "loss_focal": 0.040994940698146826,
+      "clswise_iou_Clutter": 0.49090161085128775,
+      "clswise_iou_Building": 0.8165655028820037,
+      "clswise_iou_Road": 0.6668065199442206,
+      "clswise_iou_Car": 0.45030093498528007,
+      "clswise_iou_Tree": 0.6985902342200279,
+      "clswise_iou_Vegetation": 0.5295074225962162,
+      "clswise_iou_Human": 0.0001237861502522719,
+      "dice": 0.8285876071453095,
+      "loss": 0.4990586560964583
+    }
+  ],
+  "epoch_62": [
+    "logs\\checkpoints/train.63.pth",
+    0.8216330409049987,
+    {
+      "loss_dice": 0.17836695909500122,
+      "loss_iou": 0.2957728183269501,
+      "loss_focal": 0.0449619572982192,
+      "clswise_iou_Clutter": 0.49202380597591394,
+      "clswise_iou_Building": 0.8183701658248902,
+      "clswise_iou_Road": 0.6656667131371797,
+      "clswise_iou_Car": 0.4791855274140833,
+      "clswise_iou_Tree": 0.6813988503813743,
+      "clswise_iou_Vegetation": 0.5245168732106688,
+      "clswise_iou_Human": 0.00014667788920633032,
+      "dice": 0.8216330409049987,
+      "loss": 0.5191017317771912
+    }
+  ],
+  "epoch_63": [
+    "logs\\checkpoints/train.64.pth",
+    0.8159472525119781,
+    {
+      "loss_dice": 0.1840527474880218,
+      "loss_iou": 0.30309834361076365,
+      "loss_focal": 0.04848289448767901,
+      "clswise_iou_Clutter": 0.48507929652929316,
+      "clswise_iou_Building": 0.8090256214141844,
+      "clswise_iou_Road": 0.6733062048628927,
+      "clswise_iou_Car": 0.4800903195142745,
+      "clswise_iou_Tree": 0.6840318778157234,
+      "clswise_iou_Vegetation": 0.4945898602157831,
+      "clswise_iou_Human": 7.910132269444147e-05,
+      "dice": 0.8159472525119781,
+      "loss": 0.5356339845061301
+    }
+  ],
+  "epoch_64": [
+    "logs\\checkpoints/train.65.pth",
+    0.8164988005161284,
+    {
+      "loss_dice": 0.18350119948387145,
+      "loss_iou": 0.3052322459220886,
+      "loss_focal": 0.04688208308070898,
+      "clswise_iou_Clutter": 0.4315569660067558,
+      "clswise_iou_Building": 0.7906406623125073,
+      "clswise_iou_Road": 0.661788996281102,
+      "clswise_iou_Car": 0.46854128822684293,
+      "clswise_iou_Tree": 0.6943719363212585,
+      "clswise_iou_Vegetation": 0.5167056577652692,
+      "clswise_iou_Human": 0.00011749734332624938,
+      "dice": 0.8164988005161284,
+      "loss": 0.5356155294179916
+    }
+  ],
+  "epoch_65": [
+    "logs\\checkpoints/train.66.pth",
+    0.8215012848377227,
+    {
+      "loss_dice": 0.17849871516227722,
+      "loss_iou": 0.29528390407562255,
+      "loss_focal": 0.0419872134551406,
+      "clswise_iou_Clutter": 0.4756009870767593,
+      "clswise_iou_Building": 0.8172166347503662,
+      "clswise_iou_Road": 0.6723532859236003,
+      "clswise_iou_Car": 0.46332806527614595,
+      "clswise_iou_Tree": 0.6788851571083069,
+      "clswise_iou_Vegetation": 0.5231432954967022,
+      "clswise_iou_Human": 0.00011415278957429114,
+      "dice": 0.8215012848377227,
+      "loss": 0.5157698345184326
+    }
+  ],
+  "epoch_66": [
+    "logs\\checkpoints/train.67.pth",
+    0.8249608433246611,
+    {
+      "loss_dice": 0.17503915667533876,
+      "loss_iou": 0.29156262516975395,
+      "loss_focal": 0.04434743445366622,
+      "clswise_iou_Clutter": 0.46812459170818327,
+      "clswise_iou_Building": 0.8244118010997772,
+      "clswise_iou_Road": 0.6612771107815203,
+      "clswise_iou_Car": 0.4847721539437771,
+      "clswise_iou_Tree": 0.6908836978673935,
+      "clswise_iou_Vegetation": 0.524774263948202,
+      "clswise_iou_Human": 0.0001032493862294359,
+      "dice": 0.8249608433246611,
+      "loss": 0.5109492191672326
+    }
+  ],
+  "epoch_67": [
+    "logs\\checkpoints/train.68.pth",
+    0.8017185401916506,
+    {
+      "loss_dice": 0.19828145980834969,
+      "loss_iou": 0.3232467842102051,
+      "loss_focal": 0.05085889706388115,
+      "clswise_iou_Clutter": 0.4023526555299759,
+      "clswise_iou_Building": 0.8048243081569674,
+      "clswise_iou_Road": 0.6331403519026934,
+      "clswise_iou_Car": 0.4786527918279171,
+      "clswise_iou_Tree": 0.6302033323049541,
+      "clswise_iou_Vegetation": 0.5142723403871059,
+      "clswise_iou_Human": 0.00027486578183015813,
+      "dice": 0.8017185401916506,
+      "loss": 0.5723871406912805
+    }
+  ],
+  "epoch_68": [
+    "logs\\checkpoints/train.69.pth",
+    0.8278739786148069,
+    {
+      "loss_dice": 0.17212602138519284,
+      "loss_iou": 0.2872720754146576,
+      "loss_focal": 0.043818337153643375,
+      "clswise_iou_Clutter": 0.47492243379354476,
+      "clswise_iou_Building": 0.820628513097763,
+      "clswise_iou_Road": 0.6716629425063728,
+      "clswise_iou_Car": 0.47504430398344993,
+      "clswise_iou_Tree": 0.6961593255400658,
+      "clswise_iou_Vegetation": 0.5265966503322125,
+      "clswise_iou_Human": 0.00015949179420204017,
+      "dice": 0.8278739786148069,
+      "loss": 0.5032164365053178
+    }
+  ],
+  "epoch_69": [
+    "logs\\checkpoints/train.70.pth",
+    0.8258033478260042,
+    {
+      "loss_dice": 0.174196652173996,
+      "loss_iou": 0.29005812048912044,
+      "loss_focal": 0.042513530161231765,
+      "clswise_iou_Clutter": 0.467767666876316,
+      "clswise_iou_Building": 0.8232675921916961,
+      "clswise_iou_Road": 0.6674473598226904,
+      "clswise_iou_Car": 0.4652860684692859,
+      "clswise_iou_Tree": 0.6907177597284316,
+      "clswise_iou_Vegetation": 0.5023789344727992,
+      "clswise_iou_Human": 0.0001408303593052551,
+      "dice": 0.8258033478260042,
+      "loss": 0.5067683050036429
+    }
+  ],
+  "epoch_70": [
+    "logs\\checkpoints/train.71.pth",
+    0.8182081079483033,
+    {
+      "loss_dice": 0.18179189205169677,
+      "loss_iou": 0.30087859869003303,
+      "loss_focal": 0.04643566619604825,
+      "clswise_iou_Clutter": 0.4562800624966622,
+      "clswise_iou_Building": 0.8232031226158145,
+      "clswise_iou_Road": 0.6532221083901821,
+      "clswise_iou_Car": 0.45098858892917637,
+      "clswise_iou_Tree": 0.6775838792324066,
+      "clswise_iou_Vegetation": 0.48733217887580393,
+      "clswise_iou_Human": 0.00013360478060349125,
+      "dice": 0.8182081079483033,
+      "loss": 0.529106155335903
+    }
+  ],
+  "epoch_71": [
+    "logs\\checkpoints/train.72.pth",
+    0.8295246410369872,
+    {
+      "loss_dice": 0.1704753589630127,
+      "loss_iou": 0.2850173473358155,
+      "loss_focal": 0.04168723501265048,
+      "clswise_iou_Clutter": 0.4753997179865838,
+      "clswise_iou_Building": 0.8276501810550689,
+      "clswise_iou_Road": 0.6716264095157385,
+      "clswise_iou_Car": 0.4716695863008499,
+      "clswise_iou_Tree": 0.6925000840425495,
+      "clswise_iou_Vegetation": 0.534082275032997,
+      "clswise_iou_Human": 0.00020075972399354215,
+      "dice": 0.8295246410369872,
+      "loss": 0.4971799388527871
+    }
+  ],
+  "epoch_72": [
+    "logs\\checkpoints/train.73.pth",
+    0.8227932512760163,
+    {
+      "loss_dice": 0.17720674872398373,
+      "loss_iou": 0.2938795614242554,
+      "loss_focal": 0.047092037051916114,
+      "clswise_iou_Clutter": 0.44804069936275476,
+      "clswise_iou_Building": 0.8200531554222107,
+      "clswise_iou_Road": 0.6756227920576929,
+      "clswise_iou_Car": 0.4845679992437362,
+      "clswise_iou_Tree": 0.6870103803277013,
+      "clswise_iou_Vegetation": 0.4912770369648934,
+      "clswise_iou_Human": 0.00014205609048076442,
+      "dice": 0.8227932512760163,
+      "loss": 0.5181783434748651
+    }
+  ],
+  "epoch_73": [
+    "logs\\checkpoints/train.74.pth",
+    0.8284117937088014,
+    {
+      "loss_dice": 0.1715882062911987,
+      "loss_iou": 0.286245402097702,
+      "loss_focal": 0.04338984040543435,
+      "clswise_iou_Clutter": 0.49466567307710646,
+      "clswise_iou_Building": 0.827543113231659,
+      "clswise_iou_Road": 0.6703873649798335,
+      "clswise_iou_Car": 0.47106223538517955,
+      "clswise_iou_Tree": 0.6906349679827692,
+      "clswise_iou_Vegetation": 0.5254170239716769,
+      "clswise_iou_Human": 0.00015447574106474348,
+      "dice": 0.8284117937088014,
+      "loss": 0.5012234476208687
+    }
+  ],
+  "epoch_74": [
+    "logs\\checkpoints/train.75.pth",
+    0.8259723007678985,
+    {
+      "loss_dice": 0.1740276992321014,
+      "loss_iou": 0.28993666529655465,
+      "loss_focal": 0.04274362925440072,
+      "clswise_iou_Clutter": 0.47798044115304944,
+      "clswise_iou_Building": 0.8176367568969726,
+      "clswise_iou_Road": 0.6643491860106587,
+      "clswise_iou_Car": 0.4637337164580821,
+      "clswise_iou_Tree": 0.6853927645087241,
+      "clswise_iou_Vegetation": 0.5129271700233222,
+      "clswise_iou_Human": 0.00011319417147660713,
+      "dice": 0.8259723007678985,
+      "loss": 0.5067079985141754
+    }
+  ],
+  "epoch_75": [
+    "logs\\checkpoints/train.76.pth",
+    0.8251224982738495,
+    {
+      "loss_dice": 0.1748775017261505,
+      "loss_iou": 0.2909661829471588,
+      "loss_focal": 0.042860683593899024,
+      "clswise_iou_Clutter": 0.4862927857041359,
+      "clswise_iou_Building": 0.8151841223239901,
+      "clswise_iou_Road": 0.6698106077685952,
+      "clswise_iou_Car": 0.4735238799452782,
+      "clswise_iou_Tree": 0.6945301342010499,
+      "clswise_iou_Vegetation": 0.5149642875790594,
+      "clswise_iou_Human": 0.000145196932626277,
+      "dice": 0.8251224982738495,
+      "loss": 0.5087043705582618
+    }
+  ],
+  "epoch_76": [
+    "logs\\checkpoints/train.77.pth",
+    0.8256032359600068,
+    {
+      "loss_dice": 0.17439676403999332,
+      "loss_iou": 0.28965127825736997,
+      "loss_focal": 0.04680793451145292,
+      "clswise_iou_Clutter": 0.4922275066375732,
+      "clswise_iou_Building": 0.8212357223033907,
+      "clswise_iou_Road": 0.6704176166839896,
+      "clswise_iou_Car": 0.47541357107460497,
+      "clswise_iou_Tree": 0.68453539788723,
+      "clswise_iou_Vegetation": 0.5258184544742106,
+      "clswise_iou_Human": 0.00012994936802670053,
+      "dice": 0.8256032359600068,
+      "loss": 0.5108559754490853
+    }
+  ],
+  "epoch_77": [
+    "logs\\checkpoints/train.78.pth",
+    0.8339188635349271,
+    {
+      "loss_dice": 0.1660811364650726,
+      "loss_iou": 0.27931856036186214,
+      "loss_focal": 0.04259989419952035,
+      "clswise_iou_Clutter": 0.48991966366767886,
+      "clswise_iou_Building": 0.8263942825794222,
+      "clswise_iou_Road": 0.678818923207,
+      "clswise_iou_Car": 0.4803833797574043,
+      "clswise_iou_Tree": 0.6928294906020166,
+      "clswise_iou_Vegetation": 0.5351753516495229,
+      "clswise_iou_Human": 0.00011222889863347519,
+      "dice": 0.8339188635349271,
+      "loss": 0.48799959182739244
+    }
+  ],
+  "epoch_78": [
+    "logs\\checkpoints/train.79.pth",
+    0.8271831345558167,
+    {
+      "loss_dice": 0.17281686544418334,
+      "loss_iou": 0.2880379545688629,
+      "loss_focal": 0.04297359555959702,
+      "clswise_iou_Clutter": 0.4745662575960159,
+      "clswise_iou_Building": 0.8189979350566865,
+      "clswise_iou_Road": 0.6700232113339007,
+      "clswise_iou_Car": 0.4728544721007348,
+      "clswise_iou_Tree": 0.688895808160305,
+      "clswise_iou_Vegetation": 0.5346655447781086,
+      "clswise_iou_Human": 0.0001406083178153494,
+      "dice": 0.8271831345558167,
+      "loss": 0.5038284131884576
+    }
+  ],
+  "epoch_79": [
+    "logs\\checkpoints/train.80.pth",
+    0.81367826461792,
+    {
+      "loss_dice": 0.1863217353820801,
+      "loss_iou": 0.30600914001464846,
+      "loss_focal": 0.053240545615553865,
+      "clswise_iou_Clutter": 0.4744601291418075,
+      "clswise_iou_Building": 0.8071969401836394,
+      "clswise_iou_Road": 0.6576729525066913,
+      "clswise_iou_Car": 0.4625925922393799,
+      "clswise_iou_Tree": 0.673206027150154,
+      "clswise_iou_Vegetation": 0.44803047016263015,
+      "clswise_iou_Human": 0.00021892703374760454,
+      "dice": 0.81367826461792,
+      "loss": 0.5455714219808578
+    }
+  ],
+  "epoch_80": [
+    "logs\\checkpoints/train.81.pth",
+    0.8240597951412201,
+    {
+      "loss_dice": 0.1759402048587799,
+      "loss_iou": 0.292345563173294,
+      "loss_focal": 0.04797819025814533,
+      "clswise_iou_Clutter": 0.4506563794612885,
+      "clswise_iou_Building": 0.8265357995033262,
+      "clswise_iou_Road": 0.651673080455512,
+      "clswise_iou_Car": 0.4912954753637313,
+      "clswise_iou_Tree": 0.6972843885421751,
+      "clswise_iou_Vegetation": 0.4865615187585353,
+      "clswise_iou_Human": 0.00017919456684467152,
+      "dice": 0.8240597951412201,
+      "loss": 0.516263957619667
+    }
+  ],
+  "epoch_81": [
+    "logs\\checkpoints/train.82.pth",
+    0.8302676188945769,
+    {
+      "loss_dice": 0.1697323811054229,
+      "loss_iou": 0.28393669247627257,
+      "loss_focal": 0.042850350309163336,
+      "clswise_iou_Clutter": 0.49023516923189164,
+      "clswise_iou_Building": 0.8282338488101959,
+      "clswise_iou_Road": 0.6794992470927534,
+      "clswise_iou_Car": 0.5014207249879838,
+      "clswise_iou_Tree": 0.6872684839367866,
+      "clswise_iou_Vegetation": 0.5302045741677286,
+      "clswise_iou_Human": 0.00016243061152636064,
+      "dice": 0.8302676188945769,
+      "loss": 0.49651942461729043
+    }
+  ],
+  "epoch_82": [
+    "logs\\checkpoints/train.83.pth",
+    0.8291257083415986,
+    {
+      "loss_dice": 0.17087429165840146,
+      "loss_iou": 0.28532400846481326,
+      "loss_focal": 0.04460141442716121,
+      "clswise_iou_Clutter": 0.4859518197178839,
+      "clswise_iou_Building": 0.8272810256481172,
+      "clswise_iou_Road": 0.6795152145251631,
+      "clswise_iou_Car": 0.46764116987586024,
+      "clswise_iou_Tree": 0.6949374824762345,
+      "clswise_iou_Vegetation": 0.5174344334006309,
+      "clswise_iou_Human": 0.00017981805060117035,
+      "dice": 0.8291257083415986,
+      "loss": 0.5007997149229049
+    }
+  ],
+  "epoch_83": [
+    "logs\\checkpoints/train.84.pth",
+    0.82897066116333,
+    {
+      "loss_dice": 0.17102933883666988,
+      "loss_iou": 0.2854615271091461,
+      "loss_focal": 0.044621177874505515,
+      "clswise_iou_Clutter": 0.4782801240682602,
+      "clswise_iou_Building": 0.8252772307395937,
+      "clswise_iou_Road": 0.6709207832068205,
+      "clswise_iou_Car": 0.482134567797184,
+      "clswise_iou_Tree": 0.6950470191240311,
+      "clswise_iou_Vegetation": 0.520671321041882,
+      "clswise_iou_Human": 0.00014391939139386524,
+      "dice": 0.82897066116333,
+      "loss": 0.5011120423674583
+    }
+  ],
+  "epoch_84": [
+    "logs\\checkpoints/train.85.pth",
+    0.8259227979183198,
+    {
+      "loss_dice": 0.1740772020816803,
+      "loss_iou": 0.28986747980117805,
+      "loss_focal": 0.04398384341970086,
+      "clswise_iou_Clutter": 0.4996974277496337,
+      "clswise_iou_Building": 0.8300439047813419,
+      "clswise_iou_Road": 0.6752321630716325,
+      "clswise_iou_Car": 0.4811575093120336,
+      "clswise_iou_Tree": 0.6696204403042791,
+      "clswise_iou_Vegetation": 0.5277029420435427,
+      "clswise_iou_Human": 0.00010287354067259002,
+      "dice": 0.8259227979183198,
+      "loss": 0.5079285269975662
+    }
+  ],
+  "epoch_85": [
+    "logs\\checkpoints/train.86.pth",
+    0.8280849993228913,
+    {
+      "loss_dice": 0.17191500067710874,
+      "loss_iou": 0.28715141057968147,
+      "loss_focal": 0.04480732971802355,
+      "clswise_iou_Clutter": 0.4604649926722049,
+      "clswise_iou_Building": 0.823968768119812,
+      "clswise_iou_Road": 0.6706650706753132,
+      "clswise_iou_Car": 0.4956834875047207,
+      "clswise_iou_Tree": 0.6922277355194093,
+      "clswise_iou_Vegetation": 0.5247488705813885,
+      "clswise_iou_Human": 0.0001598833861498861,
+      "dice": 0.8280849993228913,
+      "loss": 0.5038737443089486
+    }
+  ],
+  "epoch_86": [
+    "logs\\checkpoints/train.87.pth",
+    0.8321839416027067,
+    {
+      "loss_dice": 0.16781605839729308,
+      "loss_iou": 0.28092450380325323,
+      "loss_focal": 0.04473601514473558,
+      "clswise_iou_Clutter": 0.5048355281352995,
+      "clswise_iou_Building": 0.8271528756618501,
+      "clswise_iou_Road": 0.6788985019922257,
+      "clswise_iou_Car": 0.5006777200102805,
+      "clswise_iou_Tree": 0.6987851774692536,
+      "clswise_iou_Vegetation": 0.5128752719610928,
+      "clswise_iou_Human": 0.00013250210420665098,
+      "dice": 0.8321839416027067,
+      "loss": 0.49347657829523084
+    }
+  ],
+  "epoch_87": [
+    "logs\\checkpoints/train.88.pth",
+    0.8271970999240875,
+    {
+      "loss_dice": 0.17280290007591245,
+      "loss_iou": 0.2879789245128631,
+      "loss_focal": 0.04404015792533756,
+      "clswise_iou_Clutter": 0.4856734088063239,
+      "clswise_iou_Building": 0.8282067525386809,
+      "clswise_iou_Road": 0.6771529710479081,
+      "clswise_iou_Car": 0.4852812542766333,
+      "clswise_iou_Tree": 0.6864278909564018,
+      "clswise_iou_Vegetation": 0.528074635863304,
+      "clswise_iou_Human": 0.00014378736684193428,
+      "dice": 0.8271970999240875,
+      "loss": 0.5048219850659372
+    }
+  ],
+  "epoch_88": [
+    "logs\\checkpoints/train.89.pth",
+    0.8248579883575441,
+    {
+      "loss_dice": 0.17514201164245605,
+      "loss_iou": 0.29028553128242485,
+      "loss_focal": 0.047721707466989755,
+      "clswise_iou_Clutter": 0.4688250899314881,
+      "clswise_iou_Building": 0.8181824946403503,
+      "clswise_iou_Road": 0.6796068314649163,
+      "clswise_iou_Car": 0.4914946214854719,
+      "clswise_iou_Tree": 0.6883081704378128,
+      "clswise_iou_Vegetation": 0.5175584247708321,
+      "clswise_iou_Human": 0.00017260687680391122,
+      "dice": 0.8248579883575441,
+      "loss": 0.5131492525339125
+    }
+  ],
+  "epoch_89": [
+    "logs\\checkpoints/train.90.pth",
+    0.8284319567680358,
+    {
+      "loss_dice": 0.17156804323196412,
+      "loss_iou": 0.2867226839065552,
+      "loss_focal": 0.04725949209183455,
+      "clswise_iou_Clutter": 0.4985722452402115,
+      "clswise_iou_Building": 0.8251743566989899,
+      "clswise_iou_Road": 0.6739053464215248,
+      "clswise_iou_Car": 0.4577645474299788,
+      "clswise_iou_Tree": 0.6860217851400376,
+      "clswise_iou_Vegetation": 0.5297793976962567,
+      "clswise_iou_Human": 0.00016809378306788855,
+      "dice": 0.8284319567680358,
+      "loss": 0.5055502203106879
+    }
+  ],
+  "epoch_90": [
+    "logs\\checkpoints/train.91.pth",
+    0.8299012339115144,
+    {
+      "loss_dice": 0.1700987660884857,
+      "loss_iou": 0.28360872149467464,
+      "loss_focal": 0.04296823984012006,
+      "clswise_iou_Clutter": 0.4975880897045136,
+      "clswise_iou_Building": 0.8262590873241423,
+      "clswise_iou_Road": 0.6777146265096964,
+      "clswise_iou_Car": 0.49343895733356474,
+      "clswise_iou_Tree": 0.6890420523285865,
+      "clswise_iou_Vegetation": 0.5351068156957626,
+      "clswise_iou_Human": 0.0001643753710959573,
+      "dice": 0.8299012339115144,
+      "loss": 0.496675729751587
+    }
+  ],
+  "epoch_91": [
+    "logs\\checkpoints/train.92.pth",
+    0.8323616051673889,
+    {
+      "loss_dice": 0.16763839483261106,
+      "loss_iou": 0.28073786139488227,
+      "loss_focal": 0.042677298355847604,
+      "clswise_iou_Clutter": 0.49528233140707023,
+      "clswise_iou_Building": 0.8272461271286012,
+      "clswise_iou_Road": 0.6749155905097725,
+      "clswise_iou_Car": 0.4958313907682896,
+      "clswise_iou_Tree": 0.6984598019719124,
+      "clswise_iou_Vegetation": 0.5314437139779329,
+      "clswise_iou_Human": 0.00015577118032524592,
+      "dice": 0.8323616051673889,
+      "loss": 0.49105355501174913
+    }
+  ],
+  "epoch_92": [
+    "logs\\checkpoints/train.93.pth",
+    0.8324473011493684,
+    {
+      "loss_dice": 0.1675526988506317,
+      "loss_iou": 0.2807102322578431,
+      "loss_focal": 0.044583582952618606,
+      "clswise_iou_Clutter": 0.4610402753949166,
+      "clswise_iou_Building": 0.8273100197315216,
+      "clswise_iou_Road": 0.6749965621344746,
+      "clswise_iou_Car": 0.4731296022236348,
+      "clswise_iou_Tree": 0.7014436048269274,
+      "clswise_iou_Vegetation": 0.5257860848307608,
+      "clswise_iou_Human": 0.00015845541500311816,
+      "dice": 0.8324473011493684,
+      "loss": 0.492846517264843
+    }
+  ],
+  "epoch_93": [
+    "logs\\checkpoints/train.94.pth",
+    0.8365221428871155,
+    {
+      "loss_dice": 0.16347785711288448,
+      "loss_iou": 0.2752389895915985,
+      "loss_focal": 0.043576956335455184,
+      "clswise_iou_Clutter": 0.5070983308553696,
+      "clswise_iou_Building": 0.8340811777114868,
+      "clswise_iou_Road": 0.6831737086176872,
+      "clswise_iou_Car": 0.4811052250862122,
+      "clswise_iou_Tree": 0.7022404044866564,
+      "clswise_iou_Vegetation": 0.5282665977627038,
+      "clswise_iou_Human": 0.0001194367525022244,
+      "dice": 0.8365221428871155,
+      "loss": 0.4822938048839569
+    }
+  ],
+  "epoch_94": [
+    "logs\\checkpoints/train.95.pth",
+    0.829661771059036,
+    {
+      "loss_dice": 0.17033822894096373,
+      "loss_iou": 0.28385603070259097,
+      "loss_focal": 0.04448218552395701,
+      "clswise_iou_Clutter": 0.49864286541938785,
+      "clswise_iou_Building": 0.829204468727112,
+      "clswise_iou_Road": 0.6804663724452259,
+      "clswise_iou_Car": 0.5097830507159231,
+      "clswise_iou_Tree": 0.688842885196209,
+      "clswise_iou_Vegetation": 0.525701988339424,
+      "clswise_iou_Human": 0.00014279030337092987,
+      "dice": 0.829661771059036,
+      "loss": 0.4986764448881149
+    }
+  ],
+  "epoch_95": [
+    "logs\\checkpoints/train.96.pth",
+    0.8339927601814271,
+    {
+      "loss_dice": 0.16600723981857296,
+      "loss_iou": 0.27870465636253355,
+      "loss_focal": 0.04281861342489721,
+      "clswise_iou_Clutter": 0.4967102319002153,
+      "clswise_iou_Building": 0.8328234684467315,
+      "clswise_iou_Road": 0.6813239626586438,
+      "clswise_iou_Car": 0.5024312564730644,
+      "clswise_iou_Tree": 0.6992997413873672,
+      "clswise_iou_Vegetation": 0.5227283975109458,
+      "clswise_iou_Human": 0.00012805064874555684,
+      "dice": 0.8339927601814271,
+      "loss": 0.48753051429986954
+    }
+  ],
+  "epoch_96": [
+    "logs\\checkpoints/train.97.pth",
+    0.8320339775085447,
+    {
+      "loss_dice": 0.1679660224914551,
+      "loss_iou": 0.28086860537528996,
+      "loss_focal": 0.046168757379055035,
+      "clswise_iou_Clutter": 0.4948656043410301,
+      "clswise_iou_Building": 0.8236539614200592,
+      "clswise_iou_Road": 0.6816015638783577,
+      "clswise_iou_Car": 0.5015335530042649,
+      "clswise_iou_Tree": 0.6968442976474761,
+      "clswise_iou_Vegetation": 0.5273936860263347,
+      "clswise_iou_Human": 0.00019081484418165923,
+      "dice": 0.8320339775085447,
+      "loss": 0.4950033852457999
+    }
+  ],
+  "epoch_97": [
+    "logs\\checkpoints/train.98.pth",
+    0.8330557787418366,
+    {
+      "loss_dice": 0.16694422125816347,
+      "loss_iou": 0.2795975649356842,
+      "loss_focal": 0.046479007173329596,
+      "clswise_iou_Clutter": 0.49078439384698874,
+      "clswise_iou_Building": 0.8298462510108947,
+      "clswise_iou_Road": 0.6762858769111335,
+      "clswise_iou_Car": 0.5140602062642573,
+      "clswise_iou_Tree": 0.6956813389062881,
+      "clswise_iou_Vegetation": 0.5413404874503612,
+      "clswise_iou_Human": 0.00014864207070786504,
+      "dice": 0.8330557787418366,
+      "loss": 0.49302079617977146
+    }
+  ],
+  "epoch_98": [
+    "logs\\checkpoints/train.99.pth",
+    0.8322125172615049,
+    {
+      "loss_dice": 0.16778748273849484,
+      "loss_iou": 0.2807323133945465,
+      "loss_focal": 0.045390587002038955,
+      "clswise_iou_Clutter": 0.48355583250522616,
+      "clswise_iou_Building": 0.8349685549736026,
+      "clswise_iou_Road": 0.6780599525384606,
+      "clswise_iou_Car": 0.5110428431630134,
+      "clswise_iou_Tree": 0.699118557870388,
+      "clswise_iou_Vegetation": 0.5336220025271177,
+      "clswise_iou_Human": 0.0001807616098449216,
+      "dice": 0.8322125172615049,
+      "loss": 0.4939103850722314
+    }
+  ],
+  "epoch_99": [
+    "logs\\checkpoints/train.100.pth",
+    0.8282496690750123,
+    {
+      "loss_dice": 0.17175033092498784,
+      "loss_iou": 0.2856011855602265,
+      "loss_focal": 0.046828230731189247,
+      "clswise_iou_Clutter": 0.47529381990432734,
+      "clswise_iou_Building": 0.8189078116416934,
+      "clswise_iou_Road": 0.6819254821166397,
+      "clswise_iou_Car": 0.5097776040434837,
+      "clswise_iou_Tree": 0.6881356990337373,
+      "clswise_iou_Vegetation": 0.5282434581220149,
+      "clswise_iou_Human": 0.00023083376729118749,
+      "dice": 0.8282496690750123,
+      "loss": 0.5041797447204589
+    }
+  ],
+  "epoch_100": [
+    "logs\\checkpoints/train.101.pth",
+    0.8311870980262757,
+    {
+      "loss_dice": 0.1688129019737244,
+      "loss_iou": 0.2820656323432922,
+      "loss_focal": 0.045759550407528875,
+      "clswise_iou_Clutter": 0.49842602133750913,
+      "clswise_iou_Building": 0.8298311555385591,
+      "clswise_iou_Road": 0.6750381105951965,
+      "clswise_iou_Car": 0.5085205441713331,
+      "clswise_iou_Tree": 0.7008105653524399,
+      "clswise_iou_Vegetation": 0.5184477496147156,
+      "clswise_iou_Human": 0.00018293519635335543,
+      "dice": 0.8311870980262757,
+      "loss": 0.49663808345794674
+    }
+  ],
+  "epoch_101": [
+    "logs\\checkpoints/train.102.pth",
+    0.8370153319835665,
+    {
+      "loss_dice": 0.16298466801643371,
+      "loss_iou": 0.2744012820720673,
+      "loss_focal": 0.044143796283751736,
+      "clswise_iou_Clutter": 0.5078437209129334,
+      "clswise_iou_Building": 0.8313686680793761,
+      "clswise_iou_Road": 0.6849674636125563,
+      "clswise_iou_Car": 0.512430374622345,
+      "clswise_iou_Tree": 0.7029322817921639,
+      "clswise_iou_Vegetation": 0.534982315301895,
+      "clswise_iou_Human": 0.00017122768411354625,
+      "dice": 0.8370153319835665,
+      "loss": 0.48152974486351013
+    }
+  ],
+  "epoch_102": [
+    "logs\\checkpoints/train.103.pth",
+    0.8283560407161712,
+    {
+      "loss_dice": 0.1716439592838287,
+      "loss_iou": 0.28554210186004647,
+      "loss_focal": 0.046423431914299734,
+      "clswise_iou_Clutter": 0.49666000962257384,
+      "clswise_iou_Building": 0.8269495952129367,
+      "clswise_iou_Road": 0.6815875537320971,
+      "clswise_iou_Car": 0.48913295507431037,
+      "clswise_iou_Tree": 0.6885404899716379,
+      "clswise_iou_Vegetation": 0.5189360172301531,
+      "clswise_iou_Human": 0.00012733052231851615,
+      "dice": 0.8283560407161712,
+      "loss": 0.5036094966530801
+    }
+  ],
+  "epoch_103": [
+    "logs\\checkpoints/train.104.pth",
+    0.8310089278221129,
+    {
+      "loss_dice": 0.16899107217788692,
+      "loss_iou": 0.28214069843292244,
+      "loss_focal": 0.047124369777739046,
+      "clswise_iou_Clutter": 0.4756380277872087,
+      "clswise_iou_Building": 0.8281152069568635,
+      "clswise_iou_Road": 0.6785894656833262,
+      "clswise_iou_Car": 0.4914238893985749,
+      "clswise_iou_Tree": 0.6964624786376951,
+      "clswise_iou_Vegetation": 0.5303913471102714,
+      "clswise_iou_Human": 0.00016424621713667873,
+      "dice": 0.8310089278221129,
+      "loss": 0.4982561406493187
+    }
+  ],
+  "epoch_104": [
+    "logs\\checkpoints/train.105.pth",
+    0.8345497775077821,
+    {
+      "loss_dice": 0.16545022249221805,
+      "loss_iou": 0.27762689590454104,
+      "loss_focal": 0.04384969677776098,
+      "clswise_iou_Clutter": 0.47757157146930684,
+      "clswise_iou_Building": 0.8311607396602634,
+      "clswise_iou_Road": 0.6803929485380649,
+      "clswise_iou_Car": 0.5053502738475798,
+      "clswise_iou_Tree": 0.7006958407163619,
+      "clswise_iou_Vegetation": 0.5367865335941314,
+      "clswise_iou_Human": 0.000166440442444582,
+      "dice": 0.8345497775077821,
+      "loss": 0.4869268149137498
+    }
+  ],
+  "epoch_105": [
+    "logs\\checkpoints/train.106.pth",
+    0.8326830077171326,
+    {
+      "loss_dice": 0.16731699228286745,
+      "loss_iou": 0.2801401364803313,
+      "loss_focal": 0.044712039753794675,
+      "clswise_iou_Clutter": 0.5046843138337136,
+      "clswise_iou_Building": 0.8273318779468537,
+      "clswise_iou_Road": 0.6846213061735037,
+      "clswise_iou_Car": 0.49825250312685965,
+      "clswise_iou_Tree": 0.698748506307602,
+      "clswise_iou_Vegetation": 0.5388277611136437,
+      "clswise_iou_Human": 0.00017866497412796894,
+      "dice": 0.8326830077171326,
+      "loss": 0.4921691665053368
+    }
+  ],
+  "epoch_106": [
+    "logs\\checkpoints/train.107.pth",
+    0.8345771336555482,
+    {
+      "loss_dice": 0.1654228663444519,
+      "loss_iou": 0.2775723350048066,
+      "loss_focal": 0.04651576131582259,
+      "clswise_iou_Clutter": 0.5051438719034194,
+      "clswise_iou_Building": 0.8324394142627716,
+      "clswise_iou_Road": 0.6818865827098488,
+      "clswise_iou_Car": 0.5119501844048501,
+      "clswise_iou_Tree": 0.703018586039543,
+      "clswise_iou_Vegetation": 0.5367741267383098,
+      "clswise_iou_Human": 0.0001826987766617094,
+      "dice": 0.8345771336555482,
+      "loss": 0.48951096206903455
+    }
+  ],
+  "epoch_107": [
+    "logs\\checkpoints/train.108.pth",
+    0.8386047196388245,
+    {
+      "loss_dice": 0.16139528036117556,
+      "loss_iou": 0.27216682076454163,
+      "loss_focal": 0.04416284181177616,
+      "clswise_iou_Clutter": 0.5024071735143661,
+      "clswise_iou_Building": 0.8364757549762725,
+      "clswise_iou_Road": 0.6883670766092839,
+      "clswise_iou_Car": 0.515399361848831,
+      "clswise_iou_Tree": 0.7045488870143891,
+      "clswise_iou_Vegetation": 0.5360309824347496,
+      "clswise_iou_Human": 0.00016999103148918952,
+      "dice": 0.8386047196388245,
+      "loss": 0.47772494345903393
+    }
+  ],
+  "epoch_108": [
+    "logs\\checkpoints/train.109.pth",
+    0.8354940605163576,
+    {
+      "loss_dice": 0.1645059394836426,
+      "loss_iou": 0.2757112336158753,
+      "loss_focal": 0.04583661254495382,
+      "clswise_iou_Clutter": 0.5062250778079034,
+      "clswise_iou_Building": 0.8352535200119018,
+      "clswise_iou_Road": 0.6903881905786695,
+      "clswise_iou_Car": 0.5222943434119225,
+      "clswise_iou_Tree": 0.7013017314672468,
+      "clswise_iou_Vegetation": 0.5317262253165246,
+      "clswise_iou_Human": 0.00015527482246397996,
+      "dice": 0.8354940605163576,
+      "loss": 0.4860537862777709
+    }
+  ],
+  "epoch_109": [
+    "logs\\checkpoints/train.110.pth",
+    0.8335190391540528,
+    {
+      "loss_dice": 0.16648096084594727,
+      "loss_iou": 0.27877715229988104,
+      "loss_focal": 0.04478441258892417,
+      "clswise_iou_Clutter": 0.49492911726236344,
+      "clswise_iou_Building": 0.8329318273067471,
+      "clswise_iou_Road": 0.688352232798934,
+      "clswise_iou_Car": 0.5130499377846719,
+      "clswise_iou_Tree": 0.7052157911658284,
+      "clswise_iou_Vegetation": 0.509899299889803,
+      "clswise_iou_Human": 0.0001677703487803228,
+      "dice": 0.8335190391540528,
+      "loss": 0.49004252463579173
+    }
+  ],
+  "epoch_110": [
+    "logs\\checkpoints/train.111.pth",
+    0.8359472608566284,
+    {
+      "loss_dice": 0.1640527391433716,
+      "loss_iou": 0.2756381928920745,
+      "loss_focal": 0.04550860291346909,
+      "clswise_iou_Clutter": 0.4917591702938079,
+      "clswise_iou_Building": 0.8335672497749327,
+      "clswise_iou_Road": 0.6844757187552751,
+      "clswise_iou_Car": 0.5187151882052422,
+      "clswise_iou_Tree": 0.7035740911960603,
+      "clswise_iou_Vegetation": 0.5240131316334009,
+      "clswise_iou_Human": 0.00020097526896279303,
+      "dice": 0.8359472608566284,
+      "loss": 0.48519953072071076
+    }
+  ],
+  "epoch_111": [
+    "logs\\checkpoints/train.112.pth",
+    0.8363831293582915,
+    {
+      "loss_dice": 0.16361687064170838,
+      "loss_iou": 0.27505489230155955,
+      "loss_focal": 0.04440466923639179,
+      "clswise_iou_Clutter": 0.4884392818808555,
+      "clswise_iou_Building": 0.8331596374511718,
+      "clswise_iou_Road": 0.6843199991062284,
+      "clswise_iou_Car": 0.5125473399460315,
+      "clswise_iou_Tree": 0.7043070280551911,
+      "clswise_iou_Vegetation": 0.5418444757163523,
+      "clswise_iou_Human": 0.00015981172095052895,
+      "dice": 0.8363831293582915,
+      "loss": 0.4830764320492745
+    }
+  ],
+  "epoch_112": [
+    "logs\\checkpoints/train.113.pth",
+    0.8338772881031036,
+    {
+      "loss_dice": 0.1661227118968964,
+      "loss_iou": 0.27835065722465524,
+      "loss_focal": 0.04601215755566956,
+      "clswise_iou_Clutter": 0.4859972801804543,
+      "clswise_iou_Building": 0.8344900238513948,
+      "clswise_iou_Road": 0.6807272372487934,
+      "clswise_iou_Car": 0.5165443885326384,
+      "clswise_iou_Tree": 0.7027047500014305,
+      "clswise_iou_Vegetation": 0.5382906830310823,
+      "clswise_iou_Human": 0.0002297715806344059,
+      "dice": 0.8338772881031036,
+      "loss": 0.4904855301976204
+    }
+  ],
+  "epoch_113": [
+    "logs\\checkpoints/train.114.pth",
+    0.833464388847351,
+    {
+      "loss_dice": 0.16653561115264892,
+      "loss_iou": 0.27908494472503664,
+      "loss_focal": 0.04690777618438006,
+      "clswise_iou_Clutter": 0.485087015926838,
+      "clswise_iou_Building": 0.8354043912887572,
+      "clswise_iou_Road": 0.679100407063961,
+      "clswise_iou_Car": 0.513365687131882,
+      "clswise_iou_Tree": 0.7046841356158255,
+      "clswise_iou_Vegetation": 0.5299377380311489,
+      "clswise_iou_Human": 0.0002644217757915612,
+      "dice": 0.833464388847351,
+      "loss": 0.49252833008766167
+    }
+  ],
+  "epoch_114": [
+    "logs\\checkpoints/train.115.pth",
+    0.8361553084850311,
+    {
+      "loss_dice": 0.16384469151496883,
+      "loss_iou": 0.27532105684280395,
+      "loss_focal": 0.04732320558279753,
+      "clswise_iou_Clutter": 0.49490339279174805,
+      "clswise_iou_Building": 0.8348487973213198,
+      "clswise_iou_Road": 0.6860576179251074,
+      "clswise_iou_Car": 0.5197833573818207,
+      "clswise_iou_Tree": 0.7095339757204059,
+      "clswise_iou_Vegetation": 0.5298091684281826,
+      "clswise_iou_Human": 0.00022370336133462838,
+      "dice": 0.8361553084850311,
+      "loss": 0.4864889514446259
+    }
+  ],
+  "epoch_115": [
+    "logs\\checkpoints/train.116.pth",
+    0.837940539121628,
+    {
+      "loss_dice": 0.1620594608783722,
+      "loss_iou": 0.2728393018245698,
+      "loss_focal": 0.04437997641041875,
+      "clswise_iou_Clutter": 0.5005870857834817,
+      "clswise_iou_Building": 0.8387693929672241,
+      "clswise_iou_Road": 0.6876450809277597,
+      "clswise_iou_Car": 0.5226696202158928,
+      "clswise_iou_Tree": 0.7045719662308693,
+      "clswise_iou_Vegetation": 0.5476143884658813,
+      "clswise_iou_Human": 0.00023550284080556591,
+      "dice": 0.837940539121628,
+      "loss": 0.47927873998880394
+    }
+  ],
+  "epoch_116": [
+    "logs\\checkpoints/train.117.pth",
+    0.8368804514408112,
+    {
+      "loss_dice": 0.16311954855918878,
+      "loss_iou": 0.2742687594890594,
+      "loss_focal": 0.046373066380620005,
+      "clswise_iou_Clutter": 0.49416226297616955,
+      "clswise_iou_Building": 0.8370938372611999,
+      "clswise_iou_Road": 0.6869181902520357,
+      "clswise_iou_Car": 0.5157210536301139,
+      "clswise_iou_Tree": 0.7051952242851258,
+      "clswise_iou_Vegetation": 0.5385157109051942,
+      "clswise_iou_Human": 0.00022957628450967596,
+      "dice": 0.8368804514408112,
+      "loss": 0.48376137554645543
+    }
+  ],
+  "epoch_117": [
+    "logs\\checkpoints/train.118.pth",
+    0.8375156152248382,
+    {
+      "loss_dice": 0.1624843847751617,
+      "loss_iou": 0.27332399249076844,
+      "loss_focal": 0.04533123603090644,
+      "clswise_iou_Clutter": 0.49828538149595264,
+      "clswise_iou_Building": 0.8349854958057402,
+      "clswise_iou_Road": 0.6874149525910617,
+      "clswise_iou_Car": 0.518194936811924,
+      "clswise_iou_Tree": 0.7031297969818114,
+      "clswise_iou_Vegetation": 0.5482511211931707,
+      "clswise_iou_Human": 0.00020765916058735454,
+      "dice": 0.8375156152248382,
+      "loss": 0.4811396190524102
+    }
+  ],
+  "epoch_118": [
+    "logs\\checkpoints/train.119.pth",
+    0.8372035849094389,
+    {
+      "loss_dice": 0.16279641509056095,
+      "loss_iou": 0.2735305571556092,
+      "loss_focal": 0.046561227664351466,
+      "clswise_iou_Clutter": 0.49445402950048434,
+      "clswise_iou_Building": 0.8337960612773896,
+      "clswise_iou_Road": 0.6870912078768018,
+      "clswise_iou_Car": 0.5123442512005567,
+      "clswise_iou_Tree": 0.7041549795866011,
+      "clswise_iou_Vegetation": 0.5435749658942222,
+      "clswise_iou_Human": 0.0002154299204994458,
+      "dice": 0.8372035849094389,
+      "loss": 0.4828881961107254
+    }
+  ],
+  "epoch_119": [
+    "logs\\checkpoints/train.120.pth",
+    0.833302515745163,
+    {
+      "loss_dice": 0.16669748425483702,
+      "loss_iou": 0.2786683106422424,
+      "loss_focal": 0.04723876386880875,
+      "clswise_iou_Clutter": 0.5033628857135771,
+      "clswise_iou_Building": 0.8346727502346037,
+      "clswise_iou_Road": 0.6892548091523351,
+      "clswise_iou_Car": 0.5138853903114797,
+      "clswise_iou_Tree": 0.6929958117008207,
+      "clswise_iou_Vegetation": 0.5398341745138167,
+      "clswise_iou_Human": 0.00021918038182775488,
+      "dice": 0.833302515745163,
+      "loss": 0.4926045554876328
+    }
+  ],
+  "epoch_120": [
+    "logs\\checkpoints/train.121.pth",
+    0.8338412380218505,
+    {
+      "loss_dice": 0.16615876197814933,
+      "loss_iou": 0.2780424726009368,
+      "loss_focal": 0.04506169443950057,
+      "clswise_iou_Clutter": 0.5038641300797463,
+      "clswise_iou_Building": 0.833730591535568,
+      "clswise_iou_Road": 0.6880725908838214,
+      "clswise_iou_Car": 0.5099598786979912,
+      "clswise_iou_Tree": 0.6900466442108153,
+      "clswise_iou_Vegetation": 0.5421338235586883,
+      "clswise_iou_Human": 0.0002559730802749983,
+      "dice": 0.8338412380218505,
+      "loss": 0.4892629283666611
+    }
+  ],
+  "epoch_121": [
+    "logs\\checkpoints/train.122.pth",
+    0.8318603217601777,
+    {
+      "loss_dice": 0.16813967823982237,
+      "loss_iou": 0.28083809018135075,
+      "loss_focal": 0.046096016112715,
+      "clswise_iou_Clutter": 0.4969746607542038,
+      "clswise_iou_Building": 0.8334355926513675,
+      "clswise_iou_Road": 0.6825129497610033,
+      "clswise_iou_Car": 0.503753063734621,
+      "clswise_iou_Tree": 0.7001095005869865,
+      "clswise_iou_Vegetation": 0.5202384413778781,
+      "clswise_iou_Human": 0.00031106524802453344,
+      "dice": 0.8318603217601777,
+      "loss": 0.49507377952337267
+    }
+  ],
+  "epoch_122": [
+    "logs\\checkpoints/train.123.pth",
+    0.8315376043319703,
+    {
+      "loss_dice": 0.16846239566802979,
+      "loss_iou": 0.2809839582443237,
+      "loss_focal": 0.045877515822648984,
+      "clswise_iou_Clutter": 0.4991137239336968,
+      "clswise_iou_Building": 0.8335554420948027,
+      "clswise_iou_Road": 0.6841849479079244,
+      "clswise_iou_Car": 0.5083504098653794,
+      "clswise_iou_Tree": 0.6924046128988266,
+      "clswise_iou_Vegetation": 0.5361872367560865,
+      "clswise_iou_Human": 0.00022186208261700818,
+      "dice": 0.8315376043319703,
+      "loss": 0.4953238698840141
+    }
+  ],
+  "epoch_123": [
+    "logs\\checkpoints/train.124.pth",
+    0.8351157450675961,
+    {
+      "loss_dice": 0.16488425493240352,
+      "loss_iou": 0.27617535829544076,
+      "loss_focal": 0.04515310337767006,
+      "clswise_iou_Clutter": 0.5028884679079056,
+      "clswise_iou_Building": 0.8359868013858796,
+      "clswise_iou_Road": 0.6917871268466114,
+      "clswise_iou_Car": 0.516143822968006,
+      "clswise_iou_Tree": 0.697182486355305,
+      "clswise_iou_Vegetation": 0.5324922912567852,
+      "clswise_iou_Human": 0.00022717234045558136,
+      "dice": 0.8351157450675961,
+      "loss": 0.48621271789073933
+    }
+  ],
+  "epoch_124": [
+    "logs\\checkpoints/train.125.pth",
+    0.8372630524635314,
+    {
+      "loss_dice": 0.16273694753646856,
+      "loss_iou": 0.2734418582916259,
+      "loss_focal": 0.044002360943704855,
+      "clswise_iou_Clutter": 0.5075825855135918,
+      "clswise_iou_Building": 0.837159458398819,
+      "clswise_iou_Road": 0.6929136402532461,
+      "clswise_iou_Car": 0.5141499972343444,
+      "clswise_iou_Tree": 0.7037411940097809,
+      "clswise_iou_Vegetation": 0.5366060146689415,
+      "clswise_iou_Human": 0.0002113697092863731,
+      "dice": 0.8372630524635314,
+      "loss": 0.4801811617612839
+    }
+  ],
+  "epoch_125": [
+    "logs\\checkpoints/train.126.pth",
+    0.8365966212749479,
+    {
+      "loss_dice": 0.1634033787250519,
+      "loss_iou": 0.27421164751052857,
+      "loss_focal": 0.046288980394601824,
+      "clswise_iou_Clutter": 0.5046145078539847,
+      "clswise_iou_Building": 0.8377154052257536,
+      "clswise_iou_Road": 0.6874083037860693,
+      "clswise_iou_Car": 0.5227250450849532,
+      "clswise_iou_Tree": 0.705116705596447,
+      "clswise_iou_Vegetation": 0.5280923946201802,
+      "clswise_iou_Human": 0.000223603198537603,
+      "dice": 0.8365966212749479,
+      "loss": 0.4839040076732636
+    }
+  ],
+  "epoch_126": [
+    "logs\\checkpoints/train.127.pth",
+    0.8386533415317536,
+    {
+      "loss_dice": 0.1613466584682465,
+      "loss_iou": 0.271731162071228,
+      "loss_focal": 0.04485869217664004,
+      "clswise_iou_Clutter": 0.5067403143644332,
+      "clswise_iou_Building": 0.8375925981998446,
+      "clswise_iou_Road": 0.6879938793368637,
+      "clswise_iou_Car": 0.5192446961998941,
+      "clswise_iou_Tree": 0.7047809064388276,
+      "clswise_iou_Vegetation": 0.5398096096515654,
+      "clswise_iou_Human": 0.00022344905795762312,
+      "dice": 0.8386533415317536,
+      "loss": 0.4779365143179893
+    }
+  ],
+  "epoch_127": [
+    "logs\\checkpoints/train.128.pth",
+    0.8362465727329256,
+    {
+      "loss_dice": 0.16375342726707456,
+      "loss_iou": 0.2749903249740601,
+      "loss_focal": 0.045505014285445206,
+      "clswise_iou_Clutter": 0.49951873987913137,
+      "clswise_iou_Building": 0.8352311229705813,
+      "clswise_iou_Road": 0.6846166274137794,
+      "clswise_iou_Car": 0.507462269961834,
+      "clswise_iou_Tree": 0.7044187799096107,
+      "clswise_iou_Vegetation": 0.5264143811166286,
+      "clswise_iou_Human": 0.0002112569189921487,
+      "dice": 0.8362465727329256,
+      "loss": 0.48424876809120176
+    }
+  ],
+  "epoch_128": [
+    "logs\\checkpoints/train.129.pth",
+    0.8399401557445527,
+    {
+      "loss_dice": 0.16005984425544736,
+      "loss_iou": 0.27000469326972965,
+      "loss_focal": 0.04457271050661802,
+      "clswise_iou_Clutter": 0.5111695194244386,
+      "clswise_iou_Building": 0.8379792726039885,
+      "clswise_iou_Road": 0.6921327962353825,
+      "clswise_iou_Car": 0.5128858397901057,
+      "clswise_iou_Tree": 0.7078591305017473,
+      "clswise_iou_Vegetation": 0.5335661798715591,
+      "clswise_iou_Human": 0.0002031483419341384,
+      "dice": 0.8399401557445527,
+      "loss": 0.47463724792003636
+    }
+  ],
+  "epoch_129": [
+    "logs\\checkpoints/train.130.pth",
+    0.8386622679233549,
+    {
+      "loss_dice": 0.16133773207664492,
+      "loss_iou": 0.27169371962547295,
+      "loss_focal": 0.04613340636715293,
+      "clswise_iou_Clutter": 0.5102639299631121,
+      "clswise_iou_Building": 0.8398875296115874,
+      "clswise_iou_Road": 0.693004863075912,
+      "clswise_iou_Car": 0.5196287329494955,
+      "clswise_iou_Tree": 0.7071666496992108,
+      "clswise_iou_Vegetation": 0.5372411186993122,
+      "clswise_iou_Human": 0.00023285532330191925,
+      "dice": 0.8386622679233549,
+      "loss": 0.47916485980153084
+    }
+  ],
+  "epoch_130": [
+    "logs\\checkpoints/train.131.pth",
+    0.8385743856430053,
+    {
+      "loss_dice": 0.1614256143569946,
+      "loss_iou": 0.2718559098243714,
+      "loss_focal": 0.04695378040894864,
+      "clswise_iou_Clutter": 0.5037344288825989,
+      "clswise_iou_Building": 0.8385247695446016,
+      "clswise_iou_Road": 0.6935211070626975,
+      "clswise_iou_Car": 0.5152873823046683,
+      "clswise_iou_Tree": 0.706308571398258,
+      "clswise_iou_Vegetation": 0.5355577525496484,
+      "clswise_iou_Human": 0.00022786566822105672,
+      "dice": 0.8385743856430053,
+      "loss": 0.4802353021502494
+    }
+  ],
+  "epoch_131": [
+    "logs\\checkpoints/train.132.pth",
+    0.8383924674987794,
+    {
+      "loss_dice": 0.16160753250122067,
+      "loss_iou": 0.2722105705738068,
+      "loss_focal": 0.045240907389670605,
+      "clswise_iou_Clutter": 0.5064032307267189,
+      "clswise_iou_Building": 0.8375577354431153,
+      "clswise_iou_Road": 0.6901805173046885,
+      "clswise_iou_Car": 0.5140531413257122,
+      "clswise_iou_Tree": 0.7035783499479293,
+      "clswise_iou_Vegetation": 0.5441145686805249,
+      "clswise_iou_Human": 0.00022100587417298807,
+      "dice": 0.8383924674987794,
+      "loss": 0.4790590110421181
+    }
+  ],
+  "epoch_132": [
+    "logs\\checkpoints/train.133.pth",
+    0.8396366858482361,
+    {
+      "loss_dice": 0.1603633141517639,
+      "loss_iou": 0.2704237997531891,
+      "loss_focal": 0.04502340110018848,
+      "clswise_iou_Clutter": 0.5071315094828607,
+      "clswise_iou_Building": 0.8369457006454466,
+      "clswise_iou_Road": 0.6910679694265126,
+      "clswise_iou_Car": 0.5131216938793661,
+      "clswise_iou_Tree": 0.7072443413734435,
+      "clswise_iou_Vegetation": 0.5419186800718309,
+      "clswise_iou_Human": 0.000229638241653447,
+      "dice": 0.8396366858482361,
+      "loss": 0.47581051647663114
+    }
+  ],
+  "epoch_133": [
+    "logs\\checkpoints/train.134.pth",
+    0.8374589252471926,
+    {
+      "loss_dice": 0.16254107475280763,
+      "loss_iou": 0.27319124221801755,
+      "loss_focal": 0.04545499760657549,
+      "clswise_iou_Clutter": 0.5088738560676574,
+      "clswise_iou_Building": 0.8373416662216184,
+      "clswise_iou_Road": 0.6910491658002139,
+      "clswise_iou_Car": 0.5118979208171367,
+      "clswise_iou_Tree": 0.7047087237238884,
+      "clswise_iou_Vegetation": 0.5358120048046112,
+      "clswise_iou_Human": 0.00021179841085540836,
+      "dice": 0.8374589252471926,
+      "loss": 0.48118731409311294
+    }
+  ],
+  "epoch_134": [
+    "logs\\checkpoints/train.135.pth",
+    0.8373570024967195,
+    {
+      "loss_dice": 0.16264299750328068,
+      "loss_iou": 0.2733563041687012,
+      "loss_focal": 0.04535314032807945,
+      "clswise_iou_Clutter": 0.5029719433188439,
+      "clswise_iou_Building": 0.8356332397460936,
+      "clswise_iou_Road": 0.6913146012648941,
+      "clswise_iou_Car": 0.5148102620244027,
+      "clswise_iou_Tree": 0.7013500693440438,
+      "clswise_iou_Vegetation": 0.5414518657326699,
+      "clswise_iou_Human": 0.00020384208477480562,
+      "dice": 0.8373570024967195,
+      "loss": 0.4813524395227432
+    }
+  ],
+  "epoch_135": [
+    "logs\\checkpoints/train.136.pth",
+    0.8393276500701901,
+    {
+      "loss_dice": 0.16067234992980955,
+      "loss_iou": 0.27060409069061286,
+      "loss_focal": 0.04566667653620244,
+      "clswise_iou_Clutter": 0.5090240406990052,
+      "clswise_iou_Building": 0.8371270227432253,
+      "clswise_iou_Road": 0.6945557060372086,
+      "clswise_iou_Car": 0.5161986833065749,
+      "clswise_iou_Tree": 0.7045625978708268,
+      "clswise_iou_Vegetation": 0.5422740535438061,
+      "clswise_iou_Human": 0.00021109598055772948,
+      "dice": 0.8393276500701901,
+      "loss": 0.4769431188702583
+    }
+  ],
+  "epoch_136": [
+    "logs\\checkpoints/train.137.pth",
+    0.8390086054801942,
+    {
+      "loss_dice": 0.16099139451980593,
+      "loss_iou": 0.2711187338829042,
+      "loss_focal": 0.04548829298466444,
+      "clswise_iou_Clutter": 0.5052052965760232,
+      "clswise_iou_Building": 0.8388268220424652,
+      "clswise_iou_Road": 0.6926605993974955,
+      "clswise_iou_Car": 0.5169023290276527,
+      "clswise_iou_Tree": 0.7044142913818358,
+      "clswise_iou_Vegetation": 0.5441815216839313,
+      "clswise_iou_Human": 0.0001993395291719935,
+      "dice": 0.8390086054801942,
+      "loss": 0.47759842455387114
+    }
+  ],
+  "epoch_137": [
+    "logs\\checkpoints/train.138.pth",
+    0.8399051928520203,
+    {
+      "loss_dice": 0.1600948071479797,
+      "loss_iou": 0.26994614720344545,
+      "loss_focal": 0.04593119077384473,
+      "clswise_iou_Clutter": 0.5075455701351166,
+      "clswise_iou_Building": 0.8404482996463776,
+      "clswise_iou_Road": 0.6932920459192248,
+      "clswise_iou_Car": 0.523310597538948,
+      "clswise_iou_Tree": 0.7067588311433792,
+      "clswise_iou_Vegetation": 0.5436161556839942,
+      "clswise_iou_Human": 0.00018531163885199926,
+      "dice": 0.8399051928520203,
+      "loss": 0.475972144305706
+    }
+  ],
+  "epoch_138": [
+    "logs\\checkpoints/train.139.pth",
+    0.8400660145282746,
+    {
+      "loss_dice": 0.15993398547172546,
+      "loss_iou": 0.26976395845413215,
+      "loss_focal": 0.04617833049967885,
+      "clswise_iou_Clutter": 0.5043235564231873,
+      "clswise_iou_Building": 0.8390998673439024,
+      "clswise_iou_Road": 0.6940255664568393,
+      "clswise_iou_Car": 0.5219236448407173,
+      "clswise_iou_Tree": 0.7064540272951125,
+      "clswise_iou_Vegetation": 0.5453245599567892,
+      "clswise_iou_Human": 0.0001949048613823834,
+      "dice": 0.8400660145282746,
+      "loss": 0.47587627142667766
+    }
+  ],
+  "epoch_139": [
+    "logs\\checkpoints/train.140.pth",
+    0.8394040501117707,
+    {
+      "loss_dice": 0.1605959498882294,
+      "loss_iou": 0.27054858565330514,
+      "loss_focal": 0.04618175506591796,
+      "clswise_iou_Clutter": 0.49798113167285907,
+      "clswise_iou_Building": 0.8386968946456909,
+      "clswise_iou_Road": 0.6924950147978963,
+      "clswise_iou_Car": 0.5165901421755553,
+      "clswise_iou_Tree": 0.704831793308258,
+      "clswise_iou_Vegetation": 0.5442942763864993,
+      "clswise_iou_Human": 0.0001867717181085027,
+      "dice": 0.8394040501117707,
+      "loss": 0.47732629090547557
+    }
+  ],
+  "epoch_140": [
+    "logs\\checkpoints/train.141.pth",
+    0.8390605771541596,
+    {
+      "loss_dice": 0.16093942284584042,
+      "loss_iou": 0.27098203420639044,
+      "loss_focal": 0.04581366838887333,
+      "clswise_iou_Clutter": 0.49774752438068387,
+      "clswise_iou_Building": 0.8399907529354093,
+      "clswise_iou_Road": 0.6924143329076468,
+      "clswise_iou_Car": 0.5160985974408686,
+      "clswise_iou_Tree": 0.7044404172897337,
+      "clswise_iou_Vegetation": 0.5436222895979882,
+      "clswise_iou_Human": 0.00016528911812201843,
+      "dice": 0.8390605771541596,
+      "loss": 0.477735129892826
+    }
+  ],
+  "epoch_141": [
+    "logs\\checkpoints/train.142.pth",
+    0.8389158022403715,
+    {
+      "loss_dice": 0.16108419775962832,
+      "loss_iou": 0.2711186599731445,
+      "loss_focal": 0.04571884535253048,
+      "clswise_iou_Clutter": 0.5075931516289711,
+      "clswise_iou_Building": 0.839777796268463,
+      "clswise_iou_Road": 0.6931059868633748,
+      "clswise_iou_Car": 0.5209077347815035,
+      "clswise_iou_Tree": 0.7037969622015952,
+      "clswise_iou_Vegetation": 0.5463969470560548,
+      "clswise_iou_Human": 0.0001697342010447755,
+      "dice": 0.8389158022403715,
+      "loss": 0.477921705543995
+    }
+  ],
+  "epoch_142": [
+    "logs\\checkpoints/train.143.pth",
+    0.8380169260501864,
+    {
+      "loss_dice": 0.16198307394981387,
+      "loss_iou": 0.2722930550575256,
+      "loss_focal": 0.046192869301885375,
+      "clswise_iou_Clutter": 0.5038577070832253,
+      "clswise_iou_Building": 0.8392334604263307,
+      "clswise_iou_Road": 0.6919303609244524,
+      "clswise_iou_Car": 0.5190043561160564,
+      "clswise_iou_Tree": 0.702354522049427,
+      "clswise_iou_Vegetation": 0.5444992482662199,
+      "clswise_iou_Human": 0.0001724940983694978,
+      "dice": 0.8380169260501864,
+      "loss": 0.4804690015316009
+    }
+  ],
+  "epoch_143": [
+    "logs\\checkpoints/train.144.pth",
+    0.8387227761745452,
+    {
+      "loss_dice": 0.1612772238254547,
+      "loss_iou": 0.2713311290740967,
+      "loss_focal": 0.04598489135503768,
+      "clswise_iou_Clutter": 0.5020720598101617,
+      "clswise_iou_Building": 0.8392876601219178,
+      "clswise_iou_Road": 0.6918995035998522,
+      "clswise_iou_Car": 0.5220406151562927,
+      "clswise_iou_Tree": 0.7044016787409781,
+      "clswise_iou_Vegetation": 0.5455063541233539,
+      "clswise_iou_Human": 0.00017579652358108434,
+      "dice": 0.8387227761745452,
+      "loss": 0.47859324365854267
+    }
+  ],
+  "epoch_144": [
+    "logs\\checkpoints/train.145.pth",
+    0.838715604543686,
+    {
+      "loss_dice": 0.1612843954563141,
+      "loss_iou": 0.2714426112174988,
+      "loss_focal": 0.046157875992357725,
+      "clswise_iou_Clutter": 0.5024927443265914,
+      "clswise_iou_Building": 0.8386414206027984,
+      "clswise_iou_Road": 0.6908907938189804,
+      "clswise_iou_Car": 0.5216816408932208,
+      "clswise_iou_Tree": 0.7056813114881514,
+      "clswise_iou_Vegetation": 0.5428509922325611,
+      "clswise_iou_Human": 0.00017423606168449622,
+      "dice": 0.838715604543686,
+      "loss": 0.4788848841190339
+    }
+  ],
+  "epoch_145": [
+    "logs\\checkpoints/train.146.pth",
+    0.8386515629291534,
+    {
+      "loss_dice": 0.16134843707084653,
+      "loss_iou": 0.271520380973816,
+      "loss_focal": 0.0459988722205162,
+      "clswise_iou_Clutter": 0.5057860994338989,
+      "clswise_iou_Building": 0.8376884377002718,
+      "clswise_iou_Road": 0.6928258027508857,
+      "clswise_iou_Car": 0.5225904792547227,
+      "clswise_iou_Tree": 0.7059770226478576,
+      "clswise_iou_Vegetation": 0.5395106522738933,
+      "clswise_iou_Human": 0.00016589659677265442,
+      "dice": 0.8386515629291534,
+      "loss": 0.4788676902651787
+    }
+  ],
+  "epoch_146": [
+    "logs\\checkpoints/train.147.pth",
+    0.8388978099822996,
+    {
+      "loss_dice": 0.1611021900177002,
+      "loss_iou": 0.27109534978866573,
+      "loss_focal": 0.045697176065295934,
+      "clswise_iou_Clutter": 0.5043422007560731,
+      "clswise_iou_Building": 0.8376776242256166,
+      "clswise_iou_Road": 0.6936807649582627,
+      "clswise_iou_Car": 0.5218363412469624,
+      "clswise_iou_Tree": 0.705126448571682,
+      "clswise_iou_Vegetation": 0.5440000827610493,
+      "clswise_iou_Human": 0.00016326452587236417,
+      "dice": 0.8388978099822996,
+      "loss": 0.47789471507072445
+    }
+  ],
+  "epoch_147": [
+    "logs\\checkpoints/train.148.pth",
+    0.8390409421920778,
+    {
+      "loss_dice": 0.1609590578079224,
+      "loss_iou": 0.27092405676841746,
+      "loss_focal": 0.04550135375931859,
+      "clswise_iou_Clutter": 0.5051025569438935,
+      "clswise_iou_Building": 0.8376356530189518,
+      "clswise_iou_Road": 0.6927172166109086,
+      "clswise_iou_Car": 0.5198654931783677,
+      "clswise_iou_Tree": 0.7058866611123086,
+      "clswise_iou_Vegetation": 0.5450239984691144,
+      "clswise_iou_Human": 0.00015822177243535407,
+      "dice": 0.8390409421920778,
+      "loss": 0.47738446980714805
+    }
+  ],
+  "epoch_148": [
+    "logs\\checkpoints/train.149.pth",
+    0.8388158321380615,
+    {
+      "loss_dice": 0.16118416786193848,
+      "loss_iou": 0.27131013154983524,
+      "loss_focal": 0.04533956464380024,
+      "clswise_iou_Clutter": 0.5065469762682914,
+      "clswise_iou_Building": 0.8380367326736452,
+      "clswise_iou_Road": 0.69130792664364,
+      "clswise_iou_Car": 0.5216484651714565,
+      "clswise_iou_Tree": 0.7049345305562019,
+      "clswise_iou_Vegetation": 0.5457384330034255,
+      "clswise_iou_Human": 0.00015759965361212378,
+      "dice": 0.8388158321380615,
+      "loss": 0.47783386588096616
+    }
+  ],
+  "epoch_149": [
+    "logs\\checkpoints/train.150.pth",
+    0.8396097826957702,
+    {
+      "loss_dice": 0.16039021730422975,
+      "loss_iou": 0.27012515187263486,
+      "loss_focal": 0.04533589938655496,
+      "clswise_iou_Clutter": 0.5059357261657715,
+      "clswise_iou_Building": 0.8379398810863495,
+      "clswise_iou_Road": 0.6924292594008148,
+      "clswise_iou_Car": 0.5206050002574922,
+      "clswise_iou_Tree": 0.7061272168159487,
+      "clswise_iou_Vegetation": 0.5481547881662847,
+      "clswise_iou_Human": 0.00015872445492277621,
+      "dice": 0.8396097826957702,
+      "loss": 0.4758512729406356
+    }
+  ]
+}
