@@ -1,6 +1,7 @@
 from torch import nn
 from catalyst.contrib.nn import FocalLossBinary, DiceLoss, IoULoss, RAdam, Lookahead, OneCycleLRWithWarmup
 from catalyst.dl import SupervisedRunner
+from torch.optim.lr_scheduler import OneCycleLR
 from model import segmentator
 from dataset import get_loaders, CLASSES
 
@@ -27,12 +28,12 @@ if __name__=='__main__':
         "focal": FocalLossBinary()
     }
     runner = SupervisedRunner(device='cuda', input_key="image", input_target_key="mask")
-    scheduler = OneCycleLRWithWarmup(
+    scheduler = OneCycleLR(
         optimizer,
         num_steps=num_epochs,
-        lr_range=(0.0016, 0.0000001),
-        init_lr = learning_rate,
-        warmup_steps=3
+        max_lr=0.0016,
+        steps_per_epoch=10,
+        epochs=num_epochs
     )
     loaders = get_loaders(preprocessing_fn, batch_size=12)
 
