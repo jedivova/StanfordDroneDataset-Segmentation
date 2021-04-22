@@ -1,0 +1,248 @@
+[2021-04-22 00:52:18,175] 
+1/60 * Epoch 1 (_base): lr=0.0010 | momentum=0.8933
+1/60 * Epoch 1 (train): clswise_iou_building=0.2347 | clswise_iou_car=0.0028 | clswise_iou_human=0.0027 | clswise_iou_restricted_area=0.5567 | clswise_iou_road=0.4523 | dice=0.6201 | loss=1.0374 | loss_dice=0.3799 | loss_focal=0.1191 | loss_iou=0.5384 | lr=0.0010 | momentum=0.8967
+1/60 * Epoch 1 (valid): clswise_iou_building=0.1854 | clswise_iou_car=0.0003 | clswise_iou_human=0.0012 | clswise_iou_restricted_area=0.6060 | clswise_iou_road=0.5059 | dice=0.7023 | loss=0.8690 | loss_dice=0.2977 | loss_focal=0.1164 | loss_iou=0.4549
+[2021-04-22 01:20:25,908] 
+1/60 * Epoch 1 (_base): lr=7.708e-05 | momentum=0.9491
+1/60 * Epoch 1 (train): clswise_iou_building=0.1184 | clswise_iou_car=0.0087 | clswise_iou_human=0.0093 | clswise_iou_restricted_area=0.3263 | clswise_iou_road=0.2465 | dice=0.3337 | loss=1.6394 | loss_dice=0.6663 | loss_focal=0.1765 | loss_iou=0.7966
+1/60 * Epoch 1 (valid): clswise_iou_building=0.0473 | clswise_iou_car=0.0014 | clswise_iou_human=0.0109 | clswise_iou_restricted_area=0.4393 | clswise_iou_road=0.3194 | dice=0.5192 | loss=1.2201 | loss_dice=0.4808 | loss_focal=0.0905 | loss_iou=0.6488
+[2021-04-22 01:36:22,457] 
+1/60 * Epoch 1 (_base): lr=7.708e-05 | momentum=0.9491
+1/60 * Epoch 1 (train): clswise_iou_building=0.1180 | clswise_iou_car=0.0080 | clswise_iou_human=0.0101 | clswise_iou_restricted_area=0.3340 | clswise_iou_road=0.2319 | dice=0.3370 | loss=1.9758 | loss_bce=0.6488 | loss_dice=0.6630 | loss_iou=0.7937
+1/60 * Epoch 1 (valid): clswise_iou_building=0.0816 | clswise_iou_car=0.0017 | clswise_iou_human=0.0091 | clswise_iou_restricted_area=0.4664 | clswise_iou_road=0.2689 | dice=0.5202 | loss=1.3802 | loss_bce=0.3154 | loss_dice=0.4798 | loss_iou=0.6480
+[2021-04-22 01:47:06,187] 
+2/60 * Epoch 2 (_base): lr=0.0001 | momentum=0.9466
+2/60 * Epoch 2 (train): clswise_iou_building=0.1162 | clswise_iou_car=0.0070 | clswise_iou_human=0.0054 | clswise_iou_restricted_area=0.5077 | clswise_iou_road=0.3758 | dice=0.5671 | loss=1.2991 | loss_bce=0.3302 | loss_dice=0.4329 | loss_iou=0.6021
+2/60 * Epoch 2 (valid): clswise_iou_building=0.0863 | clswise_iou_car=0.0011 | clswise_iou_human=0.0042 | clswise_iou_restricted_area=0.5749 | clswise_iou_road=0.4323 | dice=0.6538 | loss=1.0874 | loss_bce=0.2847 | loss_dice=0.3462 | loss_iou=0.5135
+[2021-04-22 01:57:27,627] 
+3/60 * Epoch 3 (_base): lr=0.0002 | momentum=0.9425
+3/60 * Epoch 3 (train): clswise_iou_building=0.2156 | clswise_iou_car=0.0073 | clswise_iou_human=0.0041 | clswise_iou_restricted_area=0.5600 | clswise_iou_road=0.4638 | dice=0.6301 | loss=1.1385 | loss_bce=0.2887 | loss_dice=0.3699 | loss_iou=0.5377
+3/60 * Epoch 3 (valid): clswise_iou_building=0.1199 | clswise_iou_car=0.0007 | clswise_iou_human=0.0023 | clswise_iou_restricted_area=0.6126 | clswise_iou_road=0.5008 | dice=0.6958 | loss=0.9749 | loss_bce=0.2595 | loss_dice=0.3042 | loss_iou=0.4632
+[2021-04-22 02:08:07,436] 
+4/60 * Epoch 4 (_base): lr=0.0003 | momentum=0.9370
+4/60 * Epoch 4 (train): clswise_iou_building=0.3098 | clswise_iou_car=0.0069 | clswise_iou_human=0.0036 | clswise_iou_restricted_area=0.5940 | clswise_iou_road=0.5160 | dice=0.6738 | loss=1.0246 | loss_bce=0.2610 | loss_dice=0.3262 | loss_iou=0.4895
+4/60 * Epoch 4 (valid): clswise_iou_building=0.1097 | clswise_iou_car=0.0008 | clswise_iou_human=0.0023 | clswise_iou_restricted_area=0.6060 | clswise_iou_road=0.5075 | dice=0.6970 | loss=0.9757 | loss_bce=0.2662 | loss_dice=0.3030 | loss_iou=0.4597
+[2021-04-22 02:18:29,532] 
+5/60 * Epoch 5 (_base): lr=0.0004 | momentum=0.9301
+5/60 * Epoch 5 (train): clswise_iou_building=0.3767 | clswise_iou_car=0.0082 | clswise_iou_human=0.0036 | clswise_iou_restricted_area=0.6239 | clswise_iou_road=0.5382 | dice=0.7038 | loss=0.9416 | loss_bce=0.2385 | loss_dice=0.2962 | loss_iou=0.4546
+5/60 * Epoch 5 (valid): clswise_iou_building=0.1534 | clswise_iou_car=0.0015 | clswise_iou_human=0.0026 | clswise_iou_restricted_area=0.6376 | clswise_iou_road=0.5555 | dice=0.7285 | loss=0.8742 | loss_bce=0.2241 | loss_dice=0.2715 | loss_iou=0.4236
+[2021-04-22 02:28:41,600] 
+6/60 * Epoch 6 (_base): lr=0.0005 | momentum=0.9223
+6/60 * Epoch 6 (train): clswise_iou_building=0.4179 | clswise_iou_car=0.0108 | clswise_iou_human=0.0035 | clswise_iou_restricted_area=0.6531 | clswise_iou_road=0.5855 | dice=0.7332 | loss=0.8621 | loss_bce=0.2206 | loss_dice=0.2668 | loss_iou=0.4188
+6/60 * Epoch 6 (valid): clswise_iou_building=0.1704 | clswise_iou_car=0.0022 | clswise_iou_human=0.0035 | clswise_iou_restricted_area=0.6498 | clswise_iou_road=0.5731 | dice=0.7384 | loss=0.8612 | loss_bce=0.2362 | loss_dice=0.2616 | loss_iou=0.4107
+[2021-04-22 02:39:08,065] 
+7/60 * Epoch 7 (_base): lr=0.0006 | momentum=0.9137
+7/60 * Epoch 7 (train): clswise_iou_building=0.4463 | clswise_iou_car=0.0163 | clswise_iou_human=0.0036 | clswise_iou_restricted_area=0.6658 | clswise_iou_road=0.6007 | dice=0.7451 | loss=0.8279 | loss_bce=0.2117 | loss_dice=0.2549 | loss_iou=0.4036
+7/60 * Epoch 7 (valid): clswise_iou_building=0.2418 | clswise_iou_car=0.0026 | clswise_iou_human=0.0031 | clswise_iou_restricted_area=0.6799 | clswise_iou_road=0.5938 | dice=0.7615 | loss=0.7929 | loss_bce=0.2155 | loss_dice=0.2385 | loss_iou=0.3820
+[2021-04-22 02:49:14,349] 
+8/60 * Epoch 8 (_base): lr=0.0008 | momentum=0.9046
+8/60 * Epoch 8 (train): clswise_iou_building=0.4731 | clswise_iou_car=0.0267 | clswise_iou_human=0.0036 | clswise_iou_restricted_area=0.6920 | clswise_iou_road=0.6296 | dice=0.7679 | loss=0.7628 | loss_bce=0.1961 | loss_dice=0.2321 | loss_iou=0.3738
+8/60 * Epoch 8 (valid): clswise_iou_building=0.1527 | clswise_iou_car=0.0074 | clswise_iou_human=0.0037 | clswise_iou_restricted_area=0.6603 | clswise_iou_road=0.6219 | dice=0.7422 | loss=0.8610 | loss_bce=0.2450 | loss_dice=0.2578 | loss_iou=0.4072
+[2021-04-22 02:59:29,492] 
+9/60 * Epoch 9 (_base): lr=0.0009 | momentum=0.8954
+9/60 * Epoch 9 (train): clswise_iou_building=0.4932 | clswise_iou_car=0.0563 | clswise_iou_human=0.0035 | clswise_iou_restricted_area=0.6993 | clswise_iou_road=0.6444 | dice=0.7759 | loss=0.7382 | loss_bce=0.1886 | loss_dice=0.2241 | loss_iou=0.3632
+9/60 * Epoch 9 (valid): clswise_iou_building=0.2441 | clswise_iou_car=0.0129 | clswise_iou_human=0.0026 | clswise_iou_restricted_area=0.6794 | clswise_iou_road=0.6129 | dice=0.7599 | loss=0.7992 | loss_bce=0.2234 | loss_dice=0.2401 | loss_iou=0.3805
+[2021-04-22 03:09:37,973] 
+10/60 * Epoch 10 (_base): lr=0.0010 | momentum=0.8863
+10/60 * Epoch 10 (train): clswise_iou_building=0.5145 | clswise_iou_car=0.0956 | clswise_iou_human=0.0034 | clswise_iou_restricted_area=0.7134 | clswise_iou_road=0.6610 | dice=0.7870 | loss=0.7081 | loss_bce=0.1830 | loss_dice=0.2130 | loss_iou=0.3487
+10/60 * Epoch 10 (valid): clswise_iou_building=0.2135 | clswise_iou_car=0.0115 | clswise_iou_human=0.0034 | clswise_iou_restricted_area=0.6593 | clswise_iou_road=0.5630 | dice=0.7410 | loss=0.8846 | loss_bce=0.2693 | loss_dice=0.2590 | loss_iou=0.4102
+[2021-04-22 03:19:56,056] 
+11/60 * Epoch 11 (_base): lr=0.0012 | momentum=0.8777
+11/60 * Epoch 11 (train): clswise_iou_building=0.5096 | clswise_iou_car=0.1303 | clswise_iou_human=0.0033 | clswise_iou_restricted_area=0.7219 | clswise_iou_road=0.6736 | dice=0.7934 | loss=0.6870 | loss_bce=0.1757 | loss_dice=0.2066 | loss_iou=0.3398
+11/60 * Epoch 11 (valid): clswise_iou_building=0.2364 | clswise_iou_car=0.0173 | clswise_iou_human=0.0024 | clswise_iou_restricted_area=0.6773 | clswise_iou_road=0.6337 | dice=0.7630 | loss=0.8146 | loss_bce=0.2474 | loss_dice=0.2370 | loss_iou=0.3797
+[2021-04-22 03:29:59,572] 
+12/60 * Epoch 12 (_base): lr=0.0013 | momentum=0.8699
+12/60 * Epoch 12 (train): clswise_iou_building=0.5370 | clswise_iou_car=0.1485 | clswise_iou_human=0.0036 | clswise_iou_restricted_area=0.7352 | clswise_iou_road=0.6974 | dice=0.8067 | loss=0.6486 | loss_bce=0.1671 | loss_dice=0.1933 | loss_iou=0.3216
+12/60 * Epoch 12 (valid): clswise_iou_building=0.2376 | clswise_iou_car=0.0177 | clswise_iou_human=0.0031 | clswise_iou_restricted_area=0.6869 | clswise_iou_road=0.6253 | dice=0.7674 | loss=0.7819 | loss_bce=0.2228 | loss_dice=0.2326 | loss_iou=0.3711
+[2021-04-22 03:40:03,209] 
+13/60 * Epoch 13 (_base): lr=0.0014 | momentum=0.8630
+13/60 * Epoch 13 (train): clswise_iou_building=0.5593 | clswise_iou_car=0.1863 | clswise_iou_human=0.0041 | clswise_iou_restricted_area=0.7496 | clswise_iou_road=0.7119 | dice=0.8180 | loss=0.6143 | loss_bce=0.1586 | loss_dice=0.1820 | loss_iou=0.3055
+13/60 * Epoch 13 (valid): clswise_iou_building=0.2459 | clswise_iou_car=0.0110 | clswise_iou_human=0.0017 | clswise_iou_restricted_area=0.7219 | clswise_iou_road=0.5844 | dice=0.7893 | loss=0.7529 | loss_bce=0.2443 | loss_dice=0.2107 | loss_iou=0.3468
+[2021-04-22 03:50:14,656] 
+14/60 * Epoch 14 (_base): lr=0.0015 | momentum=0.8575
+14/60 * Epoch 14 (train): clswise_iou_building=0.5610 | clswise_iou_car=0.1702 | clswise_iou_human=0.0046 | clswise_iou_restricted_area=0.7601 | clswise_iou_road=0.7225 | dice=0.8254 | loss=0.5924 | loss_bce=0.1538 | loss_dice=0.1746 | loss_iou=0.2948
+14/60 * Epoch 14 (valid): clswise_iou_building=0.1292 | clswise_iou_car=0.0173 | clswise_iou_human=0.0027 | clswise_iou_restricted_area=0.7003 | clswise_iou_road=0.6116 | dice=0.7675 | loss=0.8146 | loss_bce=0.2568 | loss_dice=0.2325 | loss_iou=0.3767
+[2021-04-22 04:00:20,888] 
+15/60 * Epoch 15 (_base): lr=0.0015 | momentum=0.8534
+15/60 * Epoch 15 (train): clswise_iou_building=0.5770 | clswise_iou_car=0.1860 | clswise_iou_human=0.0051 | clswise_iou_restricted_area=0.7598 | clswise_iou_road=0.7276 | dice=0.8281 | loss=0.5850 | loss_bce=0.1528 | loss_dice=0.1719 | loss_iou=0.2908
+15/60 * Epoch 15 (valid): clswise_iou_building=0.2079 | clswise_iou_car=0.0249 | clswise_iou_human=0.0028 | clswise_iou_restricted_area=0.5211 | clswise_iou_road=0.5171 | dice=0.6632 | loss=1.1585 | loss_bce=0.4003 | loss_dice=0.3368 | loss_iou=0.5014
+[2021-04-22 04:10:30,952] 
+16/60 * Epoch 16 (_base): lr=0.0016 | momentum=0.8509
+16/60 * Epoch 16 (train): clswise_iou_building=0.5919 | clswise_iou_car=0.2067 | clswise_iou_human=0.0059 | clswise_iou_restricted_area=0.7691 | clswise_iou_road=0.7355 | dice=0.8340 | loss=0.5662 | loss_bce=0.1474 | loss_dice=0.1660 | loss_iou=0.2823
+16/60 * Epoch 16 (valid): clswise_iou_building=0.2572 | clswise_iou_car=0.0312 | clswise_iou_human=0.0038 | clswise_iou_restricted_area=0.7044 | clswise_iou_road=0.6346 | dice=0.7739 | loss=0.7964 | loss_bce=0.2568 | loss_dice=0.2261 | loss_iou=0.3649
+[2021-04-22 04:20:43,243] 
+17/60 * Epoch 17 (_base): lr=0.0016 | momentum=0.8500
+17/60 * Epoch 17 (train): clswise_iou_building=0.6080 | clswise_iou_car=0.2135 | clswise_iou_human=0.0075 | clswise_iou_restricted_area=0.7788 | clswise_iou_road=0.7385 | dice=0.8405 | loss=0.5460 | loss_bce=0.1424 | loss_dice=0.1595 | loss_iou=0.2726
+17/60 * Epoch 17 (valid): clswise_iou_building=0.1186 | clswise_iou_car=0.0209 | clswise_iou_human=0.0038 | clswise_iou_restricted_area=0.7277 | clswise_iou_road=0.6564 | dice=0.7899 | loss=0.7385 | loss_bce=0.2285 | loss_dice=0.2101 | loss_iou=0.3457
+[2021-04-22 04:30:51,189] 
+18/60 * Epoch 18 (_base): lr=0.0016 | momentum=0.8501
+18/60 * Epoch 18 (train): clswise_iou_building=0.6303 | clswise_iou_car=0.2319 | clswise_iou_human=0.0086 | clswise_iou_restricted_area=0.7866 | clswise_iou_road=0.7507 | dice=0.8481 | loss=0.5231 | loss_bce=0.1371 | loss_dice=0.1519 | loss_iou=0.2615
+18/60 * Epoch 18 (valid): clswise_iou_building=0.2342 | clswise_iou_car=0.0225 | clswise_iou_human=0.0033 | clswise_iou_restricted_area=0.7530 | clswise_iou_road=0.6603 | dice=0.8125 | loss=0.6766 | loss_bce=0.2188 | loss_dice=0.1875 | loss_iou=0.3141
+[2021-04-22 04:40:59,991] 
+19/60 * Epoch 19 (_base): lr=0.0016 | momentum=0.8506
+19/60 * Epoch 19 (train): clswise_iou_building=0.6377 | clswise_iou_car=0.2424 | clswise_iou_human=0.0124 | clswise_iou_restricted_area=0.7874 | clswise_iou_road=0.7638 | dice=0.8514 | loss=0.5125 | loss_bce=0.1341 | loss_dice=0.1486 | loss_iou=0.2566
+19/60 * Epoch 19 (valid): clswise_iou_building=0.3241 | clswise_iou_car=0.0330 | clswise_iou_human=0.0047 | clswise_iou_restricted_area=0.7033 | clswise_iou_road=0.6479 | dice=0.7808 | loss=0.7779 | loss_bce=0.2574 | loss_dice=0.2192 | loss_iou=0.3527
+[2021-04-22 04:51:13,303] 
+20/60 * Epoch 20 (_base): lr=0.0016 | momentum=0.8513
+20/60 * Epoch 20 (train): clswise_iou_building=0.6402 | clswise_iou_car=0.2560 | clswise_iou_human=0.0185 | clswise_iou_restricted_area=0.7918 | clswise_iou_road=0.7664 | dice=0.8535 | loss=0.5063 | loss_bce=0.1328 | loss_dice=0.1465 | loss_iou=0.2535
+20/60 * Epoch 20 (valid): clswise_iou_building=0.1663 | clswise_iou_car=0.0196 | clswise_iou_human=0.0024 | clswise_iou_restricted_area=0.7336 | clswise_iou_road=0.6617 | dice=0.7986 | loss=0.7206 | loss_bce=0.2335 | loss_dice=0.2014 | loss_iou=0.3323
+[2021-04-22 05:01:22,081] 
+21/60 * Epoch 21 (_base): lr=0.0016 | momentum=0.8522
+21/60 * Epoch 21 (train): clswise_iou_building=0.6639 | clswise_iou_car=0.2687 | clswise_iou_human=0.0234 | clswise_iou_restricted_area=0.8015 | clswise_iou_road=0.7787 | dice=0.8626 | loss=0.4774 | loss_bce=0.1254 | loss_dice=0.1374 | loss_iou=0.2397
+21/60 * Epoch 21 (valid): clswise_iou_building=0.2456 | clswise_iou_car=0.0328 | clswise_iou_human=0.0033 | clswise_iou_restricted_area=0.7284 | clswise_iou_road=0.6663 | dice=0.8019 | loss=0.7047 | loss_bce=0.2256 | loss_dice=0.1981 | loss_iou=0.3262
+[2021-04-22 05:11:35,687] 
+22/60 * Epoch 22 (_base): lr=0.0015 | momentum=0.8535
+22/60 * Epoch 22 (train): clswise_iou_building=0.6758 | clswise_iou_car=0.2842 | clswise_iou_human=0.0274 | clswise_iou_restricted_area=0.8102 | clswise_iou_road=0.7818 | dice=0.8671 | loss=0.4634 | loss_bce=0.1223 | loss_dice=0.1329 | loss_iou=0.2328
+22/60 * Epoch 22 (valid): clswise_iou_building=0.2302 | clswise_iou_car=0.0265 | clswise_iou_human=0.0052 | clswise_iou_restricted_area=0.7355 | clswise_iou_road=0.6706 | dice=0.8042 | loss=0.6918 | loss_bce=0.2161 | loss_dice=0.1958 | loss_iou=0.3231
+[2021-04-22 05:21:43,338] 
+23/60 * Epoch 23 (_base): lr=0.0015 | momentum=0.8550
+23/60 * Epoch 23 (train): clswise_iou_building=0.6905 | clswise_iou_car=0.2959 | clswise_iou_human=0.0332 | clswise_iou_restricted_area=0.8142 | clswise_iou_road=0.7866 | dice=0.8711 | loss=0.4506 | loss_bce=0.1189 | loss_dice=0.1289 | loss_iou=0.2266
+23/60 * Epoch 23 (valid): clswise_iou_building=0.3026 | clswise_iou_car=0.0398 | clswise_iou_human=0.0077 | clswise_iou_restricted_area=0.7387 | clswise_iou_road=0.6847 | dice=0.8106 | loss=0.6570 | loss_bce=0.1905 | loss_dice=0.1894 | loss_iou=0.3153
+[2021-04-22 05:31:56,003] 
+24/60 * Epoch 24 (_base): lr=0.0015 | momentum=0.8567
+24/60 * Epoch 24 (train): clswise_iou_building=0.6929 | clswise_iou_car=0.2981 | clswise_iou_human=0.0361 | clswise_iou_restricted_area=0.8172 | clswise_iou_road=0.7907 | dice=0.8733 | loss=0.4436 | loss_bce=0.1172 | loss_dice=0.1267 | loss_iou=0.2232
+24/60 * Epoch 24 (valid): clswise_iou_building=0.3797 | clswise_iou_car=0.0360 | clswise_iou_human=0.0074 | clswise_iou_restricted_area=0.7173 | clswise_iou_road=0.6723 | dice=0.7989 | loss=0.7033 | loss_bce=0.2119 | loss_dice=0.2011 | loss_iou=0.3326
+[2021-04-22 05:42:07,827] 
+25/60 * Epoch 25 (_base): lr=0.0015 | momentum=0.8587
+25/60 * Epoch 25 (train): clswise_iou_building=0.6937 | clswise_iou_car=0.2994 | clswise_iou_human=0.0385 | clswise_iou_restricted_area=0.8172 | clswise_iou_road=0.7907 | dice=0.8729 | loss=0.4454 | loss_bce=0.1181 | loss_dice=0.1271 | loss_iou=0.2239
+25/60 * Epoch 25 (valid): clswise_iou_building=0.2303 | clswise_iou_car=0.0323 | clswise_iou_human=0.0025 | clswise_iou_restricted_area=0.7255 | clswise_iou_road=0.5349 | dice=0.7751 | loss=0.7818 | loss_bce=0.2491 | loss_dice=0.2249 | loss_iou=0.3576
+[2021-04-22 05:52:15,817] 
+26/60 * Epoch 26 (_base): lr=0.0014 | momentum=0.8609
+26/60 * Epoch 26 (train): clswise_iou_building=0.7059 | clswise_iou_car=0.3083 | clswise_iou_human=0.0430 | clswise_iou_restricted_area=0.8333 | clswise_iou_road=0.8056 | dice=0.8838 | loss=0.4105 | loss_bce=0.1092 | loss_dice=0.1162 | loss_iou=0.2069
+26/60 * Epoch 26 (valid): clswise_iou_building=0.2065 | clswise_iou_car=0.0281 | clswise_iou_human=0.0067 | clswise_iou_restricted_area=0.7676 | clswise_iou_road=0.6932 | dice=0.8212 | loss=0.6437 | loss_bce=0.2076 | loss_dice=0.1788 | loss_iou=0.2988
+[2021-04-22 06:02:29,291] 
+27/60 * Epoch 27 (_base): lr=0.0014 | momentum=0.8633
+27/60 * Epoch 27 (train): clswise_iou_building=0.7125 | clswise_iou_car=0.3223 | clswise_iou_human=0.0441 | clswise_iou_restricted_area=0.8273 | clswise_iou_road=0.8058 | dice=0.8823 | loss=0.4147 | loss_bce=0.1095 | loss_dice=0.1177 | loss_iou=0.2094
+27/60 * Epoch 27 (valid): clswise_iou_building=0.3703 | clswise_iou_car=0.0296 | clswise_iou_human=0.0047 | clswise_iou_restricted_area=0.7495 | clswise_iou_road=0.6686 | dice=0.8161 | loss=0.6663 | loss_bce=0.2189 | loss_dice=0.1839 | loss_iou=0.3073
+[2021-04-22 06:12:41,566] 
+28/60 * Epoch 28 (_base): lr=0.0013 | momentum=0.8660
+28/60 * Epoch 28 (train): clswise_iou_building=0.7265 | clswise_iou_car=0.3253 | clswise_iou_human=0.0490 | clswise_iou_restricted_area=0.8354 | clswise_iou_road=0.8145 | dice=0.8868 | loss=0.4002 | loss_bce=0.1062 | loss_dice=0.1132 | loss_iou=0.2020
+28/60 * Epoch 28 (valid): clswise_iou_building=0.3067 | clswise_iou_car=0.0301 | clswise_iou_human=0.0087 | clswise_iou_restricted_area=0.7203 | clswise_iou_road=0.6606 | dice=0.7981 | loss=0.7332 | loss_bce=0.2461 | loss_dice=0.2019 | loss_iou=0.3344
+[2021-04-22 06:22:53,289] 
+29/60 * Epoch 29 (_base): lr=0.0013 | momentum=0.8688
+29/60 * Epoch 29 (train): clswise_iou_building=0.7344 | clswise_iou_car=0.3217 | clswise_iou_human=0.0503 | clswise_iou_restricted_area=0.8358 | clswise_iou_road=0.8073 | dice=0.8863 | loss=0.4026 | loss_bce=0.1078 | loss_dice=0.1137 | loss_iou=0.2027
+29/60 * Epoch 29 (valid): clswise_iou_building=0.1382 | clswise_iou_car=0.0292 | clswise_iou_human=0.0058 | clswise_iou_restricted_area=0.7462 | clswise_iou_road=0.6756 | dice=0.8088 | loss=0.7069 | loss_bce=0.2469 | loss_dice=0.1912 | loss_iou=0.3182
+[2021-04-22 06:33:04,073] 
+30/60 * Epoch 30 (_base): lr=0.0013 | momentum=0.8718
+30/60 * Epoch 30 (train): clswise_iou_building=0.7340 | clswise_iou_car=0.3325 | clswise_iou_human=0.0541 | clswise_iou_restricted_area=0.8395 | clswise_iou_road=0.8161 | dice=0.8906 | loss=0.3881 | loss_bce=0.1034 | loss_dice=0.1094 | loss_iou=0.1960
+30/60 * Epoch 30 (valid): clswise_iou_building=0.3903 | clswise_iou_car=0.0288 | clswise_iou_human=0.0096 | clswise_iou_restricted_area=0.7694 | clswise_iou_road=0.6441 | dice=0.8216 | loss=0.6417 | loss_bce=0.2088 | loss_dice=0.1784 | loss_iou=0.2963
+[2021-04-22 06:43:16,421] 
+31/60 * Epoch 31 (_base): lr=0.0012 | momentum=0.8750
+31/60 * Epoch 31 (train): clswise_iou_building=0.7430 | clswise_iou_car=0.3527 | clswise_iou_human=0.0533 | clswise_iou_restricted_area=0.8376 | clswise_iou_road=0.8146 | dice=0.8893 | loss=0.3917 | loss_bce=0.1036 | loss_dice=0.1107 | loss_iou=0.1981
+31/60 * Epoch 31 (valid): clswise_iou_building=0.2419 | clswise_iou_car=0.0378 | clswise_iou_human=0.0079 | clswise_iou_restricted_area=0.7828 | clswise_iou_road=0.7074 | dice=0.8364 | loss=0.5986 | loss_bce=0.1953 | loss_dice=0.1636 | loss_iou=0.2788
+[2021-04-22 06:53:27,999] 
+32/60 * Epoch 32 (_base): lr=0.0011 | momentum=0.8783
+32/60 * Epoch 32 (train): clswise_iou_building=0.7471 | clswise_iou_car=0.3552 | clswise_iou_human=0.0580 | clswise_iou_restricted_area=0.8463 | clswise_iou_road=0.8210 | dice=0.8948 | loss=0.3740 | loss_bce=0.0992 | loss_dice=0.1052 | loss_iou=0.1893
+32/60 * Epoch 32 (valid): clswise_iou_building=0.3998 | clswise_iou_car=0.0338 | clswise_iou_human=0.0113 | clswise_iou_restricted_area=0.7545 | clswise_iou_road=0.6908 | dice=0.8196 | loss=0.6386 | loss_bce=0.1971 | loss_dice=0.1804 | loss_iou=0.3004
+[2021-04-22 07:03:40,841] 
+33/60 * Epoch 33 (_base): lr=0.0011 | momentum=0.8817
+33/60 * Epoch 33 (train): clswise_iou_building=0.7585 | clswise_iou_car=0.3589 | clswise_iou_human=0.0602 | clswise_iou_restricted_area=0.8471 | clswise_iou_road=0.8251 | dice=0.8961 | loss=0.3698 | loss_bce=0.0986 | loss_dice=0.1039 | loss_iou=0.1871
+33/60 * Epoch 33 (valid): clswise_iou_building=0.3318 | clswise_iou_car=0.0353 | clswise_iou_human=0.0074 | clswise_iou_restricted_area=0.7942 | clswise_iou_road=0.7149 | dice=0.8409 | loss=0.5675 | loss_bce=0.1723 | loss_dice=0.1591 | loss_iou=0.2706
+[2021-04-22 07:13:51,156] 
+34/60 * Epoch 34 (_base): lr=0.0010 | momentum=0.8853
+34/60 * Epoch 34 (train): clswise_iou_building=0.7518 | clswise_iou_car=0.3686 | clswise_iou_human=0.0681 | clswise_iou_restricted_area=0.8522 | clswise_iou_road=0.8285 | dice=0.8986 | loss=0.3611 | loss_bce=0.0959 | loss_dice=0.1014 | loss_iou=0.1830
+34/60 * Epoch 34 (valid): clswise_iou_building=0.4601 | clswise_iou_car=0.0337 | clswise_iou_human=0.0082 | clswise_iou_restricted_area=0.7861 | clswise_iou_road=0.7233 | dice=0.8422 | loss=0.5683 | loss_bce=0.1780 | loss_dice=0.1578 | loss_iou=0.2680
+[2021-04-22 07:23:56,832] 
+35/60 * Epoch 35 (_base): lr=0.0010 | momentum=0.8889
+35/60 * Epoch 35 (train): clswise_iou_building=0.7622 | clswise_iou_car=0.3557 | clswise_iou_human=0.0658 | clswise_iou_restricted_area=0.8533 | clswise_iou_road=0.8329 | dice=0.9007 | loss=0.3548 | loss_bce=0.0948 | loss_dice=0.0993 | loss_iou=0.1796
+35/60 * Epoch 35 (valid): clswise_iou_building=0.2640 | clswise_iou_car=0.0337 | clswise_iou_human=0.0239 | clswise_iou_restricted_area=0.7522 | clswise_iou_road=0.6789 | dice=0.8102 | loss=0.6761 | loss_bce=0.2142 | loss_dice=0.1898 | loss_iou=0.3149
+[2021-04-22 07:34:09,400] 
+36/60 * Epoch 36 (_base): lr=0.0009 | momentum=0.8925
+36/60 * Epoch 36 (train): clswise_iou_building=0.7706 | clswise_iou_car=0.3813 | clswise_iou_human=0.0667 | clswise_iou_restricted_area=0.8565 | clswise_iou_road=0.8322 | dice=0.9022 | loss=0.3493 | loss_bce=0.0927 | loss_dice=0.0978 | loss_iou=0.1773
+36/60 * Epoch 36 (valid): clswise_iou_building=0.3348 | clswise_iou_car=0.0365 | clswise_iou_human=0.0145 | clswise_iou_restricted_area=0.7664 | clswise_iou_road=0.6851 | dice=0.8227 | loss=0.6426 | loss_bce=0.2132 | loss_dice=0.1773 | loss_iou=0.2947
+[2021-04-22 07:44:23,313] 
+37/60 * Epoch 37 (_base): lr=0.0009 | momentum=0.8963
+37/60 * Epoch 37 (train): clswise_iou_building=0.7777 | clswise_iou_car=0.3887 | clswise_iou_human=0.0756 | clswise_iou_restricted_area=0.8601 | clswise_iou_road=0.8352 | dice=0.9050 | loss=0.3402 | loss_bce=0.0906 | loss_dice=0.0950 | loss_iou=0.1727
+37/60 * Epoch 37 (valid): clswise_iou_building=0.4471 | clswise_iou_car=0.0330 | clswise_iou_human=0.0129 | clswise_iou_restricted_area=0.7700 | clswise_iou_road=0.6243 | dice=0.8118 | loss=0.6531 | loss_bce=0.1980 | loss_dice=0.1882 | loss_iou=0.3065
+[2021-04-22 07:54:30,987] 
+38/60 * Epoch 38 (_base): lr=0.0008 | momentum=0.9000
+38/60 * Epoch 38 (train): clswise_iou_building=0.7840 | clswise_iou_car=0.3812 | clswise_iou_human=0.0761 | clswise_iou_restricted_area=0.8640 | clswise_iou_road=0.8419 | dice=0.9078 | loss=0.3300 | loss_bce=0.0873 | loss_dice=0.0922 | loss_iou=0.1679
+38/60 * Epoch 38 (valid): clswise_iou_building=0.4493 | clswise_iou_car=0.0430 | clswise_iou_human=0.0412 | clswise_iou_restricted_area=0.7689 | clswise_iou_road=0.6590 | dice=0.8194 | loss=0.6469 | loss_bce=0.2114 | loss_dice=0.1806 | loss_iou=0.2971
+[2021-04-22 08:04:41,054] 
+39/60 * Epoch 39 (_base): lr=0.0007 | momentum=0.9037
+39/60 * Epoch 39 (train): clswise_iou_building=0.7871 | clswise_iou_car=0.3725 | clswise_iou_human=0.0782 | clswise_iou_restricted_area=0.8663 | clswise_iou_road=0.8386 | dice=0.9080 | loss=0.3303 | loss_bce=0.0884 | loss_dice=0.0920 | loss_iou=0.1676
+39/60 * Epoch 39 (valid): clswise_iou_building=0.3075 | clswise_iou_car=0.0347 | clswise_iou_human=0.0178 | clswise_iou_restricted_area=0.7713 | clswise_iou_road=0.6689 | dice=0.8217 | loss=0.6490 | loss_bce=0.2203 | loss_dice=0.1783 | loss_iou=0.2945
+[2021-04-22 08:14:51,388] 
+40/60 * Epoch 40 (_base): lr=0.0007 | momentum=0.9075
+40/60 * Epoch 40 (train): clswise_iou_building=0.7834 | clswise_iou_car=0.4074 | clswise_iou_human=0.0841 | clswise_iou_restricted_area=0.8672 | clswise_iou_road=0.8442 | dice=0.9091 | loss=0.3264 | loss_bce=0.0871 | loss_dice=0.0909 | loss_iou=0.1658
+40/60 * Epoch 40 (valid): clswise_iou_building=0.2358 | clswise_iou_car=0.0358 | clswise_iou_human=0.0335 | clswise_iou_restricted_area=0.7726 | clswise_iou_road=0.6831 | dice=0.8206 | loss=0.6627 | loss_bce=0.2309 | loss_dice=0.1794 | loss_iou=0.2986
+[2021-04-22 08:24:59,734] 
+41/60 * Epoch 41 (_base): lr=0.0006 | momentum=0.9111
+41/60 * Epoch 41 (train): clswise_iou_building=0.7929 | clswise_iou_car=0.3889 | clswise_iou_human=0.0822 | clswise_iou_restricted_area=0.8670 | clswise_iou_road=0.8450 | dice=0.9102 | loss=0.3222 | loss_bce=0.0856 | loss_dice=0.0898 | loss_iou=0.1639
+41/60 * Epoch 41 (valid): clswise_iou_building=0.4306 | clswise_iou_car=0.0427 | clswise_iou_human=0.0346 | clswise_iou_restricted_area=0.7652 | clswise_iou_road=0.6463 | dice=0.8194 | loss=0.6328 | loss_bce=0.1948 | loss_dice=0.1806 | loss_iou=0.2964
+[2021-04-22 08:35:08,103] 
+42/60 * Epoch 42 (_base): lr=0.0006 | momentum=0.9147
+42/60 * Epoch 42 (train): clswise_iou_building=0.7971 | clswise_iou_car=0.3995 | clswise_iou_human=0.0889 | clswise_iou_restricted_area=0.8725 | clswise_iou_road=0.8482 | dice=0.9125 | loss=0.3145 | loss_bce=0.0836 | loss_dice=0.0875 | loss_iou=0.1601
+42/60 * Epoch 42 (valid): clswise_iou_building=0.3492 | clswise_iou_car=0.0440 | clswise_iou_human=0.0385 | clswise_iou_restricted_area=0.7639 | clswise_iou_road=0.6961 | dice=0.8229 | loss=0.6211 | loss_bce=0.1887 | loss_dice=0.1771 | loss_iou=0.2930
+[2021-04-22 08:45:10,169] 
+43/60 * Epoch 43 (_base): lr=0.0005 | momentum=0.9183
+43/60 * Epoch 43 (train): clswise_iou_building=0.8011 | clswise_iou_car=0.3920 | clswise_iou_human=0.0956 | clswise_iou_restricted_area=0.8746 | clswise_iou_road=0.8543 | dice=0.9152 | loss=0.3053 | loss_bce=0.0812 | loss_dice=0.0848 | loss_iou=0.1556
+43/60 * Epoch 43 (valid): clswise_iou_building=0.4053 | clswise_iou_car=0.0462 | clswise_iou_human=0.0357 | clswise_iou_restricted_area=0.7756 | clswise_iou_road=0.7081 | dice=0.8316 | loss=0.6020 | loss_bce=0.1914 | loss_dice=0.1684 | loss_iou=0.2806
+[2021-04-22 08:55:19,511] 
+44/60 * Epoch 44 (_base): lr=0.0005 | momentum=0.9217
+44/60 * Epoch 44 (train): clswise_iou_building=0.8068 | clswise_iou_car=0.4020 | clswise_iou_human=0.0971 | clswise_iou_restricted_area=0.8740 | clswise_iou_road=0.8537 | dice=0.9152 | loss=0.3050 | loss_bce=0.0808 | loss_dice=0.0848 | loss_iou=0.1556
+44/60 * Epoch 44 (valid): clswise_iou_building=0.5237 | clswise_iou_car=0.0491 | clswise_iou_human=0.0375 | clswise_iou_restricted_area=0.7848 | clswise_iou_road=0.7093 | dice=0.8386 | loss=0.5797 | loss_bce=0.1841 | loss_dice=0.1614 | loss_iou=0.2711
+[2021-04-22 09:05:29,357] 
+45/60 * Epoch 45 (_base): lr=0.0004 | momentum=0.9250
+45/60 * Epoch 45 (train): clswise_iou_building=0.8059 | clswise_iou_car=0.4079 | clswise_iou_human=0.0964 | clswise_iou_restricted_area=0.8779 | clswise_iou_road=0.8539 | dice=0.9165 | loss=0.3009 | loss_bce=0.0801 | loss_dice=0.0835 | loss_iou=0.1533
+45/60 * Epoch 45 (valid): clswise_iou_building=0.4293 | clswise_iou_car=0.0460 | clswise_iou_human=0.0392 | clswise_iou_restricted_area=0.7716 | clswise_iou_road=0.6842 | dice=0.8247 | loss=0.6211 | loss_bce=0.1959 | loss_dice=0.1753 | loss_iou=0.2890
+[2021-04-22 09:15:44,425] 
+46/60 * Epoch 46 (_base): lr=0.0003 | momentum=0.9282
+46/60 * Epoch 46 (train): clswise_iou_building=0.8105 | clswise_iou_car=0.4169 | clswise_iou_human=0.0957 | clswise_iou_restricted_area=0.8779 | clswise_iou_road=0.8530 | dice=0.9169 | loss=0.3002 | loss_bce=0.0802 | loss_dice=0.0831 | loss_iou=0.1529
+46/60 * Epoch 46 (valid): clswise_iou_building=0.3976 | clswise_iou_car=0.0431 | clswise_iou_human=0.0328 | clswise_iou_restricted_area=0.7615 | clswise_iou_road=0.6858 | dice=0.8190 | loss=0.6402 | loss_bce=0.2013 | loss_dice=0.1810 | loss_iou=0.2981
+[2021-04-22 09:25:58,509] 
+47/60 * Epoch 47 (_base): lr=0.0003 | momentum=0.9312
+47/60 * Epoch 47 (train): clswise_iou_building=0.8100 | clswise_iou_car=0.4138 | clswise_iou_human=0.0996 | clswise_iou_restricted_area=0.8775 | clswise_iou_road=0.8552 | dice=0.9168 | loss=0.2997 | loss_bce=0.0795 | loss_dice=0.0832 | loss_iou=0.1529
+47/60 * Epoch 47 (valid): clswise_iou_building=0.4168 | clswise_iou_car=0.0471 | clswise_iou_human=0.0397 | clswise_iou_restricted_area=0.7664 | clswise_iou_road=0.6720 | dice=0.8190 | loss=0.6453 | loss_bce=0.2096 | loss_dice=0.1810 | loss_iou=0.2966
+[2021-04-22 09:36:02,779] 
+48/60 * Epoch 48 (_base): lr=0.0003 | momentum=0.9340
+48/60 * Epoch 48 (train): clswise_iou_building=0.8173 | clswise_iou_car=0.4192 | clswise_iou_human=0.1040 | clswise_iou_restricted_area=0.8760 | clswise_iou_road=0.8558 | dice=0.9166 | loss=0.3006 | loss_bce=0.0801 | loss_dice=0.0834 | loss_iou=0.1532
+48/60 * Epoch 48 (valid): clswise_iou_building=0.3997 | clswise_iou_car=0.0460 | clswise_iou_human=0.0427 | clswise_iou_restricted_area=0.7649 | clswise_iou_road=0.6606 | dice=0.8155 | loss=0.6517 | loss_bce=0.2077 | loss_dice=0.1845 | loss_iou=0.3010
+[2021-04-22 09:46:10,411] 
+49/60 * Epoch 49 (_base): lr=0.0002 | momentum=0.9367
+49/60 * Epoch 49 (train): clswise_iou_building=0.8158 | clswise_iou_car=0.4160 | clswise_iou_human=0.1053 | clswise_iou_restricted_area=0.8834 | clswise_iou_road=0.8580 | dice=0.9200 | loss=0.2887 | loss_bce=0.0767 | loss_dice=0.0800 | loss_iou=0.1474
+49/60 * Epoch 49 (valid): clswise_iou_building=0.4474 | clswise_iou_car=0.0524 | clswise_iou_human=0.0429 | clswise_iou_restricted_area=0.7712 | clswise_iou_road=0.6725 | dice=0.8203 | loss=0.6330 | loss_bce=0.1999 | loss_dice=0.1797 | loss_iou=0.2933
+[2021-04-22 09:56:21,772] 
+50/60 * Epoch 50 (_base): lr=0.0002 | momentum=0.9391
+50/60 * Epoch 50 (train): clswise_iou_building=0.8122 | clswise_iou_car=0.4162 | clswise_iou_human=0.1013 | clswise_iou_restricted_area=0.8802 | clswise_iou_road=0.8557 | dice=0.9183 | loss=0.2946 | loss_bce=0.0783 | loss_dice=0.0817 | loss_iou=0.1503
+50/60 * Epoch 50 (valid): clswise_iou_building=0.4428 | clswise_iou_car=0.0449 | clswise_iou_human=0.0409 | clswise_iou_restricted_area=0.7725 | clswise_iou_road=0.6892 | dice=0.8258 | loss=0.6137 | loss_bce=0.1905 | loss_dice=0.1742 | loss_iou=0.2872
+[2021-04-22 10:06:32,954] 
+51/60 * Epoch 51 (_base): lr=0.0001 | momentum=0.9413
+51/60 * Epoch 51 (train): clswise_iou_building=0.8207 | clswise_iou_car=0.4289 | clswise_iou_human=0.1122 | clswise_iou_restricted_area=0.8828 | clswise_iou_road=0.8607 | dice=0.9206 | loss=0.2869 | loss_bce=0.0760 | loss_dice=0.0794 | loss_iou=0.1467
+51/60 * Epoch 51 (valid): clswise_iou_building=0.3951 | clswise_iou_car=0.0438 | clswise_iou_human=0.0441 | clswise_iou_restricted_area=0.7752 | clswise_iou_road=0.6853 | dice=0.8264 | loss=0.6192 | loss_bce=0.1987 | loss_dice=0.1736 | loss_iou=0.2866
+[2021-04-22 10:16:42,336] 
+52/60 * Epoch 52 (_base): lr=0.0001 | momentum=0.9433
+52/60 * Epoch 52 (train): clswise_iou_building=0.8218 | clswise_iou_car=0.4278 | clswise_iou_human=0.1067 | clswise_iou_restricted_area=0.8827 | clswise_iou_road=0.8585 | dice=0.9205 | loss=0.2867 | loss_bce=0.0758 | loss_dice=0.0795 | loss_iou=0.1466
+52/60 * Epoch 52 (valid): clswise_iou_building=0.4030 | clswise_iou_car=0.0454 | clswise_iou_human=0.0411 | clswise_iou_restricted_area=0.7762 | clswise_iou_road=0.6910 | dice=0.8277 | loss=0.6175 | loss_bce=0.2005 | loss_dice=0.1723 | loss_iou=0.2849
+[2021-04-22 10:27:01,074] 
+53/60 * Epoch 53 (_base): lr=7.923e-05 | momentum=0.9450
+53/60 * Epoch 53 (train): clswise_iou_building=0.8156 | clswise_iou_car=0.4212 | clswise_iou_human=0.1112 | clswise_iou_restricted_area=0.8864 | clswise_iou_road=0.8642 | dice=0.9223 | loss=0.2808 | loss_bce=0.0746 | loss_dice=0.0777 | loss_iou=0.1435
+53/60 * Epoch 53 (valid): clswise_iou_building=0.4224 | clswise_iou_car=0.0447 | clswise_iou_human=0.0379 | clswise_iou_restricted_area=0.7743 | clswise_iou_road=0.6804 | dice=0.8251 | loss=0.6226 | loss_bce=0.1994 | loss_dice=0.1749 | loss_iou=0.2881
+[2021-04-22 10:37:30,815] 
+54/60 * Epoch 54 (_base): lr=5.531e-05 | momentum=0.9465
+54/60 * Epoch 54 (train): clswise_iou_building=0.8226 | clswise_iou_car=0.4351 | clswise_iou_human=0.1128 | clswise_iou_restricted_area=0.8821 | clswise_iou_road=0.8616 | dice=0.9204 | loss=0.2875 | loss_bce=0.0763 | loss_dice=0.0796 | loss_iou=0.1470
+54/60 * Epoch 54 (valid): clswise_iou_building=0.4104 | clswise_iou_car=0.0449 | clswise_iou_human=0.0447 | clswise_iou_restricted_area=0.7685 | clswise_iou_road=0.6739 | dice=0.8206 | loss=0.6367 | loss_bce=0.2036 | loss_dice=0.1794 | loss_iou=0.2944
+[2021-04-22 10:47:41,252] 
+55/60 * Epoch 55 (_base): lr=3.555e-05 | momentum=0.9478
+55/60 * Epoch 55 (train): clswise_iou_building=0.8266 | clswise_iou_car=0.4304 | clswise_iou_human=0.1116 | clswise_iou_restricted_area=0.8873 | clswise_iou_road=0.8632 | dice=0.9235 | loss=0.2767 | loss_bce=0.0732 | loss_dice=0.0765 | loss_iou=0.1416
+55/60 * Epoch 55 (valid): clswise_iou_building=0.4023 | clswise_iou_car=0.0457 | clswise_iou_human=0.0420 | clswise_iou_restricted_area=0.7775 | clswise_iou_road=0.6850 | dice=0.8274 | loss=0.6173 | loss_bce=0.1991 | loss_dice=0.1726 | loss_iou=0.2855
+[2021-04-22 10:57:50,927] 
+56/60 * Epoch 56 (_base): lr=2.006e-05 | momentum=0.9487
+56/60 * Epoch 56 (train): clswise_iou_building=0.8229 | clswise_iou_car=0.4282 | clswise_iou_human=0.1139 | clswise_iou_restricted_area=0.8824 | clswise_iou_road=0.8611 | dice=0.9208 | loss=0.2859 | loss_bce=0.0757 | loss_dice=0.0792 | loss_iou=0.1461
+56/60 * Epoch 56 (valid): clswise_iou_building=0.4378 | clswise_iou_car=0.0457 | clswise_iou_human=0.0436 | clswise_iou_restricted_area=0.7749 | clswise_iou_road=0.6851 | dice=0.8268 | loss=0.6172 | loss_bce=0.1977 | loss_dice=0.1732 | loss_iou=0.2859
+[2021-04-22 11:08:16,747] 
+57/60 * Epoch 57 (_base): lr=8.942e-06 | momentum=0.9494
+57/60 * Epoch 57 (train): clswise_iou_building=0.8299 | clswise_iou_car=0.4289 | clswise_iou_human=0.1129 | clswise_iou_restricted_area=0.8882 | clswise_iou_road=0.8663 | dice=0.9243 | loss=0.2743 | loss_bce=0.0731 | loss_dice=0.0757 | loss_iou=0.1401
+57/60 * Epoch 57 (valid): clswise_iou_building=0.4350 | clswise_iou_car=0.0452 | clswise_iou_human=0.0434 | clswise_iou_restricted_area=0.7777 | clswise_iou_road=0.6845 | dice=0.8283 | loss=0.6103 | loss_bce=0.1930 | loss_dice=0.1717 | loss_iou=0.2841
+[2021-04-22 11:18:46,557] 
+58/60 * Epoch 58 (_base): lr=2.243e-06 | momentum=0.9499
+58/60 * Epoch 58 (train): clswise_iou_building=0.8255 | clswise_iou_car=0.4256 | clswise_iou_human=0.1083 | clswise_iou_restricted_area=0.8823 | clswise_iou_road=0.8593 | dice=0.9205 | loss=0.2881 | loss_bce=0.0773 | loss_dice=0.0795 | loss_iou=0.1468
+58/60 * Epoch 58 (valid): clswise_iou_building=0.4207 | clswise_iou_car=0.0475 | clswise_iou_human=0.0430 | clswise_iou_restricted_area=0.7758 | clswise_iou_road=0.6815 | dice=0.8266 | loss=0.6192 | loss_bce=0.1992 | loss_dice=0.1734 | loss_iou=0.2864
+[2021-04-22 11:29:08,371] 
+59/60 * Epoch 59 (_base): lr=6.400e-09 | momentum=0.9500
+59/60 * Epoch 59 (train): clswise_iou_building=0.8232 | clswise_iou_car=0.4233 | clswise_iou_human=0.1096 | clswise_iou_restricted_area=0.8867 | clswise_iou_road=0.8620 | dice=0.9226 | loss=0.2801 | loss_bce=0.0742 | loss_dice=0.0774 | loss_iou=0.1432
+59/60 * Epoch 59 (valid): clswise_iou_building=0.4516 | clswise_iou_car=0.0495 | clswise_iou_human=0.0424 | clswise_iou_restricted_area=0.7797 | clswise_iou_road=0.6862 | dice=0.8303 | loss=0.6033 | loss_bce=0.1903 | loss_dice=0.1697 | loss_iou=0.2813
+[2021-04-22 11:39:36,673] 
+60/60 * Epoch 60 (_base): lr=2.243e-06 | momentum=0.9499
+60/60 * Epoch 60 (train): clswise_iou_building=0.8165 | clswise_iou_car=0.4200 | clswise_iou_human=0.1104 | clswise_iou_restricted_area=0.8866 | clswise_iou_road=0.8640 | dice=0.9223 | loss=0.2806 | loss_bce=0.0741 | loss_dice=0.0777 | loss_iou=0.1436
+60/60 * Epoch 60 (valid): clswise_iou_building=0.4138 | clswise_iou_car=0.0452 | clswise_iou_human=0.0430 | clswise_iou_restricted_area=0.7722 | clswise_iou_road=0.6777 | dice=0.8236 | loss=0.6307 | loss_bce=0.2050 | loss_dice=0.1764 | loss_iou=0.2903

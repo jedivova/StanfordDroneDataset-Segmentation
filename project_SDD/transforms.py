@@ -34,7 +34,7 @@ def hard_transforms(crop_size=320):
             albu.RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.3),
             albu.RandomGamma(gamma_limit=(85, 115), p=0.3),
         ], p=0.3),
-        albu.JpegCompression(quality_lower=80, quality_upper=100, p=0.5),
+        albu.JpegCompression(quality_lower=50, quality_upper=100, p=0.5),
         albu.Cutout(num_holes=25, max_h_size=5, max_w_size=5, fill_value=0, p=0.3),
         ], p=1)
 

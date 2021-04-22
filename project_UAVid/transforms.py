@@ -15,7 +15,9 @@ def pre_transforms(image_size=1024):
 def hard_transforms(crop_size=512):
     return albu.Compose([
         albu.ShiftScaleRotate(shift_limit=0, scale_limit=0.1, rotate_limit=180, border_mode=cv2.BORDER_CONSTANT, value=0, mask_value=0),
-        albu.CropNonEmptyMaskIfExists(crop_size, crop_size, ignore_channels=[0,1,2,3,4,5], p=1),
+        albu.CropNonEmptyMaskIfExists(crop_size, crop_size, p=1),
+        albu.RandomShadow(shadow_roi=(0, 0, 1, 1), num_shadows_lower=1, num_shadows_upper=4, shadow_dimension=7,
+                     always_apply=False, p=0.5),
         albu.HueSaturationValue(p=0.3),
         albu.OneOf([
             albu.IAAAdditiveGaussianNoise(),
