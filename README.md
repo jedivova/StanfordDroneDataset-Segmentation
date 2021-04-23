@@ -51,8 +51,8 @@
 
 <details>
   <summary>Results on SDD</summary>
-  <img width="1000" alt="UAVid_to_SDD" src="./images/UAVid_to_SDD_1.png.png">
-  <img width="1000" alt="UAVid_to_SDD1" src="./images/UAVid_to_SDD_1.png.png">
+  <img width="1000" alt="UAVid_to_SDD" src="./images/UAVid_to_SDD_0.png">
+  <img width="1000" alt="UAVid_to_SDD1" src="./images/UAVid_to_SDD_1.png">
 </details>
 
 2. Обучаю модель на автоматически размеченных (watershed'ом и вручную нарисованными маркерами) классах "Restricted area" - деревья, трава, кусты, всякие препятсвия, "road" - асфальтированная дорога, "buildings". 
