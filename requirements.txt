@@ -1,0 +1,9 @@
+tensorboard
+tqdm
+cv2
+numpy
+catalyst==20.7
+torch==1.8.1+cu102
+segmentation_models_pytorch
+albumentations
+pandas
