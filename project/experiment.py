@@ -10,17 +10,17 @@ from catalyst.dl import SupervisedRunner
 
 
 if __name__=='__main__':
-    model, preprocessing_fn = segmentator(ENCODER = 'timm-efficientnet-b3', num_classes=5)
-    # model, preprocessing_fn = my_segmentator(num_classes=5)
+    # model, preprocessing_fn = segmentator(ENCODER = 'timm-efficientnet-b3', num_classes=5)
+    model, preprocessing_fn = my_segmentator(num_classes=5)
 
     logdir = "./logs"
-    num_epochs = 60
+    num_epochs = 30
     learning_rate = 1e-3
-    # base_optimizer = RAdam([
-    #     {'params': model.decoder.parameters(), 'lr': learning_rate},
-    #     {'params': model.encoder.parameters(), 'lr': 1e-4},
-    #     {'params': model.segmentation_head.parameters(), 'lr': learning_rate},
-    # ], weight_decay=0.0003)
+    base_optimizer = RAdam([
+        {'params': model.decoder.parameters(), 'lr': learning_rate},
+        {'params': model.encoder.parameters(), 'lr': 1e-4},
+        {'params': model.segmentation_head.parameters(), 'lr': learning_rate},
+    ], weight_decay=0.0003)
     base_optimizer = RAdam(model.parameters(), weight_decay=0.0003)
     optimizer = Lookahead(base_optimizer)
     criterion = {

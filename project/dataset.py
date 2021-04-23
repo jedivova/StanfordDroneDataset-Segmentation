@@ -57,5 +57,5 @@ if __name__=='__main__':
     import segmentation_models_pytorch as smp
     preprocessing_fn = smp.encoders.get_preprocessing_fn('mobilenet_v2', 'imagenet')
     loaders = get_loaders(preprocessing_fn, batch_size=12, num_workers=4)
-    x,y = next(iter(loaders["train"]))
+    x,y = next(iter(loaders["valid"]))
     print(x.shape, y.shape)
